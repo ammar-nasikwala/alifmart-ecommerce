@@ -1,0 +1,2635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parabola v1.3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-05 23:55:27+0200\n"
+"Last-Translator: admin <olemikaelsoerensen@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ parabola
+msgid "Not Found"
+msgstr "Ikke fundet"
+
+#: 404.php:20
+#@ parabola
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Desværre, den side, du bad om, findes ikke. Prøv eventuelt en søgning."
+
+#: admin/admin-functions.php:61
+#@ parabola
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "Inden du kan uploade din import-fil, er du nødt til at løse det følgende problem:"
+
+#: admin/admin-functions.php:69
+#@ parabola
+msgid "Import Parabola Theme Options"
+msgstr "Importér Parabola Tema Options"
+
+#: admin/admin-functions.php:71
+#@ parabola
+msgid "Hi! This is where you import the  Parabola settings.<i> Please remember that this is still an experimental feature.</i>"
+msgstr "Hej! Det er her du importerer Parabola indstillinger.<i>Husk venligst at dette stadig er en eksperimentel funktion.</i>"
+
+#: admin/admin-functions.php:73
+#@ parabola
+msgid "Just choose a file from your computer:"
+msgstr "Vælg en fil fra din computer:"
+
+#: admin/admin-functions.php:75
+#, php-format
+#@ parabola
+msgid "Maximum size: %s"
+msgstr "Maximum størrelse: %s"
+
+#: admin/admin-functions.php:81
+#@ parabola
+msgid "And import!"
+msgstr "Og importér!"
+
+#: admin/admin-functions.php:147
+#@ parabola
+msgid "Import Parabola Theme Options "
+msgstr "Importér Parabola Tema Indstillinger "
+
+#: admin/admin-functions.php:150
+#@ parabola
+msgid "Great! The options have been imported!"
+msgstr "Lækkert! Indstillingerne er blevet importeret!"
+
+#: admin/admin-functions.php:151
+#@ parabola
+msgid "Go back to the Parabola options page and check them out!"
+msgstr "Gå tilbage til Parabola indstillings-siden og kontrollér dem."
+
+#: admin/admin-functions.php:154
+#: admin/admin-functions.php:160
+#: admin/admin-functions.php:166
+#@ parabola
+msgid "Oops, there's a small problem."
+msgstr "Ups, der er et lille problem."
+
+#: admin/admin-functions.php:155
+#@ parabola
+msgid "The uploaded file does not contain valid Parabola options. Make sure the file is exported from the Parabola Options page."
+msgstr "Den uploadede fil indeholder ikke gyldige Parabola indstillinger. Filen skal være eksporteret fra Parabola indstillings siden."
+
+#: admin/admin-functions.php:161
+#@ parabola
+msgid "The uploaded file could not be read."
+msgstr "Den indlæste fil kunne ikke læses."
+
+#: admin/admin-functions.php:167
+#@ parabola
+msgid "The uploaded file is not supported. Make sure the file was exported from the Parabola page and that it is a text file."
+msgstr "Den indlæste fil understøttes ikke. Kontrolér at filen er eksporteret fra Parabola siden, og at det er en tekst-fil."
+
+#: admin/admin-functions.php:176
+#@ parabola
+msgid "Oops! The file is empty or there was no file. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "Ups! Filen er tom, eller der er ikke nogen fil. Denne fejl kan også skyldes at upload er disablet i din php.ini, eller at post_max_size er sat mindre end upload_max_filesize i php.ini."
+
+#: admin/admin-functions.php:182
+#@ parabola
+msgid "ERROR: You are not authorised to perform that operation"
+msgstr "FEJL: Du har ikke tilladelse til at udføre denne handling."
+
+#: admin/admin-functions.php:191
+#@ parabola
+msgid ""
+"Are you sure you want to load a new color scheme? \n"
+"All current saved settings under Text and Color Settings will be lost."
+msgstr ""
+"Er du sikker på du vil indlæse det nye farveskema? \n"
+"Alle gemte indstillinger under Tekst og Farve indstillinger vil forsvinde."
+
+#: admin/admin-functions.php:197
+#@ parabola
+msgid "Select one of the preset color schemes and press the Load button.<br> <b> CAUTION! </b> When loading a color scheme, the Parabola theme settings under Text and Color Settings will be overriden. All other settings will remain intact.<br> <u>SUGGESTION:</u> It's always better to export your current theme settings before loading a color scheme."
+msgstr "Vælg en af de forudindstillede farveskemaer og tryk på Indlæs knappen.<br><b>ADVARSEL!</b>Når du indlæser et farveskema, overskrives farve- og tekstindstillingerne i Parabola tema indstillinger. Alle andre indstillinger forbliver intakte.<br><u>FORSLAG:</u>Det er altid en god idé at eksportere dine nuværende indstillinger inden du indlæser et farveskema."
+
+#: admin/admin-functions.php:221
+#@ parabola
+msgid "Load Color Scheme"
+msgstr "Indlæs farveskema"
+
+#: admin/main.php:112
+#@ parabola
+msgid "Layout Settings"
+msgstr "Layout Indstillinger"
+
+#: admin/main.php:113
+#@ parabola
+msgid "Header Settings"
+msgstr "Sidehoved-indstillinger"
+
+#: admin/main.php:114
+#: admin/main.php:172
+#@ parabola
+msgid "Presentation Page"
+msgstr "Præsentations Side"
+
+#: admin/main.php:115
+#@ parabola
+msgid "Text Settings"
+msgstr "Tekst Indstillinger"
+
+#: admin/main.php:116
+#@ parabola
+msgid "Color Settings"
+msgstr "Farve Indstillinger"
+
+#: admin/main.php:117
+#@ parabola
+msgid "Graphics Settings"
+msgstr "Grafik Indstillinger"
+
+#: admin/main.php:118
+#@ parabola
+msgid "Post Information Settings"
+msgstr "Indlægs Indstillinger"
+
+#: admin/main.php:119
+#@ parabola
+msgid "Post Excerpt Settings"
+msgstr "Indlægs Uddrag Indstillinger"
+
+#: admin/main.php:120
+#@ parabola
+msgid "Featured Image Settings"
+msgstr "Udvalgt Billede Indstillinger"
+
+#: admin/main.php:121
+#@ parabola
+msgid "Social Media Settings"
+msgstr "Sociale Medier Indstillinger"
+
+#: admin/main.php:122
+#@ parabola
+msgid "Miscellaneous Settings"
+msgstr "Diverse Indstillinger"
+
+#: admin/main.php:125
+#@ parabola
+msgid "Main Layout"
+msgstr "Hoved Layout"
+
+#: admin/main.php:126
+#@ parabola
+msgid "Content / Sidebar Width"
+msgstr "Indhold / Sidebar Bredde"
+
+#: admin/main.php:127
+#@ parabola
+msgid "Responsiveness"
+msgstr "Responsiveness"
+
+#: admin/main.php:130
+#@ parabola
+msgid "Enable Presentation Page"
+msgstr "Slå Præsentations Side til"
+
+#: admin/main.php:131
+#@ parabola
+msgid "Show Posts on Presentation Page"
+msgstr "Vis indlæg på Præsentations Side"
+
+#: admin/main.php:132
+#@ parabola
+msgid "Slider Settings"
+msgstr "Slider Indstillinger"
+
+#: admin/main.php:133
+#@ parabola
+msgid "Slides"
+msgstr "Slides"
+
+#: admin/main.php:134
+#@ parabola
+msgid "Presentation Page Columns"
+msgstr "Præsentations Side Kolonner"
+
+#: admin/main.php:135
+#@ parabola
+msgid "Extras"
+msgstr "Extra"
+
+#: admin/main.php:138
+#@ parabola
+msgid "Header Height"
+msgstr "Sidehoved højde"
+
+#: admin/main.php:139
+#@ parabola
+msgid "Header Image"
+msgstr "Sidehoved bIllede"
+
+#: admin/main.php:140
+#@ parabola
+msgid "Site Header"
+msgstr "Hjemmeside overskrift"
+
+#: admin/main.php:141
+#@ parabola
+msgid "Custom Logo Upload"
+msgstr "Special Logo Upload"
+
+#: admin/main.php:142
+#@ parabola
+msgid "Header Content Spacing"
+msgstr "Sidehoved-indhold mellemrum"
+
+#: admin/main.php:143
+#@ parabola
+msgid "FavIcon Upload"
+msgstr "Favicon Upload"
+
+#: admin/main.php:146
+#: admin/settings.php:606
+#: admin/settings.php:625
+#: admin/settings.php:643
+#: admin/settings.php:661
+#: admin/settings.php:682
+#@ parabola
+msgid "General Font"
+msgstr "Generel Font"
+
+#: admin/main.php:147
+#@ parabola
+msgid "Post Title Font "
+msgstr "Indlægs-titel font "
+
+#: admin/main.php:148
+#@ parabola
+msgid "Widget Title Font"
+msgstr "Widget-titel font"
+
+#: admin/main.php:149
+#@ parabola
+msgid "Site Title Font"
+msgstr "Hjemmeside-titel Font"
+
+#: admin/main.php:150
+#@ parabola
+msgid "Main Menu Font"
+msgstr "Hovedmenu Font"
+
+#: admin/main.php:151
+#@ parabola
+msgid "Headings Font"
+msgstr "Overskrift Font"
+
+#: admin/main.php:152
+#@ parabola
+msgid "Force Text Align"
+msgstr "Gennemtving text-justering"
+
+#: admin/main.php:153
+#@ parabola
+msgid "Paragraph spacing"
+msgstr "Afsnits mellemrum"
+
+#: admin/main.php:154
+#@ parabola
+msgid "Paragraph Indent"
+msgstr "Afsnits indryk"
+
+#: admin/main.php:155
+#@ parabola
+msgid "Headings Indent"
+msgstr "Overskrifts indryk"
+
+#: admin/main.php:156
+#@ parabola
+msgid "Line Height"
+msgstr "Linjehøjde"
+
+#: admin/main.php:157
+#@ parabola
+msgid "Word Spacing"
+msgstr "Ord-mellemrum"
+
+#: admin/main.php:158
+#@ parabola
+msgid "Letter Spacing"
+msgstr "Bogstavs-mellemrum"
+
+#: admin/main.php:159
+#@ parabola
+msgid "Uppercase Text"
+msgstr "Store bogstaver"
+
+#: admin/main.php:163
+#@ parabola
+msgid "Background Image"
+msgstr "Baggrunds-billede"
+
+#: admin/main.php:164
+#@ parabola
+msgid "General"
+msgstr "Generel"
+
+#: admin/main.php:165
+#@ parabola
+msgid "Accents"
+msgstr "Accenter"
+
+#: admin/main.php:166
+#: admin/settings.php:860
+#@ parabola
+msgid "Site Title"
+msgstr "Hjemmeside Titel"
+
+#: admin/main.php:168
+#@ parabola
+msgid "Main Menu"
+msgstr "Hovedmenu"
+
+#: admin/main.php:169
+#@ parabola
+msgid "Top Menu"
+msgstr "Top-menu"
+
+#: admin/main.php:171
+#@ parabola
+msgid "Content"
+msgstr "Indhold"
+
+#: admin/main.php:173
+#@ parabola
+msgid "Sidebar Widgets"
+msgstr "Sidebar Widgets"
+
+#: admin/main.php:174
+#@ parabola
+msgid "Footer Widgets"
+msgstr "Sidefod Widgets"
+
+#: admin/main.php:175
+#@ parabola
+msgid "Links"
+msgstr "Links"
+
+#: admin/main.php:177
+#@ parabola
+msgid "Caption Border"
+msgstr "Overskrifts border"
+
+#: admin/main.php:178
+#@ parabola
+msgid "Meta Area Background"
+msgstr "Meta-område baggrund"
+
+#: admin/main.php:182
+#@ parabola
+msgid "Breadcrumbs"
+msgstr "Brødkrummer"
+
+#: admin/main.php:183
+#@ parabola
+msgid "Pagination"
+msgstr "Sideinddeling"
+
+#: admin/main.php:184
+#@ parabola
+msgid "Menu Alignment"
+msgstr "Menu justering"
+
+#: admin/main.php:185
+#@ parabola
+msgid "Triangle Accents"
+msgstr "Trekant accenter"
+
+#: admin/main.php:186
+#@ parabola
+msgid "Post Images Border"
+msgstr "Indlægs-billede border"
+
+#: admin/main.php:187
+#@ parabola
+msgid "Content List Bullets"
+msgstr "Indholds-liste punkter"
+
+#: admin/main.php:188
+#@ parabola
+msgid "Page Titles"
+msgstr "Side-titler"
+
+#: admin/main.php:189
+#@ parabola
+msgid "Category Titles"
+msgstr "Kategori-titler"
+
+#: admin/main.php:190
+#@ parabola
+msgid "Hide Tables"
+msgstr "Skjul tabeller"
+
+#: admin/main.php:191
+#@ parabola
+msgid "Back to Top button"
+msgstr "Tilbage til toppen knap"
+
+#: admin/main.php:192
+#@ parabola
+msgid "Text Under Comments"
+msgstr "Tekst under kommentarer"
+
+#: admin/main.php:193
+#@ parabola
+msgid "Comments are closed text"
+msgstr "Lukket for kommentarer tekst"
+
+#: admin/main.php:194
+#@ parabola
+msgid "Comments off"
+msgstr "Lukket for kommentarer"
+
+#: admin/main.php:197
+#@ parabola
+msgid "Post Comments Link"
+msgstr "Indlægs-kommentarer link"
+
+#: admin/main.php:198
+#@ parabola
+msgid "Post Date/Time"
+msgstr "Indlæg dato/tid"
+
+#: admin/main.php:199
+#@ parabola
+msgid "Post Author"
+msgstr "Indlægs forfatter"
+
+#: admin/main.php:200
+#@ parabola
+msgid "Post Category"
+msgstr "Indlægs kategori"
+
+#: admin/main.php:201
+#@ parabola
+msgid "Meta Bar"
+msgstr "Meta bar"
+
+#: admin/main.php:202
+#@ parabola
+msgid "Post Tags"
+msgstr "Indlægs tags"
+
+#: admin/main.php:203
+#@ parabola
+msgid "Post Permalink"
+msgstr "Indlægs permanent link"
+
+#: admin/main.php:206
+#: includes/theme-functions.php:236
+#@ parabola
+msgid "Home Page"
+msgstr "Hjemmeside"
+
+#: admin/main.php:207
+#: admin/settings.php:274
+#@ parabola
+msgid "Sticky Posts"
+msgstr "Fastgjorte indlæg"
+
+#: admin/main.php:208
+#@ parabola
+msgid "Archive and Category Pages"
+msgstr "Arkiv og kategori-sider"
+
+#: admin/main.php:209
+#@ parabola
+msgid "Number of Words for Post Excerpts "
+msgstr "Antal ord i indlægs-uddrag "
+
+#: admin/main.php:210
+#@ parabola
+msgid "Magazine Layout"
+msgstr "Magasin-layout"
+
+#: admin/main.php:211
+#@ parabola
+msgid "Excerpt suffix"
+msgstr "Uddrags præfix"
+
+#: admin/main.php:212
+#@ parabola
+msgid "Continue reading link text "
+msgstr "Læs videre link tekst "
+
+#: admin/main.php:213
+#@ parabola
+msgid "HTML tags in Excerpts"
+msgstr "HTML tags i uddrag"
+
+#: admin/main.php:216
+#@ parabola
+msgid "Featured Images as POST Thumbnails "
+msgstr "Udvalgt billede som indlæg thumbnail "
+
+#: admin/main.php:217
+#@ parabola
+msgid "Auto Select Images From Posts "
+msgstr "Auto-vælg billeder fra indlæg "
+
+#: admin/main.php:218
+#@ parabola
+msgid "Thumbnails Alignment "
+msgstr "Thumbnail justering "
+
+#: admin/main.php:219
+#@ parabola
+msgid "Thumbnails Size "
+msgstr "Thumbnail størrelse "
+
+#: admin/main.php:220
+#@ parabola
+msgid "Featured Images as HEADER Images "
+msgstr "Udvalgt billede som SIDEHOVED billede "
+
+#: admin/main.php:223
+#@ parabola
+msgid "Link nr. 1"
+msgstr "Link nr 1"
+
+#: admin/main.php:224
+#@ parabola
+msgid "Link nr. 2"
+msgstr "Link nr. 2"
+
+#: admin/main.php:225
+#@ parabola
+msgid "Link nr. 3"
+msgstr "Link nr. 3"
+
+#: admin/main.php:226
+#@ parabola
+msgid "Link nr. 4"
+msgstr "Link nr. 4"
+
+#: admin/main.php:227
+#@ parabola
+msgid "Link nr. 5"
+msgstr "Link nr. 5"
+
+#: admin/main.php:228
+#@ parabola
+msgid "Socials display"
+msgstr "Sociale medier display"
+
+#: admin/main.php:231
+#@ parabola
+msgid "Internet Explorer Compatibility Tag"
+msgstr "Internet Explorer kompatibilitets-tag"
+
+#: admin/main.php:232
+#@ parabola
+msgid "Custom Footer Text"
+msgstr "Speciel sidefods-tekst"
+
+#: admin/main.php:233
+#@ parabola
+msgid "Custom CSS"
+msgstr "Speciel CSS"
+
+#: admin/main.php:234
+#@ parabola
+msgid "Custom JavaScript"
+msgstr "Specielt JavaScript"
+
+#: admin/main.php:260
+#@ parabola
+msgid "Sorry, but you do not have sufficient permissions to access this page."
+msgstr "Beklager, men du har ikke rettigheder til at tilgå denne side"
+
+#: admin/main.php:279
+#@ parabola
+msgid "Parabola settings updated successfully."
+msgstr "Parabola indstillinger opdateret."
+
+#: admin/main.php:294
+#@ parabola
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: admin/main.php:295
+#@ parabola
+msgid "Reset to Defaults"
+msgstr "Reset til default"
+
+#: admin/main.php:326
+#@ parabola
+msgid "Import/Export Settings"
+msgstr "Import/Eksport indstillinger"
+
+#: admin/main.php:332
+#@ parabola
+msgid "Export Theme options"
+msgstr "Eksport tema-indstillinger"
+
+#: admin/main.php:333
+#@ parabola
+msgid "It's that easy: a mouse click away - the ability to export your Parabola settings and save them on your computer. Feeling safer? You should!"
+msgstr "Så let er det: et museklik væk - muligheden for at eksportere dine Parabola-indstillinger og gemme dem på Din Computer. Føler du dig sikker?  Det kan du roligt gøre!"
+
+#: admin/main.php:338
+#@ parabola
+msgid "Import Theme options"
+msgstr "Importér tema-indstillinger"
+
+#: admin/main.php:339
+#@ parabola
+msgid "Without the import, the export would just be a fool's exercise. Make sure you have the exported file ready and see you after the mouse click."
+msgstr "Uden importen ville eksporten bare være til grin. Check at du har den eksporterede fil klar, og vi ses efter et muse-klik..."
+
+#: admin/main.php:344
+#@ parabola
+msgid "Color Schemes"
+msgstr "Farve-skemaer"
+
+#: admin/main.php:345
+#@ parabola
+msgid "A collection of preset color schemes to use as the starting point for your site. Just load one up and see your blog in a different light."
+msgstr "En samling af forindstillede farve-skemaer der kan bruges som udgangspunkt til dit site. Indlæs et af dem og se din blog i et nyt lys."
+
+#: admin/main.php:353
+#@ parabola
+msgid "Parabola Latest News"
+msgstr "Parabola Seneste nyt"
+
+#: admin/main.php:364
+#@ parabola
+msgid "No news items."
+msgstr "Ingen nyheder/indlæg"
+
+#: admin/main.php:368
+#@ parabola
+msgid "Posted on"
+msgstr "Udgivet den"
+
+#: admin/main.php:382
+#@ parabola
+msgid "Reset Parabola Settings to Defaults?"
+msgstr "Reset Parabola Indstillinger til Default?"
+
+#: admin/settings.php:27
+#@ parabola
+msgid "One column (no sidebars)"
+msgstr "Én kolonne (ingen sidebars)"
+
+#: admin/settings.php:28
+#@ parabola
+msgid "Two columns, sidebar on the right"
+msgstr "To kolonner, sidebar i højre side"
+
+#: admin/settings.php:29
+#@ parabola
+msgid "Two columns, sidebar on the left"
+msgstr "To kolonner, sidebar i venstre side"
+
+#: admin/settings.php:30
+#@ parabola
+msgid "Three columns, sidebars on the right"
+msgstr "Tre kolonner, sidebars i højre side"
+
+#: admin/settings.php:31
+#@ parabola
+msgid "Three columns, sidebars on the left"
+msgstr "Tre kolonner, sidebars i venstre side"
+
+#: admin/settings.php:32
+#@ parabola
+msgid "Three columns, one sidebar on each side"
+msgstr "Tre kolonner, en sidebar i hver side"
+
+#: admin/settings.php:40
+#@ parabola
+msgid "Choose your layout. Possible options are: <br> No sidebar, a single sidebar on either left of right, two sidebars on either left or right and two sidebars on each side.<br>This can be overriden in pages by using Page Templates."
+msgstr "Vælg layout. Mulighederne er: <br> Ingen sidebar, én enkelt sidebar til enten højre eller venstre, to sidebars til enten højre eller venstre, eller to sidebars, én på hver side.<br>Dette kan overstyres på sider vha. Side-layout/skabelon"
+
+#: admin/settings.php:89
+#@ parabola
+msgid "Content ="
+msgstr "Indhold = "
+
+#: admin/settings.php:90
+#@ parabola
+msgid "Sidebar(s) ="
+msgstr "Sidebar(s) = "
+
+#: admin/settings.php:91
+#@ parabola
+msgid "Total width ="
+msgstr "Total bredde = "
+
+#: admin/settings.php:98
+#@ parabola
+msgid "Select the width of your <b>content</b> and <b>sidebar(s)</b>. When using a 3 columns layout (with 2 sidebars) they will each have half the configured width."
+msgstr "Vælg bredden af dit <b>indhold</b> og <b>sidebar(s)</b>. Når du bruger 3-kolonne layout (med 2 sidebars) får de hver halvdelen af den indstillede bredde."
+
+#: admin/settings.php:107
+#: admin/settings.php:128
+#: admin/settings.php:142
+#: admin/settings.php:721
+#: admin/settings.php:988
+#: admin/settings.php:1003
+#: admin/settings.php:1031
+#: admin/settings.php:1108
+#: admin/settings.php:1170
+#: admin/settings.php:1354
+#: admin/settings.php:1383
+#: admin/settings.php:1406
+#: admin/settings.php:1426
+#: admin/settings.php:1476
+#: admin/settings.php:1626
+#@ parabola
+msgid "Enable"
+msgstr "Slå til"
+
+#: admin/settings.php:107
+#: admin/settings.php:128
+#: admin/settings.php:142
+#: admin/settings.php:721
+#: admin/settings.php:988
+#: admin/settings.php:1003
+#: admin/settings.php:1031
+#: admin/settings.php:1108
+#: admin/settings.php:1170
+#: admin/settings.php:1354
+#: admin/settings.php:1383
+#: admin/settings.php:1406
+#: admin/settings.php:1426
+#: admin/settings.php:1476
+#: admin/settings.php:1626
+#@ parabola
+msgid "Disable"
+msgstr "Slå fra"
+
+#: admin/settings.php:116
+#@ parabola
+msgid "Enable to make Parabola fully responsive. The layout and general sizes of your blog will adjust depending on what device and what resolution it is viewed in.<br> Do not disable unless you have a good reason to."
+msgstr "Slå til for at gøre Parabola helt responsiv. Din blogs layout og størrelse vil tilpasse sig afhængigt af hvilken type enhed og hvilken opløsning den vises i.<br>Slå kun fra hvis du har en god grund."
+
+#: admin/settings.php:136
+#@ parabola
+msgid "Enable the presentation front-page. This will become your new home page. <br> If you want another page to hold your latest blog posts, choose 'Blog Template (Posts Page)' from Page Templates while creating or editing that page."
+msgstr "Slå præsentationis-forsiden til. Dette bliver din nye forside.<br>Hvis du vil have en anden side til at indeholde dine seneste blog-indlæg, vælg 'Blog Templage (Indlægs side)' som Side-skabelon når du opretter eller redigerer siden."
+
+#: admin/settings.php:151
+#@ parabola
+msgid "posts"
+msgstr "indlæg"
+
+#: admin/settings.php:152
+#@ parabola
+msgid "Enable to display latest posts on the presentation page, below the columns. Sticky posts are always displayed and not counted."
+msgstr "Slå til for at vise seneste indlæg på præsentations-siden, nedenunder kolonnerne. Fastgjorte indlæg vises altid, og tælles ikke med."
+
+#: admin/settings.php:159
+#@ parabola
+msgid "Slider Dimensions:"
+msgstr "Slider dimensioner"
+
+#: admin/settings.php:160
+#@ parabola
+msgid "width"
+msgstr "bredde"
+
+#: admin/settings.php:161
+#@ parabola
+msgid "height"
+msgstr "height"
+
+#: admin/settings.php:162
+#@ parabola
+msgid "The dimensions of your slider. Make sure your images are of the same size."
+msgstr "Din sliders dimensioner. Kontrollér at dine billeder har samme størrelse."
+
+#: admin/settings.php:164
+#@ parabola
+msgid "Animation:"
+msgstr "Animation:"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "Random"
+msgstr "Tilfældig"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "Fold"
+msgstr "Fold"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "Fade"
+msgstr "Udton"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SlideInRight"
+msgstr "Glid ind højre"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SlideInLeft"
+msgstr "Glid ind venstre"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SliceDown"
+msgstr "Glid ned"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SliceDownLeft"
+msgstr "Glid ned venstre"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SliceUp"
+msgstr "Glid op"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SliceUpLeft"
+msgstr "Glid op venstre"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SliceUpDown"
+msgstr "Glid Op Ned"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "SliceUpDownLeft"
+msgstr "Glid op ned venstre"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "BoxRandom"
+msgstr "Kassse tilfældig"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "BoxRain"
+msgstr "Kasse regn"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "BoxRainReverse"
+msgstr "Kasse regn omvendt"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "BoxRainGrow"
+msgstr "Kasse regn gro"
+
+#: admin/settings.php:166
+#@ parabola
+msgid "BoxRainGrowReverse"
+msgstr "Kasse regn gro baglæns"
+
+#: admin/settings.php:175
+#@ parabola
+msgid "The transition effect of your slides."
+msgstr "Overgangs-effekt mellem slides"
+
+#: admin/settings.php:177
+#@ parabola
+msgid "Animation Time:"
+msgstr "Animations tid:"
+
+#: admin/settings.php:178
+#: admin/settings.php:182
+#@ parabola
+msgid "milliseconds"
+msgstr "millisekunder"
+
+#: admin/settings.php:179
+#@ parabola
+msgid "The time in which the transition animation will take place."
+msgstr "Den tid animationen varer"
+
+#: admin/settings.php:181
+#@ parabola
+msgid "Pause Time:"
+msgstr "Pause tid:"
+
+#: admin/settings.php:183
+#@ parabola
+msgid "The time in which a slide will be still and visible."
+msgstr "Den tid en slide er i ro og synlig"
+
+#: admin/settings.php:185
+#@ parabola
+msgid "Slider navigation:"
+msgstr "Slider navigation:"
+
+#: admin/settings.php:187
+#@ parabola
+msgid "Numbers"
+msgstr "Tal"
+
+#: admin/settings.php:187
+#@ parabola
+msgid "Bullets"
+msgstr "Punkter"
+
+#: admin/settings.php:187
+#@ parabola
+msgid "None"
+msgstr "Ingen"
+
+#: admin/settings.php:195
+#@ parabola
+msgid "Your slider navigation type. Shown under the slider."
+msgstr "Din sliders navigations-type. Vises under slideren."
+
+#: admin/settings.php:197
+#@ parabola
+msgid "Slider arrows:"
+msgstr "Slider pile:"
+
+#: admin/settings.php:199
+#@ parabola
+msgid "Always Visible"
+msgstr "Altid synlige"
+
+#: admin/settings.php:199
+#@ parabola
+msgid "Visible on Hover"
+msgstr "Synlige ved mus-over"
+
+#: admin/settings.php:199
+#@ parabola
+msgid "Hidden"
+msgstr "Skjult"
+
+#: admin/settings.php:207
+#@ parabola
+msgid "The Left and Right arrows on your slider"
+msgstr "Højre- og venstre-pilene på din slider"
+
+#: admin/settings.php:274
+#@ parabola
+msgid "Custom Slides"
+msgstr "Specifikke slides"
+
+#: admin/settings.php:274
+#@ parabola
+msgid "Latest Posts"
+msgstr "Seneste indlæg"
+
+#: admin/settings.php:274
+#@ parabola
+msgid "Random Posts"
+msgstr "Tilfældige indlæg"
+
+#: admin/settings.php:274
+#@ parabola
+msgid "Latest Posts from Category"
+msgstr "Seneste indlæg fra kategori"
+
+#: admin/settings.php:274
+#@ parabola
+msgid "Random Posts from Category"
+msgstr "Tilfældige indlæg fra kategori"
+
+#: admin/settings.php:274
+#@ parabola
+msgid "Specific Posts"
+msgstr "Specifikke indlæg"
+
+#: admin/settings.php:283
+#@ parabola
+msgid "Only the slides with a defined image will become active and visible in the live slider.<br>When using slides from posts, make sure the selected posts have featured images.<br>Read the FAQs for more info."
+msgstr "Kun slides med defineret billede vil blive aktive og synlige i slideren.<br>Når du bruger slidere fra indlæg, kontrollér at indlægene har et udvalgt billede/thumbnail.<br>Læs FAQ'en for mere info."
+
+#: admin/settings.php:288
+#@ parabola
+msgid "Latest posts will be loaded into the slider."
+msgstr "Seneste indlæg vil blive indlæst i slideren."
+
+#: admin/settings.php:292
+#@ parabola
+msgid "Random posts will be loaded into the slider."
+msgstr "Tilfældige indlæg vil blive indlæst i slideren."
+
+#: admin/settings.php:296
+#@ parabola
+msgid "Latest posts from the category you choose will be loaded in the slider."
+msgstr "Seneste indlæg fra den kategori du vælger vil blive indlæst i slideren."
+
+#: admin/settings.php:300
+#@ parabola
+msgid "Random posts from the category you choose will be loaded into the slider."
+msgstr "Tilfældige indlæg fra den kategori du vælger vil blive indlæst i slideren."
+
+#: admin/settings.php:304
+#@ parabola
+msgid "Only sticky posts will be loaded into the slider."
+msgstr "Kun fastgjorte indlæg vil blive vist i slideren."
+
+#: admin/settings.php:308
+#@ parabola
+msgid "List the post IDs you want to display (separated by a comma): "
+msgstr "List de indlægs-ID'er du vil vise (adskilt med komma): "
+
+#: admin/settings.php:313
+#@ parabola
+msgid "<br> Choose the category: "
+msgstr "<br>Vælg kategori: "
+
+#: admin/settings.php:315
+#@ parabola
+msgid "Select Category"
+msgstr "Vælg kategori"
+
+#: admin/settings.php:329
+#@ parabola
+msgid "Number of posts to show:"
+msgstr "Antal indlæg der skal vises:"
+
+#: admin/settings.php:340
+#@ parabola
+msgid "Slide"
+msgstr "Slide"
+
+#: admin/settings.php:342
+#: admin/settings.php:394
+#: content/content-image.php:18
+#@ parabola
+msgid "Image"
+msgstr "Billede"
+
+#: admin/settings.php:345
+#: admin/settings.php:397
+#: admin/settings.php:508
+#: admin/settings.php:531
+#@ parabola
+msgid "Select / Upload Image"
+msgstr "Vælg / Upload billede"
+
+#: admin/settings.php:346
+#: admin/settings.php:398
+#@ parabola
+msgid "Title"
+msgstr "Titel"
+
+#: admin/settings.php:349
+#: admin/settings.php:401
+#@ parabola
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/settings.php:352
+#: admin/settings.php:404
+#: content/content-link.php:19
+#@ parabola
+msgid "Link"
+msgstr "Link"
+
+#: admin/settings.php:368
+#@ parabola
+msgid "Number of columns:"
+msgstr "Antal kolonner:"
+
+#: admin/settings.php:378
+#@ parabola
+msgid "Image Size:"
+msgstr "Billede størrelse:"
+
+#: admin/settings.php:379
+#@ parabola
+msgid "Height: "
+msgstr "Højde: "
+
+#: admin/settings.php:380
+#@ parabola
+msgid "Width: "
+msgstr "Bredde: "
+
+#: admin/settings.php:381
+#@ parabola
+msgid "The sizes for your column images. The width is dependent on total site width and not configurable."
+msgstr "Størrelsen af dine kolonne billeder. Bredden afhænger af den totale site-bredde og kan ikke indstilles."
+
+#: admin/settings.php:383
+#@ parabola
+msgid "Read more text:"
+msgstr "Læs mere tekst:"
+
+#: admin/settings.php:386
+#@ parabola
+msgid "The linked text that appears at the bottom of each column. Leave empty to hide the link."
+msgstr "Den linkede tekst der vises i bunden af hver kolonne. Lad den være blank for at skjule linket."
+
+#: admin/settings.php:392
+#@ parabola
+msgid "Column"
+msgstr "Kolonne"
+
+#: admin/settings.php:417
+#@ parabola
+msgid "Extra Text"
+msgstr "Ekstra tekst"
+
+#: admin/settings.php:419
+#@ parabola
+msgid "Text for the Presentation Page"
+msgstr "Tekst på præsentations siden"
+
+#: admin/settings.php:421
+#@ parabola
+msgid "More text for your front page. The top title is above the slider, the second title between the slider and the columns and 2 more rows of text under the columns.<br>It's all optional so leave any input field empty to not dispaly it."
+msgstr "Mere tekst på forsiden. Top titlen er over slideren, den anden titel er mellem slideren og kolonnerne, og de to ekstra rækker tekst under kolonnerne.<br>De er alle valgbare, så lad feltet stå tomt for ikke at vise teksten."
+
+#: admin/settings.php:423
+#@ parabola
+msgid "Top Title"
+msgstr "Top titel"
+
+#: admin/settings.php:425
+#@ parabola
+msgid "Second Title"
+msgstr "Anden titel"
+
+#: admin/settings.php:428
+#@ parabola
+msgid "Bottom Text 1"
+msgstr "Bund tekst 1"
+
+#: admin/settings.php:430
+#@ parabola
+msgid "Bottom Text 2"
+msgstr "Bund tekst 2"
+
+#: admin/settings.php:433
+#@ parabola
+msgid "Hide areas"
+msgstr "Skul områder"
+
+#: admin/settings.php:435
+#@ parabola
+msgid "Choose the areas to hide on the first page."
+msgstr "Vælg området der skal skjules på forsiden"
+
+#: admin/settings.php:446
+#@ parabola
+msgid "Hide the header area (logo/title and/or image/empty area)."
+msgstr "Skjul sidehoved-området (logo/titel og/eller billede/tomt område)."
+
+#: admin/settings.php:449
+#@ parabola
+msgid "Hide the main menu and the top menu."
+msgstr "Skjul hovedmenu og topmenu"
+
+#: admin/settings.php:452
+#@ parabola
+msgid "Hide the footer widgets. "
+msgstr "Skjul sidefod widgets. "
+
+#: admin/settings.php:455
+#@ parabola
+msgid "Hide the footer (copyright area)."
+msgstr "Skjul sidefod (copyright område)"
+
+#: admin/settings.php:469
+#@ parabola
+msgid "Select the header's height. After saving the settings go and upload your new header image. The header's width will be "
+msgstr "Vælg sidehovedets højde. Efter du har gemt indstillingerne, kan du uploade dit nye sidehoved-billede. Dit sidehoveds bredde bliver "
+
+#: admin/settings.php:475
+#@ parabola
+msgid "Define header image"
+msgstr "Definér sidehoved-billede"
+
+#: admin/settings.php:478
+#@ parabola
+msgid "Center the header image horizontally"
+msgstr "Centrer sidehoved-billedet horisontalt"
+
+#: admin/settings.php:481
+#@ parabola
+msgid "Keep header image aspect ratio."
+msgstr "Bevar sidehoved-billedets sideforhold"
+
+#: admin/settings.php:482
+#@ parabola
+msgid "By default the header has a minimum height set. This option removes that and the header becomes fully responsive, scalling to any size.<br> Only enable this if you're <b>not</b> using a logo or site title and description in the header. "
+msgstr "Som default har sidehovedet en minimums højde. Denne indstilling fjerner denne, og sidehovedet bliver fuldt responsivt, så det skalérer til enhver størrelse.<br>Slå kun dette til hvis du <b>ikke</b> bruger et logo eller en side-titel og beskrivelse i sidehovedet. "
+
+#: admin/settings.php:489
+#@ parabola
+msgid "Site Title and Description"
+msgstr "Side titel og beskrivelse"
+
+#: admin/settings.php:489
+#@ parabola
+msgid "Custom Logo"
+msgstr "Specifikt logo"
+
+#: admin/settings.php:489
+#@ parabola
+msgid "Clickable header image"
+msgstr "Klikbart sidehoved-billede"
+
+#: admin/settings.php:489
+#@ parabola
+msgid "Empty"
+msgstr "Tom"
+
+#: admin/settings.php:497
+#@ parabola
+msgid "Choose what to display inside your header area."
+msgstr "Vælg hvad der skal vises i sidehoved-området"
+
+#: admin/settings.php:507
+#@ parabola
+msgid "Custom Logo upload. The logo will appear over the header image if you have used one."
+msgstr "Specifikt logo upload. Logoet vises ovenover sidehoved-billedet hvis du har ét."
+
+#: admin/settings.php:516
+#@ parabola
+msgid "top"
+msgstr "top"
+
+#: admin/settings.php:517
+#@ parabola
+msgid "left"
+msgstr "venstre"
+
+#: admin/settings.php:520
+#@ parabola
+msgid "Select the top and left spacing for the header content. Use it to better position your site title and description or custom logo inside the header. "
+msgstr "Vælg top- og venstre-mellemrum til sidehoved indhold. Brug det for at placére din side-titel og beskrivelse eller dit logo i sidehovedet. "
+
+#: admin/settings.php:530
+#@ parabola
+msgid "Limitations: It has to be an image. It should be max 64x64 pixels in dimensions. Recommended file extensions .ico and .png. <br> <strong>Note that some browsers do not display the changed favicon instantly.</strong>"
+msgstr "Begrænsninger: Det skal være et billede. Det skal være højst 64x64 pixels. Anbefalet fil-endelse .ico eller .png. <br><strong>Vær opmærksom på at nogle browsere viser ikke opdateret favicon med det samme.</strong>"
+
+#: admin/settings.php:569
+#@ parabola
+msgid "or Google font"
+msgstr "eller Google font"
+
+#: admin/settings.php:589
+#@ parabola
+msgid "Select the general font family and size or insert the Google Font name you'll use in your blog. This will affect all text except the one controlled by the options below. "
+msgstr "Vælg den generelle font-familie og størrelse, eller indsæt det Google Font navn du vil bruge i din blog. Dette vil påvirke al tekst undtagen det som styres af indstillingerne nedenfor. "
+
+#: admin/settings.php:608
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want for your titles. It will affect post titles and page titles. Leave 'General Font' and the general font values you selected will be used."
+msgstr "Vælg den generelle font-familie og størrelse, eller indsæt det Google Font navn du vil bruge til overskrifter. Dette vil påvirke indlægs-overskrifter og side-overskrifter. Lad den stå som \\\"Generel font\\\" for at bruge den generelle font du har angivet ovenfor."
+
+#: admin/settings.php:627
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your widget titles to have. Leave 'General Font' and the general font values you selected will be used."
+msgstr "Vælg den generelle font-familie og størrelse, eller indsæt det Google Font navn du vil bruge i dine widgets. Lad den stå som \\\"Generel font\\\" for at bruge den generelle font du har angivet ovenfor."
+
+#: admin/settings.php:645
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your site title and tagline to use. Leave 'General Font' and the general font values you selected will be used."
+msgstr "Vælg den generelle font-familie og størrelse, eller indsæt det Google Font navn du vil bruge i din site titel og beskrivelses-linje. Lad den stå som \\\"Generel font\\\" for at bruge den generelle font du har angivet ovenfor."
+
+#: admin/settings.php:663
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your main menu to use. Leave 'General Font' and the general font values you selected will be used."
+msgstr "Vælg den generelle font-familie og størrelse, eller indsæt det Google Font navn du vil bruge i dine hovedmenu. Lad den stå som \\\"Generel font\\\" for at bruge den generelle font du har angivet ovenfor."
+
+#: admin/settings.php:684
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your headings to have (h1 - h6 tags will be affected). Leave 'General Font' and the general font values you selected will be used."
+msgstr "Vælg den generelle font-familie og størrelse, eller indsæt det Google Font navn du vil bruge i dine headings (h1 - h6 tags). Lad den stå som \\\"Generel font\\\" for at bruge den generelle font du har angivet ovenfor."
+
+#: admin/settings.php:691
+#: admin/settings.php:751
+#: admin/settings.php:766
+#@ parabola
+msgid "Default"
+msgstr "Default"
+
+#: admin/settings.php:691
+#: admin/settings.php:1017
+#: admin/settings.php:1442
+#@ parabola
+msgid "Left"
+msgstr "Venstre"
+
+#: admin/settings.php:691
+#: admin/settings.php:1017
+#: admin/settings.php:1442
+#@ parabola
+msgid "Right"
+msgstr "Højre"
+
+#: admin/settings.php:691
+#@ parabola
+msgid "Justify"
+msgstr "Justeret"
+
+#: admin/settings.php:691
+#: admin/settings.php:1017
+#: admin/settings.php:1442
+#@ parabola
+msgid "Center"
+msgstr "Centreret"
+
+#: admin/settings.php:699
+#@ parabola
+msgid "This overwrites the text alignment in posts and pages. Leave 'Default' for normal settings (alignment will remain as declared in posts, comments etc.)."
+msgstr "Dette overstyrer tekst-justeringen i indlæg og sider. Lad den stå som 'Default' for normale indstillinger (justering forbliver som valgt i indlæg, kommentarer etc.)"
+
+#: admin/settings.php:713
+#@ parabola
+msgid "Choose the indent for your paragraphs."
+msgstr "Vælg indryk for dine afsnit"
+
+#: admin/settings.php:729
+#@ parabola
+msgid "Disable the default headings indent (left margin)."
+msgstr "Slå default overskrift indryk fra (venstre margin)"
+
+#: admin/settings.php:744
+#@ parabola
+msgid "Text line height. The height between 2 rows of text."
+msgstr "Tekst linje højde. Højden mellem to rækker tekst."
+
+#: admin/settings.php:759
+#@ parabola
+msgid "The space between <i>words</i>. Leave 'Default' for normal settings (size value will be as set in the CSS)."
+msgstr "Afstanden mellem <i>ord</i>. Lad den stå som 'Default' for normale indstillinger (størrelses-værdi bliver som indstilet i CSS)."
+
+#: admin/settings.php:774
+#@ parabola
+msgid "The space between <i>letters</i>. Leave 'Default' for normal settings (size value will be as set in the CSS)."
+msgstr "Afstanden mellem <i>bogstaver</i>. Lad den stå som 'Default' for normale indstillinger (størrelses-værdi bliver som indstilet i CSS)."
+
+#: admin/settings.php:791
+#@ parabola
+msgid "Select the spacing between the paragraphs."
+msgstr "Vælg afstand mellem afsnit."
+
+#: admin/settings.php:798
+#@ parabola
+msgid "Default (enabled)"
+msgstr "Default (slået til)"
+
+#: admin/settings.php:798
+#@ parabola
+msgid "Disable everywhere"
+msgstr "Slå fra overalt"
+
+#: admin/settings.php:806
+#@ parabola
+msgid "Disable the built-in theme uppercase text styling. Note that some bult-in fonts only support upercase text and these will not be affected."
+msgstr "Slå den indbyggede tema versal tekst-styling fra. Læg mærke til at nogle indbyggede fonte kun understøtter versaler, disse påvirkes ikke."
+
+#: admin/settings.php:826
+#@ parabola
+msgid "Define background image"
+msgstr "Definér baggrunds billede"
+
+#: admin/settings.php:831
+#: admin/settings.php:857
+#: admin/settings.php:867
+#: admin/settings.php:882
+#: admin/settings.php:914
+#: admin/settings.php:926
+#@ parabola
+msgid "Background:"
+msgstr "Baggrund:"
+
+#: admin/settings.php:832
+#@ parabola
+msgid "Header Background"
+msgstr "Sidehoved baggrund"
+
+#: admin/settings.php:833
+#@ parabola
+msgid "Main Site Background"
+msgstr "Hoved-site baggrund"
+
+#: admin/settings.php:834
+#@ parabola
+msgid "Footer Widgets Area Background"
+msgstr "Sidefod Widgets område baggrund"
+
+#: admin/settings.php:835
+#@ parabola
+msgid "Footer Background"
+msgstr "Sidefod baggrund"
+
+#: admin/settings.php:836
+#: admin/settings.php:859
+#: admin/settings.php:872
+#: admin/settings.php:885
+#: admin/settings.php:917
+#: admin/settings.php:929
+#@ parabola
+msgid "Text:"
+msgstr "Tekst:"
+
+#: admin/settings.php:837
+#@ parabola
+msgid "General Text"
+msgstr "Generel tekst"
+
+#: admin/settings.php:838
+#@ parabola
+msgid "General Lighter Text"
+msgstr "Generel lettere tekst"
+
+#: admin/settings.php:839
+#@ parabola
+msgid "Footer Text"
+msgstr "Sidefod tekst"
+
+#: admin/settings.php:840
+#@ parabola
+msgid "The site background features 4 separately coloured areas.<br />The general text colour applies to all text on the website that is not controlled by any other option."
+msgstr "Sitets baggrund har 4 separate farvede områder.<br />Den generelle tekst farve påvirker alle tekster på websitet, som ikke styres af andre indstillinger"
+
+#: admin/settings.php:845
+#@ parabola
+msgid "Accent Color #1"
+msgstr "Accent farve #1"
+
+#: admin/settings.php:846
+#@ parabola
+msgid "Accent Color #2"
+msgstr "Accent farve #2"
+
+#: admin/settings.php:847
+#@ parabola
+msgid "Accent Color #3"
+msgstr "Accent farve #3"
+
+#: admin/settings.php:848
+#@ parabola
+msgid "Accent Color #4"
+msgstr "Accent farve #4"
+
+#: admin/settings.php:849
+#@ parabola
+msgid "Accent Color #5"
+msgstr "Accent farve #5"
+
+#: admin/settings.php:850
+#@ parabola
+msgid ""
+"Accents #1 and #2 should either be the same as the link colours or be separate from all other colours on the site.<br />\n"
+"     Accent #5 is used for input fields and buttons backgrounds, borders and lines.<br />\n"
+"     Accents #3 and #4 should be the lighter/darker than the content background colour, being used as borders/shades on elements where accent #5 is background colour."
+msgstr ""
+"Accent #1 og #2 bør enten være den samme som link farven eller være forskellig fra alle andre farver på sitet.<br />\n"
+" Accent #5 bruges til input felter og knap-baggrunde, rammer og linjer.<br />\n"
+" Accent #3 og #4 bør være lysere/mørkere end indholds-baggrunds-farven, og bruges som rammer/skygger på elementer hvor #5 er baggrunds-farve."
+
+#: admin/settings.php:858
+#@ parabola
+msgid "Site Description Background"
+msgstr "Site beskrivelses baggrund"
+
+#: admin/settings.php:861
+#@ parabola
+msgid "Site Description"
+msgstr "Side beskrivelse"
+
+#: admin/settings.php:868
+#@ parabola
+msgid "Menu Item Background"
+msgstr "Menu-punkt baggrund"
+
+#: admin/settings.php:869
+#@ parabola
+msgid "Menu Item Background on Hover"
+msgstr "Menu-punkt baggrund ved mus-over"
+
+#: admin/settings.php:870
+#@ parabola
+msgid "Active Menu Item Background"
+msgstr "Aktivt menu-punkts baggrund"
+
+#: admin/settings.php:871
+#@ parabola
+msgid "Submenu Shadow"
+msgstr "Undermenu skygge"
+
+#: admin/settings.php:873
+#@ parabola
+msgid "Menu Item Text"
+msgstr "Menu-punkts tekst"
+
+#: admin/settings.php:874
+#@ parabola
+msgid "Menu Item Text on Hover"
+msgstr "Menu-punkts tekst ved mus-over"
+
+#: admin/settings.php:875
+#@ parabola
+msgid "Active Menu Item Text"
+msgstr "Aktivt menu-punkts tekst"
+
+#: admin/settings.php:877
+#@ parabola
+msgid "These colours apply to the main site menu (and dropdown elements)."
+msgstr "Disse farver påvirker sitets hoved-menu (og dropdown elementer)"
+
+#: admin/settings.php:883
+#@ parabola
+msgid "Top Menu Background"
+msgstr "Top-menu baggrund"
+
+#: admin/settings.php:884
+#@ parabola
+msgid "Top Menu Background Hover"
+msgstr "Top-menu baggrund mus-over"
+
+#: admin/settings.php:886
+#@ parabola
+msgid "Top Menu Link"
+msgstr "Top-menu link"
+
+#: admin/settings.php:887
+#@ parabola
+msgid "Top Menu Link Hover"
+msgstr "Top-menu link mus-over"
+
+#: admin/settings.php:888
+#@ parabola
+msgid "These colours apply to the top site menu (appears above the header when enabled)."
+msgstr "Disse farver påvirker sitets top-menu (vises over sidehovedet hvis den er slået til)"
+
+#: admin/settings.php:893
+#@ parabola
+msgid "Content Background"
+msgstr "Indholds baggrund"
+
+#: admin/settings.php:894
+#@ parabola
+msgid "Page/Post Title"
+msgstr "Side/indlægs titel"
+
+#: admin/settings.php:895
+#@ parabola
+msgid "Page/Post Title Hover"
+msgstr "Side/indlægs titel mus-over"
+
+#: admin/settings.php:896
+#@ parabola
+msgid "Content Headings"
+msgstr "Indholds overskrifter"
+
+#: admin/settings.php:897
+#@ parabola
+msgid "Content colours apply to post and page areas of the site."
+msgstr "Indholds farver påvirker indlæg- og side-områder på sitet."
+
+#: admin/settings.php:902
+#@ parabola
+msgid "Titles Color"
+msgstr "Titel farver"
+
+#: admin/settings.php:903
+#@ parabola
+msgid "Slider Border Color"
+msgstr "Slider ramme farve"
+
+#: admin/settings.php:904
+#@ parabola
+msgid "Slider Caption Text Color"
+msgstr "Slider overskrifts-tekst farve"
+
+#: admin/settings.php:905
+#@ parabola
+msgid "Slider Caption Background"
+msgstr "Slider overskrifts baggrund"
+
+#: admin/settings.php:909
+#@ parabola
+msgid "These colours apply to specific areas of the presentation page."
+msgstr "Disse farver påvirker specifikke områder på præsentations-siden"
+
+#: admin/settings.php:915
+#@ parabola
+msgid "Sidebars Background"
+msgstr "Sidebars baggrund"
+
+#: admin/settings.php:916
+#@ parabola
+msgid "Sidebars Widget Title Background"
+msgstr "Sidebars widget titel baggrund"
+
+#: admin/settings.php:918
+#@ parabola
+msgid "Sidebars Text"
+msgstr "Sidebars tekst"
+
+#: admin/settings.php:919
+#@ parabola
+msgid "Sidebars Widget Title Text"
+msgstr "Sidebars widget titel tekst"
+
+#: admin/settings.php:920
+#@ parabola
+msgid "These colours apply to the widgets placed in either sidebar."
+msgstr "Disse farver påvirker widgets i alle sidebars"
+
+#: admin/settings.php:927
+#@ parabola
+msgid "Footer Widgets Background"
+msgstr "Sidefod widgets baggrund"
+
+#: admin/settings.php:928
+#@ parabola
+msgid "Footer Widgets Title Background"
+msgstr "Sidefod widgets titel baggrund"
+
+#: admin/settings.php:930
+#@ parabola
+msgid "Footer Widget Text"
+msgstr "Sidefod widgets tekst"
+
+#: admin/settings.php:931
+#@ parabola
+msgid "Footer Widgets Title Text"
+msgstr "Sidefod widgets titel-tekst"
+
+#: admin/settings.php:932
+#@ parabola
+msgid "These colours apply to the widgets in the footer area."
+msgstr "Disse farver påvirker widgets i sidefod-området."
+
+#: admin/settings.php:937
+#@ parabola
+msgid "General:"
+msgstr "Generel:"
+
+#: admin/settings.php:938
+#@ parabola
+msgid "General Links"
+msgstr "Generelle links"
+
+#: admin/settings.php:939
+#@ parabola
+msgid "General Links Hover"
+msgstr "Generelle links mus-over"
+
+#: admin/settings.php:940
+#@ parabola
+msgid "Sidebar Widgets:"
+msgstr "Sidebar widgets:"
+
+#: admin/settings.php:941
+#@ parabola
+msgid "Sidebar Widgets Links"
+msgstr "Sidebar widgets links"
+
+#: admin/settings.php:942
+#@ parabola
+msgid "Sidebar Widgets Links Hover"
+msgstr "Sidebar widgets links mus-over"
+
+#: admin/settings.php:943
+#@ parabola
+msgid "Footer Widgets:"
+msgstr "Sidefod widgets:"
+
+#: admin/settings.php:944
+#@ parabola
+msgid "Footer Widgets Links"
+msgstr "Sidefod widgets links"
+
+#: admin/settings.php:945
+#@ parabola
+msgid "Footer Widgets Links Hover"
+msgstr "Sidefod widgets links mus-over"
+
+#: admin/settings.php:946
+#@ parabola
+msgid "Footer:"
+msgstr "Sidefod:"
+
+#: admin/settings.php:947
+#@ parabola
+msgid "Footer Links"
+msgstr "Sidefod links"
+
+#: admin/settings.php:948
+#@ parabola
+msgid "Footer Links Hover"
+msgstr "Sidefod links mus-over"
+
+#: admin/settings.php:949
+#@ parabola
+msgid "Footer colours include the footer menu colours."
+msgstr "Sidefod farver inkluderer sidefod menu farver"
+
+#: admin/settings.php:955
+#: admin/settings.php:969
+#@ parabola
+msgid "Clear"
+msgstr "Tøm"
+
+#: admin/settings.php:955
+#: admin/settings.php:969
+#@ parabola
+msgid "Light"
+msgstr "Lys"
+
+#: admin/settings.php:955
+#: admin/settings.php:969
+#@ parabola
+msgid "Accented"
+msgstr "Accentueret"
+
+#: admin/settings.php:955
+#: admin/settings.php:969
+#@ parabola
+msgid "Dark"
+msgstr "Mørk"
+
+#: admin/settings.php:963
+#@ parabola
+msgid "This setting changes the look of your captions. Images that are not inserted through captions will not be affected."
+msgstr "Disse indstillinger ændrer udseendet af dine indsatte billeder. Billeder der ikke indsættes via Indsæt medie påvirkes ikke."
+
+#: admin/settings.php:969
+#@ parabola
+msgid "Border only"
+msgstr "Kun ramme"
+
+#: admin/settings.php:977
+#@ parabola
+msgid "The background for your meta areas (author, date, category, tags, continue reading and edit button)."
+msgstr "Baggrunden for dine meta-områder (forfatter, dato, kategori, tags, læs mere og redigér knap)."
+
+#: admin/settings.php:996
+#@ parabola
+msgid "Show breadcrumbs at the top of the content area. Breadcrumbs are a form of navigation that keeps track of your location withtin the site."
+msgstr "Vis brødkrummer i toppen af indholds-området. Brødkrummer er en slags navigation der holder styr på hvor du er på sitet."
+
+#: admin/settings.php:1011
+#@ parabola
+msgid "Show numbered pagination. Where there is more than one page, instead of the bottom <b>Older Posts</b> and <b>Newer posts</b> links you have a numbered pagination. "
+msgstr "Vis nummereret sideindddeling. Hvor der er mere end én side, vises nummereret sideinddeling istedet for de nederste <b>Ældre indlæg</b> og <b>Nyere indlæg</b>. "
+
+#: admin/settings.php:1025
+#@ parabola
+msgid "Select the desired main menu items alignment. Center option is only valid for single line menus."
+msgstr "Vælg den ønskede hovedmenus element justering. Centrer-muligheden er kun gyldig for en-linjes menuer."
+
+#: admin/settings.php:1039
+#@ parabola
+msgid "Please, please... do not push this button. You have no idea what it..."
+msgstr "Nej, nej...lad være med at trykke på denne knap. Du har ingen idé om hvad den..."
+
+#: admin/settings.php:1054
+#@ parabola
+msgid "The border style for your images. Only images inserted in your posts and pages will be affected. "
+msgstr "Ramme-stilen for dine billeder. Kun billeder indsat i indlæg og sider vil blive påvirket. "
+
+#: admin/settings.php:1061
+#: admin/settings.php:1078
+#: admin/settings.php:1093
+#: admin/settings.php:1123
+#: admin/settings.php:1138
+#: admin/settings.php:1154
+#: admin/settings.php:1190
+#: admin/settings.php:1219
+#: admin/settings.php:1234
+#: admin/settings.php:1249
+#: admin/settings.php:1264
+#: admin/settings.php:1279
+#@ parabola
+msgid "Show"
+msgstr "Vis"
+
+#: admin/settings.php:1061
+#: admin/settings.php:1078
+#: admin/settings.php:1093
+#: admin/settings.php:1123
+#: admin/settings.php:1154
+#: admin/settings.php:1190
+#: admin/settings.php:1219
+#: admin/settings.php:1234
+#: admin/settings.php:1249
+#: admin/settings.php:1264
+#: admin/settings.php:1279
+#@ parabola
+msgid "Hide"
+msgstr "Skjul"
+
+#: admin/settings.php:1069
+#@ parabola
+msgid "Hide or show bullets next to lists in your content area (posts, pages etc.)."
+msgstr "Vis eller skjul punkter ved punktforms-lister i indholds-området (indlæg, sider, etc.)"
+
+#: admin/settings.php:1086
+#@ parabola
+msgid "Hide or show titles on pages."
+msgstr "Vis eller skjul titler på sider"
+
+#: admin/settings.php:1101
+#@ parabola
+msgid "Hide or show titles on Categories and Archives."
+msgstr "Vis eller skjul titler på kategorier og arkiver"
+
+#: admin/settings.php:1116
+#@ parabola
+msgid "Hide table borders and background color."
+msgstr "Vis tabel-rammer og baggrunds farve"
+
+#: admin/settings.php:1131
+#@ parabola
+msgid "Hide the explanatory text under the comments form (starts with  <i>You may use these HTML tags and attributes:...</i>)."
+msgstr "Skul den forklarende tekst under kommentar-formular (starter med <i>Du må bruge disse HTML tags og attributter:...</i>)."
+
+#: admin/settings.php:1138
+#@ parabola
+msgid "Hide in posts"
+msgstr "Skjul i indlæg"
+
+#: admin/settings.php:1138
+#@ parabola
+msgid "Hide in pages"
+msgstr "Skjul i sider"
+
+#: admin/settings.php:1138
+#@ parabola
+msgid "Hide everywhere"
+msgstr "Skjul overalt"
+
+#: admin/settings.php:1146
+#@ parabola
+msgid "Hide the <b>Comments are closed</b> text that by default shows up on pages or posts with comments disabled."
+msgstr "Skjul <b>Lukket for kommentarer</b> teksten der som default vises på sider og indlæg hvor kommentarer er slået fra."
+
+#: admin/settings.php:1162
+#@ parabola
+msgid "Hide the <b>Comments off</b> text next to posts that have comments disabled."
+msgstr "Skjul <b>Kommentarer slået fra</b> teksten ved siden af indlæg der har kommentarer slået fra."
+
+#: admin/settings.php:1178
+#@ parabola
+msgid "Enable the Back to Top button. The button appears after scrolling the page down."
+msgstr "Slå \\\"Tilbage til toppen\\\" knappen til. Knappen vises efter at der er scrollet ned."
+
+#: admin/settings.php:1198
+#@ parabola
+msgid "Hide or show the <strong>Leave a comment</strong> or <strong>x Comments</strong> next to posts or post excerpts."
+msgstr "Skjul eller vis <strong>Efterlad en kommentar</strong> eller <strong>x Kommentarer</strong> ved indlæg og indlægs-uddrag."
+
+#: admin/settings.php:1204
+#@ parabola
+msgid "Date and time"
+msgstr "Dato og tid"
+
+#: admin/settings.php:1204
+#@ parabola
+msgid "Date only"
+msgstr "Kun dato"
+
+#: admin/settings.php:1204
+#@ parabola
+msgid "Time only"
+msgstr "Kun tid"
+
+#: admin/settings.php:1204
+#@ parabola
+msgid "Hide both"
+msgstr "Skjul begge"
+
+#: admin/settings.php:1212
+#@ parabola
+msgid "Hide or show the post date and time."
+msgstr "Vis eller skjul indlægs dato og tid"
+
+#: admin/settings.php:1227
+#@ parabola
+msgid "Hide or show the post author."
+msgstr "Vis eller skjul indlægs forfatter."
+
+#: admin/settings.php:1242
+#@ parabola
+msgid "Hide the post category."
+msgstr "Skjul indlægs kategori"
+
+#: admin/settings.php:1257
+#@ parabola
+msgid "Hide the post tags."
+msgstr "Skjul indlægs tags"
+
+#: admin/settings.php:1272
+#@ parabola
+msgid "Hide the 'Bookmark permalink'."
+msgstr "Skjul \\\"Bookmark permanent link\\\"."
+
+#: admin/settings.php:1287
+#@ parabola
+msgid "Hide all the post metas. All meta info and meta areas will be hidden."
+msgstr "Skjul al indlægs-meta. Alle meta-informationer og meta-områder vil blive skjult."
+
+#: admin/settings.php:1300
+#: admin/settings.php:1315
+#: admin/settings.php:1331
+#@ parabola
+msgid "Excerpt"
+msgstr "Uddrag"
+
+#: admin/settings.php:1300
+#: admin/settings.php:1315
+#: admin/settings.php:1331
+#@ parabola
+msgid "Full Post"
+msgstr "Fuldt indlæg"
+
+#: admin/settings.php:1308
+#@ parabola
+msgid "Excerpts on the main page. Only standard posts will be affected. All other post formats (aside, image, chat, quote etc.) have their specific formating."
+msgstr "Uddrag på hoved-siden. Kun standard-indlæg påvirkes. Alle andre indlægs-formater (sidebemærkning, billede, chat, citat etc.) har deres egen formattering."
+
+#: admin/settings.php:1323
+#@ parabola
+msgid "Choose if you want the sticky posts on your home page to be visible in full or just the excerpts. "
+msgstr "Vælg om du vil have fastgjorte indlæg på forsiden til at vises fuldt ud, eller bare uddrag. "
+
+#: admin/settings.php:1339
+#@ parabola
+msgid "Excerpts on archive, categroy and search pages. Same as above, only standard posts will be affected."
+msgstr "Uddrag i arkiv-, kategori- og søge-sider. Samme som ovenfor, kun standard-indlæg påvirkes."
+
+#: admin/settings.php:1347
+#@ parabola
+msgid "The number of words for excerpts. When that number is reached the post will be interrupted by a <i>Continue reading</i> link that will take the reader to the full post page."
+msgstr "Antal ord for uddrag. Når dette antal nås, afbrydes indlægget af et <i>Læs mere...</i> link som sender læseren til hele indlæggets side."
+
+#: admin/settings.php:1362
+#@ parabola
+msgid "Enable the Magazine Layout. This layout applies to pages with posts and shows 2 posts per row."
+msgstr "Slå magasin-layout til. Dette layout påvirker sider med indlæg og viser to indlæg pr række."
+
+#: admin/settings.php:1369
+#@ parabola
+msgid "Replaces the three dots ('[...])' that are appended automatically to excerpts."
+msgstr "Erstatter de tre punktummer ('[...]') som automatisk tilføjes uddrag."
+
+#: admin/settings.php:1376
+#@ parabola
+msgid "Edit the 'Continue Reading' link added to your post excerpts."
+msgstr "Redigér 'Læs mere' linket som tilføjet til indlægs uddrag."
+
+#: admin/settings.php:1391
+#@ parabola
+msgid ""
+"By default WordPress excerpts remove all HTML tags (&lt;pre&gt;, &lt;a&gt;, &lt;b&gtl') and all others) and only clean text is left in the excerpt.\n"
+"Enabling this option allows HTML tags to remain in excerpts so all your default formating will be kept.<br /> <b>Just a warning: </b>If HTML tags are enabled, you have to make sure\n"
+"they are not left open. So if within your post you have an opened HTML tag but the except ends before that tag closes, the rest of the site will be contained in that HTML tag. -- Leave 'Disable' if unsure -- "
+msgstr ""
+"Som default fjerner WordPress alle HTML tags (&lt;pre&gt;, &lt;a&gt;, &lt;b&gtl') og alle andre) fra uddrag, og kun ren tekst lades tilbage i uddrag.\n"
+"Hvis du slår dette til, tillades HTML tags i uddraget, så din valgte formattering bevares.<br /> <b>Blot en advarsel: </b>Hvis HTML tags er slået til, må du sikre\n"
+"de ikke efterlades åbne. Så hvis du i et indlæg har åbnet et HTML tag, men men uddraget afsluttes inden tag'et lukkes, vil resten af sitet blive indeholdt i dette HTML tag.<br /> -- Lad den stå  'Slået fra' hvis du ikke er sikker --"
+
+#: admin/settings.php:1418
+#@ parabola
+msgid "Link the thumbail to the post"
+msgstr "Link til thumbnail i indlæg"
+
+#: admin/settings.php:1419
+#@ parabola
+msgid "Show featured images as thumbnails on posts. The images must be selected for each post in the Featured Image section."
+msgstr "Vis udvalgt billede som thumbnail på indlæg. Billedet skal være udvalgt til hvert indlæg under Udvalg billede/thumbnail sektionen."
+
+#: admin/settings.php:1434
+#@ parabola
+msgid "Show the first image that you inserted in a post as a thumbnail. If there is a Featured Image selected for that post, it will have priority."
+msgstr "Vis det første billede som du indsatte i indlægget som thumbnail. Hvis der er et udvalgt billede valgt for indlægget, vil det blive vist."
+
+#: admin/settings.php:1450
+#@ parabola
+msgid "Thumbnail alignment."
+msgstr "Thumbnail justering."
+
+#: admin/settings.php:1457
+#@ parabola
+msgid "(width)"
+msgstr "(bredde)"
+
+#: admin/settings.php:1458
+#@ parabola
+msgid "(height)"
+msgstr "(højde)"
+
+#: admin/settings.php:1465
+#@ parabola
+msgid "Crop images to exact size."
+msgstr "Beskær til eksakt størrelse."
+
+#: admin/settings.php:1468
+#@ parabola
+msgid "The size (in pixels) for your thumbnails. By default imges will be scaled with aspect ratio kept. Choose to crop the images if you want the exact size."
+msgstr "Størrelsen (i pixels) for dine thumbnails. Som default skaleres dine billeder med sideforhold intakt. Vælg at beskære billedet hvis du vil have den eksakte størrelse."
+
+#: admin/settings.php:1484
+#@ parabola
+msgid "Show featured images on headers. The header will be replaced with a featured image if you selected it as a Featured Image in the post and if it is bigger or at least equal to the current header size."
+msgstr "Vis udvalgt billed i sidehoved. Sidehovedet erstattes med et udvalgt billede hvis du har valgt det som Udvalgt billede i indlægget, og hvis det er større eller lig med den nuværende sidehoved-størrelse."
+
+#: admin/settings.php:1496
+#@ parabola
+msgid "Select your desired Social network from the left dropdown menu and insert your corresponding address in the right input field. (ex: <i>http://www.facebook.com/yourname</i> )"
+msgstr "Vis dit udvalgte sociale netværk fra den venstre dropdown menu og indsæt den tilsvarende adresse i det højre felt. (f.eks. <i>http:///www.facebook.com/ditnavn</i> )"
+
+#: admin/settings.php:1497
+#@ parabola
+msgid "You can also choose if you want the link to open in a new window and what title to dispaly while hovering over the icon."
+msgstr "Du kan også vælge om du vil have linket til at åbne i et nyt vindue, hvilken titel der skal vises ved mus-over ikonet."
+
+#: admin/settings.php:1498
+#@ parabola
+msgid "You can show up to 5 different social icons from over 35 social networks."
+msgstr "Du kan vise op til 5 forskellige sociale netværks-ikoner udvalgt fra over 35 sociale netværk."
+
+#: admin/settings.php:1499
+#@ parabola
+msgid "You can leave any number of inputs empty."
+msgstr "Du kan lade et vilkårligt antal inputs stå tomme."
+
+#: admin/settings.php:1500
+#@ parabola
+msgid "You can change the background for your social colors from the colors settings section."
+msgstr "Du kan ændre baggrunden for dine sociale ikoners farve i farve-indstillings sektionen."
+
+#: admin/settings.php:1518
+#@ parabola
+msgid "Social Network Link"
+msgstr "Social netværk link"
+
+#: admin/settings.php:1523
+#@ parabola
+msgid "Open in new window"
+msgstr "Åben i nyt vindue"
+
+#: admin/settings.php:1525
+#@ parabola
+msgid "Social Network Title"
+msgstr "Socialt netværk titel"
+
+#: admin/settings.php:1569
+#@ parabola
+msgid "Header"
+msgstr "Sidehoved"
+
+#: admin/settings.php:1573
+#@ parabola
+msgid "Footer"
+msgstr "Sidefod"
+
+#: admin/settings.php:1577
+#@ parabola
+msgid "Left side"
+msgstr "Venstre side"
+
+#: admin/settings.php:1581
+#@ parabola
+msgid "Right side"
+msgstr "Højdre side"
+
+#: admin/settings.php:1587
+#: includes/theme-setup.php:209
+#: sidebar-left.php:26
+#@ parabola
+msgid "Left Sidebar"
+msgstr "Venstre sidebar"
+
+#: admin/settings.php:1591
+#: includes/theme-setup.php:220
+#: sidebar-right.php:26
+#@ parabola
+msgid "Right Sidebar"
+msgstr "Højre sidebar"
+
+#: admin/settings.php:1593
+#@ parabola
+msgid "Choose the <b>areas</b> where to display the social icons."
+msgstr "Vælg de <b>områder</b> hvor de sociale ikoner skal vises."
+
+#: admin/settings.php:1606
+#@ parabola
+msgid "Insert custom text or HTML code that will appear in you footer. <br /> You can use HTML to insert links, images and special characters like &copy;."
+msgstr "Indsæt specifik tekst eller HTML kode som vises i din sidefod.<br />Du kan bruge HTML til at indsætte links, billeder eller special-karakterer som &copy;."
+
+#: admin/settings.php:1614
+#@ parabola
+msgid "Insert your custom CSS here. Any CSS declarations made here will overwrite Parabola's (even the custom options specified right here in the Parabola Settings page). <br /> Your custom CSS will be preserved when updating the theme."
+msgstr "Indsæt din special-CSS her. CSS-erklæringer som sættes her overstyrer Parabola's (selv special-indstillinger lavet lige her på Parabolas indstillings-side). <br />Din special-CSS gemmes når temaet opdaters."
+
+#: admin/settings.php:1621
+#@ parabola
+msgid "Insert your custom Javascript code here. (Google Analytics and any other forms of Analytic software)."
+msgstr "Indsæt din specifikke JavaScript kode her. (Google Analytics og andre former for Analytics software)"
+
+#: admin/settings.php:1634
+#@ parabola
+msgid "Enable extra compatibility tag for older Internet Explorer versions. Turning this option on will trigger W3C validation errors."
+msgstr "Slå ekstra kompatibilitets tag for ældre Internet Explorer versioner til. Hvis du slår dette til, vil det give W3C validerings-fejl."
+
+#: archive.php:26
+#, php-format
+#@ parabola
+msgid "Daily Archives: %s"
+msgstr "Dagligt arkiv: %s"
+
+#: archive.php:28
+#, php-format
+#@ parabola
+msgid "Monthly Archives: %s"
+msgstr "Månedligt arkiv: %s"
+
+#: archive.php:28
+#@ parabola
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:30
+#, php-format
+#@ parabola
+msgid "Yearly Archives: %s"
+msgstr "Årligt arkiv: %s"
+
+#: archive.php:30
+#@ parabola
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:32
+#@ parabola
+msgid "Blog Archives"
+msgstr "Blog arkiv"
+
+#: archive.php:56
+#: author.php:71
+#: category.php:49
+#: content/content-index.php:35
+#: search.php:38
+#: tag.php:50
+#: templates/template-blog.php:34
+#@ parabola
+msgid "Nothing Found"
+msgstr "Intet fundet"
+
+#: archive.php:60
+#: author.php:75
+#: category.php:53
+#: content/content-index.php:39
+#: tag.php:54
+#: templates/template-blog.php:38
+#@ parabola
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Beklager, men der blev ikke fundet noget i det ønskede arkiv. Måske kan en søgning finde relaterede indlæg."
+
+#: attachment.php:18
+#, php-format
+#@ parabola
+msgid "Return to %s"
+msgstr "Tilbage til %s"
+
+#. translators: %s - title of parent post
+#: attachment.php:32
+#, php-format
+#@ parabola
+msgid "Full size is %s pixels"
+msgstr "Fuld størrelse er %s pixels"
+
+#: attachment.php:35
+#@ parabola
+msgid "Link to full-size image"
+msgstr "Link til billede i fuld størrelse"
+
+#: attachment.php:75
+#: content/content-page.php:22
+#: includes/theme-loop.php:201
+#: single.php:49
+#: templates/template-page-with-intro.php:16
+#@ parabola
+msgid "Edit"
+msgstr "Rediger"
+
+#: attachment.php:86
+#@ parabola
+msgid "Continue reading"
+msgstr "Læs videre"
+
+#: attachment.php:87
+#: content/content-aside.php:33
+#: content/content-chat.php:32
+#: content/content-gallery.php:53
+#: content/content-image.php:27
+#: content/content-link.php:32
+#: content/content-page.php:21
+#: content/content-quote.php:30
+#: content/content-video.php:27
+#: content/content.php:44
+#: content/content.php:60
+#: single.php:27
+#: templates/template-page-with-intro.php:15
+#@ parabola
+msgid "Pages:"
+msgstr "Sider:"
+
+#: author.php:29
+#, php-format
+#@ parabola
+msgid "Author Archives: %s"
+msgstr "Forfatter-arkiv: %s"
+
+#: author.php:46
+#: single.php:36
+#, php-format
+#@ parabola
+msgid "About %s"
+msgstr "Om %s"
+
+#: category.php:20
+#, php-format
+#@ parabola
+msgid "Category Archives: %s"
+msgstr "Kategori-arkiv: %s"
+
+#: comments.php:25
+#@ parabola
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dette indlæg er password-beskyttet. Indtast passwordet for at se kommentarer."
+
+#: comments.php:50
+#@ parabola
+msgid "Comments are closed"
+msgstr "Lukket for kommentarer"
+
+#: content/content-aside.php:16
+#: content/content-chat.php:16
+#: content/content-gallery.php:18
+#: content/content-gallery.php:44
+#: content/content-image.php:15
+#: content/content-link.php:16
+#: content/content-quote.php:14
+#: content/content-status.php:15
+#: content/content-video.php:15
+#: content/content.php:21
+#, php-format
+#@ parabola
+msgid "Permalink to %s"
+msgstr "Permalink til %s"
+
+#: content/content-aside.php:19
+#@ parabola
+msgid "Aside"
+msgstr "Sidebemærkning"
+
+#: content/content-aside.php:32
+#: content/content-chat.php:31
+#: content/content-image.php:26
+#: content/content-link.php:31
+#: content/content-quote.php:29
+#: content/content-status.php:35
+#: content/content-video.php:26
+#@ parabola
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Læs videre <span class=\"meta-nav\">&rarr;</span>"
+
+#: content/content-chat.php:19
+#@ parabola
+msgid "Chat"
+msgstr "Chat"
+
+#: content/content-frontpage.php:37
+#@ parabola
+msgid "No Posts to Display"
+msgstr "Ingen indlæg at vise"
+
+#: content/content-frontpage.php:42
+#, php-format
+#@ parabola
+msgid "You currently have no published posts.<br/>To hide this message either <a href=\"%s\">add some posts</a> or disable displaying posts on the Presentation Page in <a href=\"%s\">theme settings</a>."
+msgstr "Du har ikke nogen udgivne indlæg i øjeblikket.<br/>For at skjule denne besked kan du enten  <a href=\"%s\">tilføje nogle indlæg</a> eller slå visningen af indlæg på Præsentations siden fra i  <a href=\"%s\">tema indstillingern</a>."
+
+#: content/content-gallery.php:21
+#@ parabola
+msgid "Gallery"
+msgstr "Galleri"
+
+#: content/content-gallery.php:43
+#, php-format
+#@ parabola
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Dette galleri indeholder <a %1$s>%2$s billede</a>."
+msgstr[1] "Dette galleri indeholder <a %1$s>%2$s billeder</a>."
+
+#: content/content-quote.php:17
+#@ parabola
+msgid "Quote"
+msgstr "Citat"
+
+#: content/content-status.php:17
+#@ parabola
+msgid "Status"
+msgstr "Status"
+
+#: content/content-video.php:18
+#@ parabola
+msgid "Video"
+msgstr "Video"
+
+#. translators: 1: date, 2: time
+#: includes/theme-comments.php:33
+#@ parabola
+msgid "at"
+msgstr "på"
+
+#: includes/theme-comments.php:33
+#: includes/theme-comments.php:59
+#@ parabola
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: includes/theme-comments.php:40
+#@ parabola
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: includes/theme-comments.php:59
+#@ parabola
+msgid "Pingback: "
+msgstr "Pingback: "
+
+#: includes/theme-comments.php:88
+#@ parabola
+msgid "No comments"
+msgstr "Ingen kommentarer"
+
+#: includes/theme-comments.php:88
+#@ parabola
+msgid "<b>1</b> <span>Comment</span>"
+msgstr "<b>1</b> <span>Kommentar</span>"
+
+#: includes/theme-comments.php:88
+#@ parabola
+msgid "<b>%</b> <span>Comments</span>"
+msgstr "<b>%</b> <span>Kommentarer</span>"
+
+#: includes/theme-comments.php:88
+#@ parablola
+msgid "<b>Comments off</b>"
+msgstr "<b>Kommentarer slået fra</b>"
+
+#: includes/theme-comments.php:99
+#, php-format
+#@ parabola
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Én Kommentar"
+msgstr[1] "%1 Kommentarer"
+
+#: includes/theme-comments.php:112
+#@ parabola
+msgid "Older Comments"
+msgstr "Ældre kommentarer"
+
+#: includes/theme-comments.php:113
+#@ parabola
+msgid "Newer Comments"
+msgstr "Nyere kommentarer"
+
+#: includes/theme-comments.php:141
+#@ parabola
+msgid "Comments are closed."
+msgstr "Lukket for kommentarer."
+
+#: includes/theme-functions.php:46
+#@ parabola
+msgid "Menu"
+msgstr "Menu"
+
+#: includes/theme-functions.php:307
+#@ parabola
+msgid "Powered by"
+msgstr "Leveret af"
+
+#: includes/theme-functions.php:309
+#@ parabola
+msgid "Semantic Personal Publishing Platform"
+msgstr "Semantisk Personlig Udgivelses Platform"
+
+#: includes/theme-loop.php:157
+#@ parabola
+msgid "By "
+msgstr "Af "
+
+#: includes/theme-loop.php:159
+#, php-format
+#@ parabola
+msgid "View all posts by %s"
+msgstr "Vis alle indlæg af %s"
+
+#: includes/theme-loop.php:199
+#: includes/theme-loop.php:230
+#@ parabola
+msgid "Tagged"
+msgstr "Tags"
+
+#: includes/theme-loop.php:230
+#@ parabola
+msgid " Bookmark the "
+msgstr "Bookmark "
+
+#: includes/theme-loop.php:230
+#: includes/theme-loop.php:232
+#: includes/theme-loop.php:234
+#@ parabola
+msgid "Permalink to"
+msgstr "Permalink til"
+
+#: includes/theme-loop.php:230
+#: includes/theme-loop.php:232
+#: includes/theme-loop.php:234
+#@ parabola
+msgid "permalink"
+msgstr "permalink"
+
+#: includes/theme-loop.php:232
+#: includes/theme-loop.php:234
+#@ parabola
+msgid "Bookmark the "
+msgstr "Bookmark "
+
+#: includes/theme-loop.php:255
+#@ parabola
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Ældre indlæg"
+
+#: includes/theme-loop.php:256
+#@ parabola
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Nyere indlæg <span class=\"meta-nav\">&raquo;</span>"
+
+#: includes/theme-meta.php:26
+#, php-format
+#@ parabola
+msgid "Page %s"
+msgstr "Side %s"
+
+#: includes/theme-setup.php:87
+#@ parabola
+msgid "Primary Navigation"
+msgstr "Primær navigation"
+
+#: includes/theme-setup.php:88
+#@ parabola
+msgid "Top Navigation"
+msgstr "Top navigation"
+
+#: includes/theme-setup.php:89
+#@ parabola
+msgid "Footer Navigation"
+msgstr "Sidefod navigation"
+
+#: includes/theme-setup.php:121
+#@ parabola
+msgid "Parabola Default Header Image"
+msgstr "Parabola Default Sidehoved billede"
+
+#: includes/theme-setup.php:182
+#@ parabola
+msgid "Skip to content"
+msgstr "Spring til indhold"
+
+#: includes/theme-setup.php:211
+#@ parabola
+msgid "Left sidebar"
+msgstr "Venstre sidebar"
+
+#: includes/theme-setup.php:222
+#@ parabola
+msgid "Right sidebar"
+msgstr "Højdre sidebar"
+
+#: includes/theme-setup.php:231
+#@ parabola
+msgid "First Footer Area"
+msgstr "Første sidefod område"
+
+#: includes/theme-setup.php:233
+#@ parabola
+msgid "First footer area"
+msgstr "Første sidefod område"
+
+#: includes/theme-setup.php:242
+#@ parabola
+msgid "Second Footer Area"
+msgstr "Andet sidefod område"
+
+#: includes/theme-setup.php:244
+#@ parabola
+msgid "Second footer area"
+msgstr "Andet sidefod område"
+
+#: includes/theme-setup.php:253
+#@ parabola
+msgid "Third Footer Area"
+msgstr "Tredje sidefod område"
+
+#: includes/theme-setup.php:255
+#@ parabola
+msgid "The third footer area"
+msgstr "Tredje sidefod område"
+
+#: includes/theme-setup.php:264
+#@ parabola
+msgid "Fourth Footer Area"
+msgstr "Fjerde sidefod område"
+
+#: includes/theme-setup.php:266
+#@ parabola
+msgid "The fourth footer area"
+msgstr "Fjerde sidefod område"
+
+#: includes/theme-setup.php:275
+#: includes/theme-setup.php:277
+#@ parabola
+msgid "Above Content Area"
+msgstr "Over indholds område"
+
+#: includes/theme-setup.php:286
+#: includes/theme-setup.php:288
+#@ parabola
+msgid "Below Content Area"
+msgstr "Under indholds område"
+
+#: search.php:18
+#, php-format
+#@ parabola
+msgid "Search Results for: %s"
+msgstr "Søgeresultat for: %s"
+
+#: search.php:40
+#, php-format
+#@ parabola
+msgid "No search results for: %s."
+msgstr "Ingen søgeresultater fro: %s."
+
+#: searchform.php:1
+#@ parabola
+msgid "SEARCH"
+msgstr "SØG"
+
+#: sidebar-left.php:28
+#, php-format
+#@ parabola
+msgid "You currently have no widgets set in the left sidebar. You can add widgets via the <a href=\"%s\">Dashboard</a>."
+msgstr "Du har ikke nogen widgets i den venstre sidebar. Du kan tilføje widgets via <a href=\"%s\">Dashboardet</a>."
+
+#: sidebar-left.php:29
+#: sidebar-right.php:29
+#, php-format
+#@ parabola
+msgid "To hide this sidebar, switch to a different Layout via the <a href=\"%s\">Theme Settings</a>."
+msgstr "For at skjule denne sidebar kan du skifte til et andet side-layout vha. <a href=\"%s\">Tema indstillingerne</a>."
+
+#: sidebar-right.php:28
+#, php-format
+#@ parabola
+msgid "You currently have no widgets set in the right sidebar. You can add widgets via the <a href=\"%s\">Dashboard</a>."
+msgstr "Du har ikke nogen widgets i den højre sidebar. Du kan tilføje widgets via <a href=\"%s\">Dashboardet</a>."
+
+#: single.php:40
+#@ parabola
+msgid "View all posts by "
+msgstr "Vis alle indlæg af "
+
+#: tag.php:21
+#, php-format
+#@ parabola
+msgid "Tag Archives: %s"
+msgstr "Tag Arkiv: %s"
+

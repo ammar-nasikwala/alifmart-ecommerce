@@ -1,0 +1,33 @@
+<html>
+<head>
+
+</head>
+
+<body style="font-family:verdana;font-size:12px;">
+
+	<div class="wrapper" style="background-color:#ccddcc;border: dashed 1px #777777;">
+<table style="border: solid 1px #cccccc; font-family:verdana; font-size:12px;" width="100%"  border="0" align="center" xclass="checkout" >
+		<tr>
+			<td align="left" colspan="1" style="font-size:16px;">Dear customer,<br>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We have received Cancelleation/Return request of the following product,</td>
+		</tr>
+		
+	</table>
+<h1>Product Details</h1>
+
+	[ord_refund_summary]
+
+<table width="100%"  border="0" class="list" >
+	<tr style="font-size:16px;">
+		Your request process has been initiated and the amount will be refunded within next 7 days.
+		Thank you for shopping with us. We look forward to serve you again.<br>
+		Please leave your feedback about our service. <a align="center" href="www.Company-Name.com/feedback.php" alt="">Company-Name Feedback</a><br>
+		In case of any queries, contact our Customer Support. <a align="center" href="www.Company-Name.com/support.php" alt="">Company-Name Support</a>
+		
+	</tr>
+	</table>
+
+</div>
+
+</body>
+</html>

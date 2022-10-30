@@ -1,0 +1,1 @@
+Hi [memb_fname], An order on Company-Name with Ref No.[ord_no] has been placed successfully.

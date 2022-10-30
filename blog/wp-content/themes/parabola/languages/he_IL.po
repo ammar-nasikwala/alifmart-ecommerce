@@ -1,0 +1,2687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parabola v1.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-11 21:38:27+0000\n"
+"Last-Translator: shim <shim4a@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ parabola
+msgid "Not Found"
+msgstr "לא נמצא"
+
+#: 404.php:20
+#@ parabola
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "סליחה, הדף שחיפשת לא נמצא. אולי חיפש יעזור."
+
+#: admin/admin-functions.php:61
+#@ parabola
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "לפני ההעלאה של הקובץ, צריך לתקן את השגיאה הבאה:"
+
+#: admin/admin-functions.php:69
+#@ parabola
+msgid "Import Parabola Theme Options"
+msgstr "ייבוא אופציות של ערכת הנושא \\\"פרבולה\\\""
+
+#: admin/admin-functions.php:71
+#@ parabola
+msgid "Hi! This is where you import the  Parabola settings.<i> Please remember that this is still an experimental feature.</i>"
+msgstr "היי, כאן תייבא את ההגדרות של \\\"פרבולה\\\". <i> אנא זכרו שהפיצ'ר הזה הוא נסיוני. </i>"
+
+#: admin/admin-functions.php:73
+#@ parabola
+msgid "Just choose a file from your computer:"
+msgstr "רק תבחר קובץ מהמחשב האישי:"
+
+#: admin/admin-functions.php:75
+#, php-format
+#@ parabola
+msgid "Maximum size: %s"
+msgstr "גודל מקסימלי: %s"
+
+#: admin/admin-functions.php:81
+#@ parabola
+msgid "And import!"
+msgstr "וייבא!"
+
+#: admin/admin-functions.php:147
+#@ parabola
+msgid "Import Parabola Theme Options "
+msgstr "ייבא הגדרות ערכת הנושא פרבולה"
+
+#: admin/admin-functions.php:150
+#@ parabola
+msgid "Great! The options have been imported!"
+msgstr "יופי! ההגדרות יובאו בהצלחה!"
+
+#: admin/admin-functions.php:151
+#@ parabola
+msgid "Go back to the Parabola options page and check them out!"
+msgstr "תחזרו להגדרות פרבולה ותבדקו אותן!"
+
+#: admin/admin-functions.php:154
+#: admin/admin-functions.php:160
+#: admin/admin-functions.php:166
+#@ parabola
+msgid "Oops, there's a small problem."
+msgstr "אופס, בעיה קטנה."
+
+#: admin/admin-functions.php:155
+#@ parabola
+msgid "The uploaded file does not contain valid Parabola options. Make sure the file is exported from the Parabola Options page."
+msgstr "הקובץ שהועלה לא מכיל הגדרות פרבולה חוקיות. אנא בדקו שהקובץ מיוצא מעמוד הגדרות פרבולה."
+
+#: admin/admin-functions.php:161
+#@ parabola
+msgid "The uploaded file could not be read."
+msgstr "הקובץ שהועלה לא ניתן לקריאה"
+
+#: admin/admin-functions.php:167
+#@ parabola
+msgid "The uploaded file is not supported. Make sure the file was exported from the Parabola page and that it is a text file."
+msgstr "הקובץ שהועלה לא נתמך. תוודאו שהוא יוצא מעמוד הגדרות פרבולה, והקובץ הינו קובץ טקסט."
+
+#: admin/admin-functions.php:176
+#@ parabola
+msgid "Oops! The file is empty or there was no file. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "אופס! הקובץ ריק, או שלא היה קובץ בכלל. הבעיה יכולה להיגרם גם אם העלאת קבצים לא מופעלת ב-php.ini או שהגדרת post_max_size נמוכה מהגדרת upload_max_size באותו הקובץ."
+
+#: admin/admin-functions.php:182
+#@ parabola
+msgid "ERROR: You are not authorised to perform that operation"
+msgstr "שגיאה: אינך מורשה לפעולה זו"
+
+#: admin/admin-functions.php:191
+#@ parabola
+msgid ""
+"Are you sure you want to load a new color scheme? \n"
+"All current saved settings under Text and Color Settings will be lost."
+msgstr ""
+"האם אתם בטוחים שאתם רוצים ערכת צבעים חדשה?\n"
+"כל ההגדרות תחת טקסט וצבעים יילכו לאיבוד."
+
+#: admin/admin-functions.php:197
+#@ parabola
+msgid "Select one of the preset color schemes and press the Load button.<br> <b> CAUTION! </b> When loading a color scheme, the Parabola theme settings under Text and Color Settings will be overriden. All other settings will remain intact.<br> <u>SUGGESTION:</u> It's always better to export your current theme settings before loading a color scheme."
+msgstr "בחרו אחת מערכות הצבעים ולחצו על כפתור הטען.<br><b>זהירות!</b>כשמשנים ערכת צבעים, כל ההגדרות שתחת טקסט וצבעים ישוכתבו. כל שאר ההגדרות יישארו ללא שינוי.<br><u>הצעה:</u>תמיד עדיף לייצא את הגדרות ערכת הנושא לפני שינויי צבעים."
+
+#: admin/admin-functions.php:221
+#@ parabola
+msgid "Load Color Scheme"
+msgstr "טען ערכת צבעים"
+
+#: admin/main.php:112
+#@ parabola
+msgid "Layout Settings"
+msgstr "הגדרות פריסה"
+
+#: admin/main.php:113
+#@ parabola
+msgid "Header Settings"
+msgstr "הגדרות כותרת"
+
+#: admin/main.php:114
+#: admin/main.php:173
+#@ parabola
+msgid "Presentation Page"
+msgstr "עמוד פרזנטציה"
+
+#: admin/main.php:115
+#@ parabola
+msgid "Text Settings"
+msgstr "הגדרות טקסט"
+
+#: admin/main.php:116
+#@ parabola
+msgid "Color Settings"
+msgstr "הגדרות צבע"
+
+#: admin/main.php:117
+#@ parabola
+msgid "Graphics Settings"
+msgstr "הגדרות גרפיקה"
+
+#: admin/main.php:118
+#@ parabola
+msgid "Post Information Settings"
+msgstr "הגדרות מידע על פוסט"
+
+#: admin/main.php:119
+#@ parabola
+msgid "Post Excerpt Settings"
+msgstr "הגדרות תקציר"
+
+#: admin/main.php:120
+#@ parabola
+msgid "Featured Image Settings"
+msgstr "הגדרות תמונה מייצגת"
+
+#: admin/main.php:121
+#@ parabola
+msgid "Social Media Settings"
+msgstr "הגדרות מדיה חברתית"
+
+#: admin/main.php:122
+#@ parabola
+msgid "Miscellaneous Settings"
+msgstr "הגדרות שונות"
+
+#: admin/main.php:125
+#@ parabola
+msgid "Main Layout"
+msgstr "פריסה ראשית"
+
+#: admin/main.php:126
+#@ parabola
+msgid "Content / Sidebar Width"
+msgstr "רוחב תוכן / סרגל צד"
+
+#: admin/main.php:127
+#@ parabola
+msgid "Responsiveness"
+msgstr "תאימות מסכים"
+
+#: admin/main.php:130
+#@ parabola
+msgid "Enable Presentation Page"
+msgstr "הפעל עמוד פרזנטציה"
+
+#: admin/main.php:131
+#@ parabola
+msgid "Show Posts on Presentation Page"
+msgstr "הראה פוסטים בעמוד פרזנטציה"
+
+#: admin/main.php:132
+#@ parabola
+msgid "Slider Settings"
+msgstr "הגדרות סליידר"
+
+#: admin/main.php:133
+#@ parabola
+msgid "Slides"
+msgstr "שקופיות"
+
+#: admin/main.php:134
+#@ parabola
+msgid "Presentation Page Columns"
+msgstr "עמודות בעמוד פרזנטציה"
+
+#: admin/main.php:135
+#@ parabola
+msgid "Extras"
+msgstr "תוספות"
+
+#: admin/main.php:138
+#@ parabola
+msgid "Header Height"
+msgstr "גובה הכותרת"
+
+#: admin/main.php:139
+#@ parabola
+msgid "Header Image"
+msgstr "תמונת הכותרת"
+
+#: admin/main.php:140
+#@ parabola
+msgid "Site Header"
+msgstr "כותרת האתר"
+
+#: admin/main.php:141
+#@ parabola
+msgid "Custom Logo Upload"
+msgstr "העלאת לוגו מותאם אישית"
+
+#: admin/main.php:142
+#@ parabola
+msgid "Header Content Spacing"
+msgstr "רווח תוכן הכותרת"
+
+#: admin/main.php:143
+#@ parabola
+msgid "FavIcon Upload"
+msgstr "העלאת אייקון"
+
+#: admin/main.php:144
+#@ parabola
+msgid "Header Widget Width"
+msgstr "רוחב ווידג'ט כותרת"
+
+#: admin/main.php:147
+#: admin/settings.php:635
+#: admin/settings.php:654
+#: admin/settings.php:672
+#: admin/settings.php:690
+#: admin/settings.php:711
+#@ parabola
+msgid "General Font"
+msgstr "גופן כללי"
+
+#: admin/main.php:148
+#@ parabola
+msgid "Post Title Font "
+msgstr "גופן כותרת הפוסט"
+
+#: admin/main.php:149
+#@ parabola
+msgid "Widget Title Font"
+msgstr "גופן כותרת הווידג'ט"
+
+#: admin/main.php:150
+#@ parabola
+msgid "Site Title Font"
+msgstr "גופן כותרת האתר"
+
+#: admin/main.php:151
+#@ parabola
+msgid "Main Menu Font"
+msgstr "גופן תפריט ראשי"
+
+#: admin/main.php:152
+#@ parabola
+msgid "Headings Font"
+msgstr "פונט כותרת"
+
+#: admin/main.php:153
+#@ parabola
+msgid "Force Text Align"
+msgstr "קבע יישור טקסט"
+
+#: admin/main.php:154
+#@ parabola
+msgid "Paragraph spacing"
+msgstr "מרווח בין פסקאות"
+
+#: admin/main.php:155
+#@ parabola
+msgid "Paragraph Indent"
+msgstr "הזחת פסקה"
+
+#: admin/main.php:156
+#@ parabola
+msgid "Headings Indent"
+msgstr "הזחת כותרת"
+
+#: admin/main.php:157
+#@ parabola
+msgid "Line Height"
+msgstr "גובה שורה"
+
+#: admin/main.php:158
+#@ parabola
+msgid "Word Spacing"
+msgstr "מרווח בין מילים"
+
+#: admin/main.php:159
+#@ parabola
+msgid "Letter Spacing"
+msgstr "מרווח ביו אותיות"
+
+#: admin/main.php:160
+#@ parabola
+msgid "Uppercase Text"
+msgstr "אותיות רישיות"
+
+#: admin/main.php:164
+#@ parabola
+msgid "Background Image"
+msgstr "תמונת רקע"
+
+#: admin/main.php:165
+#@ parabola
+msgid "General"
+msgstr "כללי"
+
+#: admin/main.php:166
+#@ parabola
+msgid "Accents"
+msgstr "הדגשות"
+
+#: admin/main.php:167
+#: admin/settings.php:877
+#@ parabola
+msgid "Site Title"
+msgstr "כותרת האתר"
+
+#: admin/main.php:169
+#@ parabola
+msgid "Main Menu"
+msgstr "תפריט ראשי"
+
+#: admin/main.php:170
+#@ parabola
+msgid "Top Menu"
+msgstr "תפריט עליון"
+
+#: admin/main.php:172
+#@ parabola
+msgid "Content"
+msgstr "תוכן"
+
+#: admin/main.php:174
+#@ parabola
+msgid "Sidebar Widgets"
+msgstr "ווידג'טים לסרגל צד"
+
+#: admin/main.php:175
+#@ parabola
+msgid "Footer Widgets"
+msgstr "ווידג'טים לכותרת תחתונה"
+
+#: admin/main.php:176
+#@ parabola
+msgid "Links"
+msgstr "קישורים"
+
+#: admin/main.php:178
+#@ parabola
+msgid "Caption Border"
+msgstr "גבולות כיתוב"
+
+#: admin/main.php:179
+#@ parabola
+msgid "Meta Area Background"
+msgstr "רקע איזור meta"
+
+#: admin/main.php:183
+#@ parabola
+msgid "Breadcrumbs"
+msgstr "שרשרת ניווט"
+
+#: admin/main.php:184
+#@ parabola
+msgid "Pagination"
+msgstr "עימוד"
+
+#: admin/main.php:185
+#@ parabola
+msgid "Menu Alignment"
+msgstr "יישור תפריט"
+
+#: admin/main.php:186
+#@ parabola
+msgid "Triangle Accents"
+msgstr "הדגשות משולשים"
+
+#: admin/main.php:187
+#@ parabola
+msgid "Post Images Border"
+msgstr "גבול תמונות פוסטים"
+
+#: admin/main.php:188
+#@ parabola
+msgid "Content List Bullets"
+msgstr "סימן רשימה בתוכן"
+
+#: admin/main.php:189
+#@ parabola
+msgid "Page Titles"
+msgstr "כותרות דפים"
+
+#: admin/main.php:190
+#@ parabola
+msgid "Category Titles"
+msgstr "כותרות קטגוריות"
+
+#: admin/main.php:191
+#@ parabola
+msgid "Hide Tables"
+msgstr "הסתר טבלאות"
+
+#: admin/main.php:192
+#@ parabola
+msgid "Back to Top button"
+msgstr "כפתור חזרה להתחלה"
+
+#: admin/main.php:193
+#@ parabola
+msgid "Text Under Comments"
+msgstr "טקסט מתחת להערות"
+
+#: admin/main.php:194
+#@ parabola
+msgid "Comments are closed text"
+msgstr "הערות הן טקסט סגור"
+
+#: admin/main.php:195
+#@ parabola
+msgid "Comments off"
+msgstr "הערות כבויות"
+
+#: admin/main.php:198
+#@ parabola
+msgid "Post Comments Link"
+msgstr "קישור להערות על פוסט"
+
+#: admin/main.php:199
+#@ parabola
+msgid "Post Date/Time"
+msgstr "תאריך/שעה של הפוסט"
+
+#: admin/main.php:200
+#@ parabola
+msgid "Post Author"
+msgstr "מחבר הפוסט"
+
+#: admin/main.php:201
+#@ parabola
+msgid "Post Category"
+msgstr "קטגוריית הפוסט"
+
+#: admin/main.php:202
+#@ parabola
+msgid "Meta Bar"
+msgstr "פס meta"
+
+#: admin/main.php:203
+#@ parabola
+msgid "Post Tags"
+msgstr "תגיות הפוסט"
+
+#: admin/main.php:204
+#@ parabola
+msgid "Post Permalink"
+msgstr "קישור קבוע לפוסט"
+
+#: admin/main.php:207
+#: includes/theme-functions.php:238
+#@ parabola
+msgid "Home Page"
+msgstr "עמוד הבית"
+
+#: admin/main.php:208
+#: admin/settings.php:321
+#@ parabola
+msgid "Sticky Posts"
+msgstr "פוסטים דביקים"
+
+#: admin/main.php:209
+#@ parabola
+msgid "Archive and Category Pages"
+msgstr "עמודי ארכיון וקטגוריות"
+
+#: admin/main.php:210
+#@ parabola
+msgid "Number of Words for Post Excerpts "
+msgstr "מספר המילים לתקציר הפוסט"
+
+#: admin/main.php:211
+#@ parabola
+msgid "Magazine Layout"
+msgstr "פריסת מגזין"
+
+#: admin/main.php:212
+#@ parabola
+msgid "Excerpt suffix"
+msgstr "סופית של התקציר"
+
+#: admin/main.php:213
+#@ parabola
+msgid "Continue reading link text "
+msgstr "טקסט קישור להמשך קריאה"
+
+#: admin/main.php:214
+#@ parabola
+msgid "HTML tags in Excerpts"
+msgstr "תגיות HTML בתוך תקצירים"
+
+#: admin/main.php:217
+#@ parabola
+msgid "Featured Images as POST Thumbnails "
+msgstr "תמונות הפוסטים כתמונות ממוזערות"
+
+#: admin/main.php:218
+#@ parabola
+msgid "Auto Select Images From Posts "
+msgstr "בחירה אוטומטית של תמונות מתוך הפוסט"
+
+#: admin/main.php:219
+#@ parabola
+msgid "Thumbnails Alignment "
+msgstr "יישור תמונות ממוזערות"
+
+#: admin/main.php:220
+#@ parabola
+msgid "Thumbnails Size "
+msgstr "גודל תמונות ממוזערות"
+
+#: admin/main.php:221
+#@ parabola
+msgid "Featured Images as HEADER Images "
+msgstr "תמונת הפוסט כתמונת כותרת"
+
+#: admin/main.php:224
+#@ parabola
+msgid "Link nr. 1"
+msgstr "קישור מס. 1"
+
+#: admin/main.php:225
+#@ parabola
+msgid "Link nr. 2"
+msgstr "קישור מס. 2"
+
+#: admin/main.php:226
+#@ parabola
+msgid "Link nr. 3"
+msgstr "קישור מס. 3"
+
+#: admin/main.php:227
+#@ parabola
+msgid "Link nr. 4"
+msgstr "קישור מס. 4"
+
+#: admin/main.php:228
+#@ parabola
+msgid "Link nr. 5"
+msgstr "קישור מס. 5"
+
+#: admin/main.php:229
+#@ parabola
+msgid "Socials display"
+msgstr "הצג מדיה חברתית"
+
+#: admin/main.php:232
+#@ parabola
+msgid "Internet Explorer Compatibility Tag"
+msgstr "תגית התאמה לאקספלורר"
+
+#: admin/main.php:233
+#@ parabola
+msgid "Custom Footer Text"
+msgstr "טקסט מותאם אישית לכותרת תחתונה"
+
+#: admin/main.php:234
+#@ parabola
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+#: admin/main.php:235
+#@ parabola
+msgid "Custom JavaScript"
+msgstr "JS מותאם אישית"
+
+#: admin/main.php:261
+#@ parabola
+msgid "Sorry, but you do not have sufficient permissions to access this page."
+msgstr "סליחה, אין לך הרשאות גישה לעמוד זה."
+
+#: admin/main.php:280
+#@ parabola
+msgid "Parabola settings updated successfully."
+msgstr "הגדרות ערכת הנושא עודכנו בהצלחה"
+
+#: admin/main.php:295
+#@ parabola
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: admin/main.php:296
+#@ parabola
+msgid "Reset to Defaults"
+msgstr "חזור לברירת מחדל"
+
+#: admin/main.php:327
+#@ parabola
+msgid "Import/Export Settings"
+msgstr "ייבוא/ייצוא הגדרות"
+
+#: admin/main.php:333
+#@ parabola
+msgid "Export Theme options"
+msgstr "ייצא הגדרות ערכת נושא"
+
+#: admin/main.php:334
+#@ parabola
+msgid "It's that easy: a mouse click away - the ability to export your Parabola settings and save them on your computer. Feeling safer? You should!"
+msgstr "נורא פשוט: קליק אחד ויש לך אפשרות לייצא ולשמור את ההגדרות שלך על המחשב האישי. מרגיש יותר בטוח?"
+
+#: admin/main.php:339
+#@ parabola
+msgid "Import Theme options"
+msgstr "ייבוא הגדרות ערכת נושא"
+
+#: admin/main.php:340
+#@ parabola
+msgid "Without the import, the export would just be a fool's exercise. Make sure you have the exported file ready and see you after the mouse click."
+msgstr ""
+
+#: admin/main.php:345
+#@ parabola
+msgid "Color Schemes"
+msgstr "ערכות צבעים"
+
+#: admin/main.php:346
+#@ parabola
+msgid "A collection of preset color schemes to use as the starting point for your site. Just load one up and see your blog in a different light."
+msgstr ""
+
+#: admin/main.php:354
+#@ parabola
+msgid "Parabola Latest News"
+msgstr "חדשות אחרונות על ערכת הנושא"
+
+#: admin/main.php:365
+#@ parabola
+msgid "No news items."
+msgstr "אין חדשות"
+
+#: admin/main.php:369
+#@ parabola
+msgid "Posted on"
+msgstr "פורסם ב"
+
+#: admin/main.php:383
+#@ parabola
+msgid "Reset Parabola Settings to Defaults?"
+msgstr "להחזיר את ההגדרות לברירת המחדל?"
+
+#: admin/settings.php:61
+#@ parabola
+msgid "or Google font"
+msgstr "או גופן גוגל"
+
+#: admin/settings.php:73
+#@ parabola
+msgid "One column (no sidebars)"
+msgstr "עמודה אחת (ללא סרגלי צד)"
+
+#: admin/settings.php:74
+#@ parabola
+msgid "Two columns, sidebar on the right"
+msgstr "שתי עמודות, הסרגל מימין"
+
+#: admin/settings.php:75
+#@ parabola
+msgid "Two columns, sidebar on the left"
+msgstr "שתי עמודות, הסרגל משמאל"
+
+#: admin/settings.php:76
+#@ parabola
+msgid "Three columns, sidebars on the right"
+msgstr "שלוש עמודות, הסרגלים מימין"
+
+#: admin/settings.php:77
+#@ parabola
+msgid "Three columns, sidebars on the left"
+msgstr "שלוש עמודות, הסרגלים משמאל"
+
+#: admin/settings.php:78
+#@ parabola
+msgid "Three columns, one sidebar on each side"
+msgstr "שלוש עמודות, הסרגלים בצדדים"
+
+#: admin/settings.php:86
+#@ parabola
+msgid "Choose your layout. Possible options are: <br> No sidebar, a single sidebar on either left of right, two sidebars on either left or right and two sidebars on each side.<br>This can be overriden in pages by using Page Templates."
+msgstr ""
+
+#: admin/settings.php:135
+#@ parabola
+msgid "Content ="
+msgstr "תוכן ="
+
+#: admin/settings.php:136
+#@ parabola
+msgid "Sidebar(s) ="
+msgstr "סרגלי צד ="
+
+#: admin/settings.php:137
+#@ parabola
+msgid "Total width ="
+msgstr "סך הרוחב"
+
+#: admin/settings.php:144
+#@ parabola
+msgid "Select the width of your <b>content</b> and <b>sidebar(s)</b>. When using a 3 columns layout (with 2 sidebars) they will each have half the configured width."
+msgstr ""
+
+#: admin/settings.php:153
+#: admin/settings.php:175
+#: admin/settings.php:189
+#: admin/settings.php:750
+#: admin/settings.php:1005
+#: admin/settings.php:1020
+#: admin/settings.php:1048
+#: admin/settings.php:1125
+#: admin/settings.php:1187
+#: admin/settings.php:1371
+#: admin/settings.php:1400
+#: admin/settings.php:1423
+#: admin/settings.php:1443
+#: admin/settings.php:1493
+#: admin/settings.php:1643
+#@ parabola
+msgid "Enable"
+msgstr "הפעל"
+
+#: admin/settings.php:153
+#: admin/settings.php:175
+#: admin/settings.php:189
+#: admin/settings.php:750
+#: admin/settings.php:1005
+#: admin/settings.php:1020
+#: admin/settings.php:1048
+#: admin/settings.php:1125
+#: admin/settings.php:1187
+#: admin/settings.php:1371
+#: admin/settings.php:1400
+#: admin/settings.php:1423
+#: admin/settings.php:1443
+#: admin/settings.php:1493
+#: admin/settings.php:1643
+#@ parabola
+msgid "Disable"
+msgstr "כבה"
+
+#: admin/settings.php:162
+#@ parabola
+msgid "Allow zoom"
+msgstr "אפשר זום"
+
+#: admin/settings.php:163
+#@ parabola
+msgid "Enable to make Parabola fully responsive. The layout and general sizes of your blog will adjust depending on what device and what resolution it is viewed in.<br> Do not disable unless you have a good reason to."
+msgstr ""
+
+#: admin/settings.php:183
+#@ parabola
+msgid "Enable the presentation front-page. This will become your new home page. <br> If you want another page to hold your latest blog posts, choose 'Blog Template (Posts Page)' from Page Templates while creating or editing that page."
+msgstr ""
+
+#: admin/settings.php:198
+#@ parabola
+msgid "posts"
+msgstr "פוסטים"
+
+#: admin/settings.php:199
+#@ parabola
+msgid "Enable to display latest posts on the presentation page, below the columns. Sticky posts are always displayed and not counted."
+msgstr ""
+
+#: admin/settings.php:206
+#@ parabola
+msgid "Slider Dimensions:"
+msgstr "מימדי הסליידר"
+
+#: admin/settings.php:207
+#@ parabola
+msgid "width"
+msgstr "רוחב"
+
+#: admin/settings.php:208
+#@ parabola
+msgid "height"
+msgstr "גובה"
+
+#: admin/settings.php:209
+#@ parabola
+msgid "The dimensions of your slider. Make sure your images are of the same size."
+msgstr ""
+
+#: admin/settings.php:211
+#@ parabola
+msgid "Animation:"
+msgstr "אנימציה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "Random"
+msgstr "ראנדום"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "Fold"
+msgstr "קיפול"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "Fade"
+msgstr "דוהה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SlideInRight"
+msgstr "גולש ימינה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SlideInLeft"
+msgstr "גולש שמאלה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SliceDown"
+msgstr "נחתך למטה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SliceDownLeft"
+msgstr "נחתך למעלה ושמאלה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SliceUp"
+msgstr "נחתך למעלה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SliceUpLeft"
+msgstr "נחתך למעלה ושמאלה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SliceUpDown"
+msgstr "נחתך מלמעלה ומלמטה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "SliceUpDownLeft"
+msgstr "נחתך מלמעלה, מלמטה ומשמאל"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "BoxRandom"
+msgstr "ריבוע ראנדום"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "BoxRain"
+msgstr "ריבוע גשם"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "BoxRainReverse"
+msgstr "ריבוע גשם הפוך"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "BoxRainGrow"
+msgstr "ריבוע גשם צמיחה"
+
+#: admin/settings.php:213
+#@ parabola
+msgid "BoxRainGrowReverse"
+msgstr ""
+
+#: admin/settings.php:222
+#@ parabola
+msgid "The transition effect of your slides."
+msgstr "אפקט המעבר בין שקופיות"
+
+#: admin/settings.php:224
+#@ parabola
+msgid "Animation Time:"
+msgstr "משך האנימציה"
+
+#: admin/settings.php:225
+#: admin/settings.php:229
+#@ parabola
+msgid "milliseconds"
+msgstr "מילישניות"
+
+#: admin/settings.php:226
+#@ parabola
+msgid "The time in which the transition animation will take place."
+msgstr ""
+
+#: admin/settings.php:228
+#@ parabola
+msgid "Pause Time:"
+msgstr "זמן המתנה"
+
+#: admin/settings.php:230
+#@ parabola
+msgid "The time in which a slide will be still and visible."
+msgstr ""
+
+#: admin/settings.php:232
+#@ parabola
+msgid "Slider navigation:"
+msgstr "ניווט סליידר"
+
+#: admin/settings.php:234
+#@ parabola
+msgid "Numbers"
+msgstr "מספרים"
+
+#: admin/settings.php:234
+#@ parabola
+msgid "Bullets"
+msgstr "נקודות"
+
+#: admin/settings.php:234
+#@ parabola
+msgid "None"
+msgstr "בלי"
+
+#: admin/settings.php:242
+#@ parabola
+msgid "Your slider navigation type. Shown under the slider."
+msgstr ""
+
+#: admin/settings.php:244
+#@ parabola
+msgid "Slider arrows:"
+msgstr "חיצים לסליידר"
+
+#: admin/settings.php:246
+#@ parabola
+msgid "Always Visible"
+msgstr "תמיד"
+
+#: admin/settings.php:246
+#@ parabola
+msgid "Visible on Hover"
+msgstr "רק במעבר עם עכבר"
+
+#: admin/settings.php:246
+#@ parabola
+msgid "Hidden"
+msgstr "חבוי"
+
+#: admin/settings.php:254
+#@ parabola
+msgid "The Left and Right arrows on your slider"
+msgstr ""
+
+#: admin/settings.php:321
+#@ parabola
+msgid "Custom Slides"
+msgstr "שקופיות מותאמות אישית"
+
+#: admin/settings.php:321
+#@ parabola
+msgid "Latest Posts"
+msgstr "פוסטים אחרונים"
+
+#: admin/settings.php:321
+#@ parabola
+msgid "Random Posts"
+msgstr "פוסטים אקראיים"
+
+#: admin/settings.php:321
+#@ parabola
+msgid "Latest Posts from Category"
+msgstr "פוסטים אחרונים בקטגוריה"
+
+#: admin/settings.php:321
+#@ parabola
+msgid "Random Posts from Category"
+msgstr "פוסטים אקראיים בקטגוריה"
+
+#: admin/settings.php:321
+#@ parabola
+msgid "Specific Posts"
+msgstr "פוסטים ספציפיים"
+
+#: admin/settings.php:321
+#@ parabola
+msgid "Disabled"
+msgstr "כבוי"
+
+#: admin/settings.php:330
+#@ parabola
+msgid "Only the slides with a defined image will become active and visible in the live slider.<br>When using slides from posts, make sure the selected posts have featured images.<br>Read the FAQs for more info."
+msgstr ""
+
+#: admin/settings.php:335
+#@ parabola
+msgid "Latest posts will be loaded into the slider."
+msgstr ""
+
+#: admin/settings.php:339
+#@ parabola
+msgid "Random posts will be loaded into the slider."
+msgstr ""
+
+#: admin/settings.php:343
+#@ parabola
+msgid "Latest posts from the category you choose will be loaded in the slider."
+msgstr ""
+
+#: admin/settings.php:347
+#@ parabola
+msgid "Random posts from the category you choose will be loaded into the slider."
+msgstr ""
+
+#: admin/settings.php:351
+#@ parabola
+msgid "Only sticky posts will be loaded into the slider."
+msgstr ""
+
+#: admin/settings.php:355
+#@ parabola
+msgid "List the post IDs you want to display (separated by a comma): "
+msgstr ""
+
+#: admin/settings.php:360
+#@ parabola
+msgid "<br> Choose the category: "
+msgstr "<br> בחר קטגוריה אחת:"
+
+#: admin/settings.php:362
+#@ parabola
+msgid "Select Category"
+msgstr "בחר קטגוריה"
+
+#: admin/settings.php:376
+#@ parabola
+msgid "Number of posts to show:"
+msgstr "מספר הפוסטים לתצוגה"
+
+#: admin/settings.php:387
+#@ parabola
+msgid "Slide"
+msgstr "שקופית"
+
+#: admin/settings.php:389
+#: admin/settings.php:441
+#: content/content-image.php:18
+#@ parabola
+msgid "Image"
+msgstr "תמונה"
+
+#: admin/settings.php:392
+#: admin/settings.php:444
+#: admin/settings.php:555
+#: admin/settings.php:578
+#@ parabola
+msgid "Select / Upload Image"
+msgstr "בחר / העלה תמונה"
+
+#: admin/settings.php:393
+#: admin/settings.php:445
+#@ parabola
+msgid "Title"
+msgstr "כותרת"
+
+#: admin/settings.php:396
+#: admin/settings.php:448
+#@ parabola
+msgid "Text"
+msgstr "טקסט"
+
+#: admin/settings.php:399
+#: admin/settings.php:451
+#: content/content-link.php:19
+#@ parabola
+msgid "Link"
+msgstr "קישור"
+
+#: admin/settings.php:415
+#@ parabola
+msgid "Number of columns:"
+msgstr "מספר עמודות:"
+
+#: admin/settings.php:425
+#@ parabola
+msgid "Image Size:"
+msgstr "גודל תמונה:"
+
+#: admin/settings.php:426
+#@ parabola
+msgid "Height: "
+msgstr "גובה:"
+
+#: admin/settings.php:427
+#@ parabola
+msgid "Width: "
+msgstr "רוחב:"
+
+#: admin/settings.php:428
+#@ parabola
+msgid "The sizes for your column images. The width is dependent on total site width and not configurable."
+msgstr ""
+
+#: admin/settings.php:430
+#@ parabola
+msgid "Read more text:"
+msgstr "קרא עוד:"
+
+#: admin/settings.php:433
+#@ parabola
+msgid "The linked text that appears at the bottom of each column. Leave empty to hide the link."
+msgstr ""
+
+#: admin/settings.php:439
+#@ parabola
+msgid "Column"
+msgstr "עמודה"
+
+#: admin/settings.php:464
+#@ parabola
+msgid "Extra Text"
+msgstr "עוד טקסט"
+
+#: admin/settings.php:466
+#@ parabola
+msgid "Text for the Presentation Page"
+msgstr "טקסט לעמוד פרזנטציה"
+
+#: admin/settings.php:468
+#@ parabola
+msgid "More text for your front page. The top title is above the slider, the second title between the slider and the columns and 2 more rows of text under the columns.<br>It's all optional so leave any input field empty to not dispaly it."
+msgstr ""
+
+#: admin/settings.php:470
+#@ parabola
+msgid "Top Title"
+msgstr "כותרת ראשית"
+
+#: admin/settings.php:472
+#@ parabola
+msgid "Second Title"
+msgstr "כותרת משנה"
+
+#: admin/settings.php:475
+#@ parabola
+msgid "Bottom Text 1"
+msgstr "טקסט תחתון 1"
+
+#: admin/settings.php:477
+#@ parabola
+msgid "Bottom Text 2"
+msgstr "טקסט תחתון 2"
+
+#: admin/settings.php:480
+#@ parabola
+msgid "Hide areas"
+msgstr "החבא איזורים"
+
+#: admin/settings.php:482
+#@ parabola
+msgid "Choose the areas to hide on the first page."
+msgstr "איזה איזורים לא יוצגו בעמוד הראשון."
+
+#: admin/settings.php:493
+#@ parabola
+msgid "Hide the header area (logo/title and/or image/empty area)."
+msgstr ""
+
+#: admin/settings.php:496
+#@ parabola
+msgid "Hide the main menu and the top menu."
+msgstr ""
+
+#: admin/settings.php:499
+#@ parabola
+msgid "Hide the footer widgets. "
+msgstr ""
+
+#: admin/settings.php:502
+#@ parabola
+msgid "Hide the footer (copyright area)."
+msgstr ""
+
+#: admin/settings.php:516
+#@ parabola
+msgid "Select the header's height. After saving the settings go and upload your new header image. The header's width will be "
+msgstr ""
+
+#: admin/settings.php:522
+#@ parabola
+msgid "Define header image"
+msgstr "הגדר את תמונת הכותרת"
+
+#: admin/settings.php:525
+#@ parabola
+msgid "Center the header image horizontally"
+msgstr "מרכז את תמונת הכותרת בצורה אופקית"
+
+#: admin/settings.php:528
+#@ parabola
+msgid "Keep header image aspect ratio."
+msgstr "שמור על יחס גובה רוחב"
+
+#: admin/settings.php:529
+#@ parabola
+msgid "By default the header has a minimum height set. This option removes that and the header becomes fully responsive, scalling to any size.<br> Only enable this if you're <b>not</b> using a logo or site title and description in the header. "
+msgstr ""
+
+#: admin/settings.php:536
+#@ parabola
+msgid "Site Title and Description"
+msgstr "כותרת ותיאור האתר"
+
+#: admin/settings.php:536
+#@ parabola
+msgid "Custom Logo"
+msgstr "לוגו מותאם אישית"
+
+#: admin/settings.php:536
+#@ parabola
+msgid "Clickable header image"
+msgstr "תמונת כותרת ניתנת ללחיצה"
+
+#: admin/settings.php:536
+#@ parabola
+msgid "Empty"
+msgstr "ריק"
+
+#: admin/settings.php:544
+#@ parabola
+msgid "Choose what to display inside your header area."
+msgstr ""
+
+#: admin/settings.php:554
+#@ parabola
+msgid "Custom Logo upload. The logo will appear over the header image if you have used one."
+msgstr ""
+
+#: admin/settings.php:563
+#@ parabola
+msgid "top"
+msgstr "למעלה"
+
+#: admin/settings.php:564
+#@ parabola
+msgid "left"
+msgstr "שמאלה"
+
+#: admin/settings.php:567
+#@ parabola
+msgid "Select the top and left spacing for the header content. Use it to better position your site title and description or custom logo inside the header. "
+msgstr ""
+
+#: admin/settings.php:577
+#@ parabola
+msgid "Limitations: It has to be an image. It should be max 64x64 pixels in dimensions. Recommended file extensions .ico and .png. <br> <strong>Note that some browsers do not display the changed favicon instantly.</strong>"
+msgstr ""
+
+#: admin/settings.php:587
+#@ parabola
+msgid "60%"
+msgstr ""
+
+#: admin/settings.php:587
+#@ parabola
+msgid "50%"
+msgstr ""
+
+#: admin/settings.php:587
+#@ parabola
+msgid "33%"
+msgstr ""
+
+#: admin/settings.php:587
+#@ parabola
+msgid "25%"
+msgstr ""
+
+#: admin/settings.php:595
+#@ parabola
+msgid "Limit the header widget area max width as percentage of the entire header width."
+msgstr ""
+
+#: admin/settings.php:618
+#@ parabola
+msgid "Select the general font family and size or insert the Google Font name you'll use in your blog. This will affect all text except the one controlled by the options below. "
+msgstr ""
+
+#: admin/settings.php:637
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want for your titles. It will affect post titles and page titles. Leave 'General Font' and the general font values you selected will be used."
+msgstr ""
+
+#: admin/settings.php:656
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your widget titles to have. Leave 'General Font' and the general font values you selected will be used."
+msgstr ""
+
+#: admin/settings.php:674
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your site title and tagline to use. Leave 'General Font' and the general font values you selected will be used."
+msgstr ""
+
+#: admin/settings.php:692
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your main menu to use. Leave 'General Font' and the general font values you selected will be used."
+msgstr ""
+
+#: admin/settings.php:713
+#@ parabola
+msgid "Select the font family and size or insert the Google Font name you want your headings to have (h1 - h6 tags will be affected). Leave 'General Font' and the general font values you selected will be used."
+msgstr ""
+
+#: admin/settings.php:720
+#: admin/settings.php:780
+#: admin/settings.php:795
+#@ parabola
+msgid "Default"
+msgstr ""
+
+#: admin/settings.php:720
+#: admin/settings.php:1034
+#: admin/settings.php:1459
+#@ parabola
+msgid "Left"
+msgstr ""
+
+#: admin/settings.php:720
+#: admin/settings.php:1034
+#: admin/settings.php:1459
+#@ parabola
+msgid "Right"
+msgstr ""
+
+#: admin/settings.php:720
+#@ parabola
+msgid "Justify"
+msgstr ""
+
+#: admin/settings.php:720
+#: admin/settings.php:1034
+#: admin/settings.php:1459
+#@ parabola
+msgid "Center"
+msgstr ""
+
+#: admin/settings.php:728
+#@ parabola
+msgid "This overwrites the text alignment in posts and pages. Leave 'Default' for normal settings (alignment will remain as declared in posts, comments etc.)."
+msgstr ""
+
+#: admin/settings.php:742
+#@ parabola
+msgid "Choose the indent for your paragraphs."
+msgstr ""
+
+#: admin/settings.php:758
+#@ parabola
+msgid "Disable the default headings indent (left margin)."
+msgstr ""
+
+#: admin/settings.php:773
+#@ parabola
+msgid "Text line height. The height between 2 rows of text."
+msgstr ""
+
+#: admin/settings.php:788
+#@ parabola
+msgid "The space between <i>words</i>. Leave 'Default' for normal settings (size value will be as set in the CSS)."
+msgstr ""
+
+#: admin/settings.php:803
+#@ parabola
+msgid "The space between <i>letters</i>. Leave 'Default' for normal settings (size value will be as set in the CSS)."
+msgstr ""
+
+#: admin/settings.php:820
+#@ parabola
+msgid "Select the spacing between the paragraphs."
+msgstr ""
+
+#: admin/settings.php:827
+#@ parabola
+msgid "Default (enabled)"
+msgstr ""
+
+#: admin/settings.php:827
+#@ parabola
+msgid "Disable everywhere"
+msgstr ""
+
+#: admin/settings.php:835
+#@ parabola
+msgid "Disable the built-in theme uppercase text styling. Note that some bult-in fonts only support upercase text and these will not be affected."
+msgstr ""
+
+#: admin/settings.php:843
+#@ parabola
+msgid "Define background image"
+msgstr ""
+
+#: admin/settings.php:848
+#: admin/settings.php:874
+#: admin/settings.php:884
+#: admin/settings.php:899
+#: admin/settings.php:931
+#: admin/settings.php:943
+#@ parabola
+msgid "Background:"
+msgstr ""
+
+#: admin/settings.php:849
+#@ parabola
+msgid "Header Background"
+msgstr ""
+
+#: admin/settings.php:850
+#@ parabola
+msgid "Main Site Background"
+msgstr ""
+
+#: admin/settings.php:851
+#@ parabola
+msgid "Footer Widgets Area Background"
+msgstr ""
+
+#: admin/settings.php:852
+#@ parabola
+msgid "Footer Background"
+msgstr ""
+
+#: admin/settings.php:853
+#: admin/settings.php:876
+#: admin/settings.php:889
+#: admin/settings.php:902
+#: admin/settings.php:934
+#: admin/settings.php:946
+#@ parabola
+msgid "Text:"
+msgstr ""
+
+#: admin/settings.php:854
+#@ parabola
+msgid "General Text"
+msgstr ""
+
+#: admin/settings.php:855
+#@ parabola
+msgid "General Lighter Text"
+msgstr ""
+
+#: admin/settings.php:856
+#@ parabola
+msgid "Footer Text"
+msgstr ""
+
+#: admin/settings.php:857
+#@ parabola
+msgid "The site background features 4 separately coloured areas.<br />The general text colour applies to all text on the website that is not controlled by any other option."
+msgstr ""
+
+#: admin/settings.php:862
+#@ parabola
+msgid "Accent Color #1"
+msgstr ""
+
+#: admin/settings.php:863
+#@ parabola
+msgid "Accent Color #2"
+msgstr ""
+
+#: admin/settings.php:864
+#@ parabola
+msgid "Accent Color #3"
+msgstr ""
+
+#: admin/settings.php:865
+#@ parabola
+msgid "Accent Color #4"
+msgstr ""
+
+#: admin/settings.php:866
+#@ parabola
+msgid "Accent Color #5"
+msgstr ""
+
+#: admin/settings.php:867
+#@ parabola
+msgid "Accents #1 and #2 should either be the same as the link colours or be separate from all other colours on the site."
+msgstr ""
+
+#: admin/settings.php:868
+#@ parabola
+msgid "Accent #5 is used for input fields and buttons backgrounds, borders and lines."
+msgstr ""
+
+#: admin/settings.php:869
+#@ parabola
+msgid "Accents #3 and #4 should be the lighter/darker than the content background colour, being used as borders/shades on elements where accent #5 is background colour."
+msgstr ""
+
+#: admin/settings.php:875
+#@ parabola
+msgid "Site Description Background"
+msgstr ""
+
+#: admin/settings.php:878
+#@ parabola
+msgid "Site Description"
+msgstr ""
+
+#: admin/settings.php:885
+#@ parabola
+msgid "Menu Item Background"
+msgstr ""
+
+#: admin/settings.php:886
+#@ parabola
+msgid "Menu Item Background on Hover"
+msgstr ""
+
+#: admin/settings.php:887
+#@ parabola
+msgid "Active Menu Item Background"
+msgstr ""
+
+#: admin/settings.php:888
+#@ parabola
+msgid "Submenu Shadow"
+msgstr ""
+
+#: admin/settings.php:890
+#@ parabola
+msgid "Menu Item Text"
+msgstr ""
+
+#: admin/settings.php:891
+#@ parabola
+msgid "Menu Item Text on Hover"
+msgstr ""
+
+#: admin/settings.php:892
+#@ parabola
+msgid "Active Menu Item Text"
+msgstr ""
+
+#: admin/settings.php:894
+#@ parabola
+msgid "These colours apply to the main site menu (and dropdown elements)."
+msgstr ""
+
+#: admin/settings.php:900
+#@ parabola
+msgid "Top Menu Background"
+msgstr ""
+
+#: admin/settings.php:901
+#@ parabola
+msgid "Top Menu Background Hover"
+msgstr ""
+
+#: admin/settings.php:903
+#@ parabola
+msgid "Top Menu Link"
+msgstr ""
+
+#: admin/settings.php:904
+#@ parabola
+msgid "Top Menu Link Hover"
+msgstr ""
+
+#: admin/settings.php:905
+#@ parabola
+msgid "These colours apply to the top site menu (appears above the header when enabled)."
+msgstr ""
+
+#: admin/settings.php:910
+#@ parabola
+msgid "Content Background"
+msgstr ""
+
+#: admin/settings.php:911
+#@ parabola
+msgid "Page/Post Title"
+msgstr ""
+
+#: admin/settings.php:912
+#@ parabola
+msgid "Page/Post Title Hover"
+msgstr ""
+
+#: admin/settings.php:913
+#@ parabola
+msgid "Content Headings"
+msgstr ""
+
+#: admin/settings.php:914
+#@ parabola
+msgid "Content colours apply to post and page areas of the site."
+msgstr ""
+
+#: admin/settings.php:919
+#@ parabola
+msgid "Titles Color"
+msgstr ""
+
+#: admin/settings.php:920
+#@ parabola
+msgid "Slider Border Color"
+msgstr ""
+
+#: admin/settings.php:921
+#@ parabola
+msgid "Slider Caption Text Color"
+msgstr ""
+
+#: admin/settings.php:922
+#@ parabola
+msgid "Slider Caption Background"
+msgstr ""
+
+#: admin/settings.php:926
+#@ parabola
+msgid "These colours apply to specific areas of the presentation page."
+msgstr ""
+
+#: admin/settings.php:932
+#@ parabola
+msgid "Sidebars Background"
+msgstr ""
+
+#: admin/settings.php:933
+#@ parabola
+msgid "Sidebars Widget Title Background"
+msgstr ""
+
+#: admin/settings.php:935
+#@ parabola
+msgid "Sidebars Text"
+msgstr ""
+
+#: admin/settings.php:936
+#@ parabola
+msgid "Sidebars Widget Title Text"
+msgstr ""
+
+#: admin/settings.php:937
+#@ parabola
+msgid "These colours apply to the widgets placed in either sidebar."
+msgstr ""
+
+#: admin/settings.php:944
+#@ parabola
+msgid "Footer Widgets Background"
+msgstr ""
+
+#: admin/settings.php:945
+#@ parabola
+msgid "Footer Widgets Title Background"
+msgstr ""
+
+#: admin/settings.php:947
+#@ parabola
+msgid "Footer Widget Text"
+msgstr ""
+
+#: admin/settings.php:948
+#@ parabola
+msgid "Footer Widgets Title Text"
+msgstr ""
+
+#: admin/settings.php:949
+#@ parabola
+msgid "These colours apply to the widgets in the footer area."
+msgstr ""
+
+#: admin/settings.php:954
+#@ parabola
+msgid "General:"
+msgstr ""
+
+#: admin/settings.php:955
+#@ parabola
+msgid "General Links"
+msgstr ""
+
+#: admin/settings.php:956
+#@ parabola
+msgid "General Links Hover"
+msgstr ""
+
+#: admin/settings.php:957
+#@ parabola
+msgid "Sidebar Widgets:"
+msgstr ""
+
+#: admin/settings.php:958
+#@ parabola
+msgid "Sidebar Widgets Links"
+msgstr ""
+
+#: admin/settings.php:959
+#@ parabola
+msgid "Sidebar Widgets Links Hover"
+msgstr ""
+
+#: admin/settings.php:960
+#@ parabola
+msgid "Footer Widgets:"
+msgstr ""
+
+#: admin/settings.php:961
+#@ parabola
+msgid "Footer Widgets Links"
+msgstr ""
+
+#: admin/settings.php:962
+#@ parabola
+msgid "Footer Widgets Links Hover"
+msgstr ""
+
+#: admin/settings.php:963
+#@ parabola
+msgid "Footer:"
+msgstr ""
+
+#: admin/settings.php:964
+#@ parabola
+msgid "Footer Links"
+msgstr ""
+
+#: admin/settings.php:965
+#@ parabola
+msgid "Footer Links Hover"
+msgstr ""
+
+#: admin/settings.php:966
+#@ parabola
+msgid "Footer colours include the footer menu colours."
+msgstr ""
+
+#: admin/settings.php:972
+#: admin/settings.php:986
+#@ parabola
+msgid "Clear"
+msgstr ""
+
+#: admin/settings.php:972
+#: admin/settings.php:986
+#@ parabola
+msgid "Light"
+msgstr ""
+
+#: admin/settings.php:972
+#: admin/settings.php:986
+#@ parabola
+msgid "Accented"
+msgstr ""
+
+#: admin/settings.php:972
+#: admin/settings.php:986
+#@ parabola
+msgid "Dark"
+msgstr ""
+
+#: admin/settings.php:980
+#@ parabola
+msgid "This setting changes the look of your captions. Images that are not inserted through captions will not be affected."
+msgstr ""
+
+#: admin/settings.php:986
+#@ parabola
+msgid "Border only"
+msgstr ""
+
+#: admin/settings.php:994
+#@ parabola
+msgid "The background for your meta areas (author, date, category, tags, continue reading and edit button)."
+msgstr ""
+
+#: admin/settings.php:1013
+#@ parabola
+msgid "Show breadcrumbs at the top of the content area. Breadcrumbs are a form of navigation that keeps track of your location withtin the site."
+msgstr ""
+
+#: admin/settings.php:1028
+#@ parabola
+msgid "Show numbered pagination. Where there is more than one page, instead of the bottom <b>Older Posts</b> and <b>Newer posts</b> links you have a numbered pagination. "
+msgstr ""
+
+#: admin/settings.php:1034
+#@ parabola
+msgid "Right (multiline)"
+msgstr ""
+
+#: admin/settings.php:1042
+#@ parabola
+msgid "Select the desired main menu items alignment. Center option is only valid for single line menus."
+msgstr ""
+
+#: admin/settings.php:1056
+#@ parabola
+msgid "Please, please... do not push this button. You have no idea what it..."
+msgstr ""
+
+#: admin/settings.php:1071
+#@ parabola
+msgid "The border style for your images. Only images inserted in your posts and pages will be affected. "
+msgstr ""
+
+#: admin/settings.php:1078
+#: admin/settings.php:1095
+#: admin/settings.php:1110
+#: admin/settings.php:1140
+#: admin/settings.php:1155
+#: admin/settings.php:1171
+#: admin/settings.php:1207
+#: admin/settings.php:1236
+#: admin/settings.php:1251
+#: admin/settings.php:1266
+#: admin/settings.php:1281
+#: admin/settings.php:1296
+#@ parabola
+msgid "Show"
+msgstr ""
+
+#: admin/settings.php:1078
+#: admin/settings.php:1095
+#: admin/settings.php:1110
+#: admin/settings.php:1140
+#: admin/settings.php:1171
+#: admin/settings.php:1207
+#: admin/settings.php:1236
+#: admin/settings.php:1251
+#: admin/settings.php:1266
+#: admin/settings.php:1281
+#: admin/settings.php:1296
+#@ parabola
+msgid "Hide"
+msgstr ""
+
+#: admin/settings.php:1086
+#@ parabola
+msgid "Hide or show bullets next to lists in your content area (posts, pages etc.)."
+msgstr ""
+
+#: admin/settings.php:1103
+#@ parabola
+msgid "Hide or show titles on pages."
+msgstr ""
+
+#: admin/settings.php:1118
+#@ parabola
+msgid "Hide or show titles on Categories and Archives."
+msgstr ""
+
+#: admin/settings.php:1133
+#@ parabola
+msgid "Hide table borders and background color."
+msgstr ""
+
+#: admin/settings.php:1148
+#@ parabola
+msgid "Hide the explanatory text under the comments form (starts with  <i>You may use these HTML tags and attributes:...</i>)."
+msgstr ""
+
+#: admin/settings.php:1155
+#@ parabola
+msgid "Hide in posts"
+msgstr ""
+
+#: admin/settings.php:1155
+#@ parabola
+msgid "Hide in pages"
+msgstr ""
+
+#: admin/settings.php:1155
+#@ parabola
+msgid "Hide everywhere"
+msgstr ""
+
+#: admin/settings.php:1163
+#@ parabola
+msgid "Hide the <b>Comments are closed</b> text that by default shows up on pages or posts with comments disabled."
+msgstr ""
+
+#: admin/settings.php:1179
+#@ parabola
+msgid "Hide the <b>Comments off</b> text next to posts that have comments disabled."
+msgstr ""
+
+#: admin/settings.php:1195
+#@ parabola
+msgid "Enable the Back to Top button. The button appears after scrolling the page down."
+msgstr ""
+
+#: admin/settings.php:1215
+#@ parabola
+msgid "Hide or show the <strong>Leave a comment</strong> or <strong>x Comments</strong> next to posts or post excerpts."
+msgstr ""
+
+#: admin/settings.php:1221
+#@ parabola
+msgid "Date and time"
+msgstr ""
+
+#: admin/settings.php:1221
+#@ parabola
+msgid "Date only"
+msgstr ""
+
+#: admin/settings.php:1221
+#@ parabola
+msgid "Time only"
+msgstr ""
+
+#: admin/settings.php:1221
+#@ parabola
+msgid "Hide both"
+msgstr ""
+
+#: admin/settings.php:1229
+#@ parabola
+msgid "Hide or show the post date and time."
+msgstr ""
+
+#: admin/settings.php:1244
+#@ parabola
+msgid "Hide or show the post author."
+msgstr ""
+
+#: admin/settings.php:1259
+#@ parabola
+msgid "Hide the post category."
+msgstr ""
+
+#: admin/settings.php:1274
+#@ parabola
+msgid "Hide the post tags."
+msgstr ""
+
+#: admin/settings.php:1289
+#@ parabola
+msgid "Hide the 'Bookmark permalink'."
+msgstr ""
+
+#: admin/settings.php:1304
+#@ parabola
+msgid "Hide all the post metas. All meta info and meta areas will be hidden."
+msgstr ""
+
+#: admin/settings.php:1317
+#: admin/settings.php:1332
+#: admin/settings.php:1348
+#@ parabola
+msgid "Excerpt"
+msgstr ""
+
+#: admin/settings.php:1317
+#: admin/settings.php:1332
+#: admin/settings.php:1348
+#@ parabola
+msgid "Full Post"
+msgstr ""
+
+#: admin/settings.php:1325
+#@ parabola
+msgid "Excerpts on the main page. Only standard posts will be affected. All other post formats (aside, image, chat, quote etc.) have their specific formating."
+msgstr ""
+
+#: admin/settings.php:1340
+#@ parabola
+msgid "Choose if you want the sticky posts on your home page to be visible in full or just the excerpts. "
+msgstr ""
+
+#: admin/settings.php:1356
+#@ parabola
+msgid "Excerpts on archive, categroy and search pages. Same as above, only standard posts will be affected."
+msgstr ""
+
+#: admin/settings.php:1364
+#@ parabola
+msgid "The number of words for excerpts. When that number is reached the post will be interrupted by a <i>Continue reading</i> link that will take the reader to the full post page."
+msgstr ""
+
+#: admin/settings.php:1379
+#@ parabola
+msgid "Enable the Magazine Layout. This layout applies to pages with posts and shows 2 posts per row."
+msgstr ""
+
+#: admin/settings.php:1386
+#@ parabola
+msgid "Replaces the three dots ('[...])' that are appended automatically to excerpts."
+msgstr ""
+
+#: admin/settings.php:1393
+#@ parabola
+msgid "Edit the 'Continue Reading' link added to your post excerpts."
+msgstr ""
+
+#: admin/settings.php:1408
+#@ parabola
+msgid ""
+"By default WordPress excerpts remove all HTML tags (&lt;pre&gt;, &lt;a&gt;, &lt;b&gtl') and all others) and only clean text is left in the excerpt.\n"
+"Enabling this option allows HTML tags to remain in excerpts so all your default formating will be kept.<br /> <b>Just a warning: </b>If HTML tags are enabled, you have to make sure\n"
+"they are not left open. So if within your post you have an opened HTML tag but the except ends before that tag closes, the rest of the site will be contained in that HTML tag. -- Leave 'Disable' if unsure -- "
+msgstr ""
+
+#: admin/settings.php:1435
+#@ parabola
+msgid "Link the thumbail to the post"
+msgstr ""
+
+#: admin/settings.php:1436
+#@ parabola
+msgid "Show featured images as thumbnails on posts. The images must be selected for each post in the Featured Image section."
+msgstr ""
+
+#: admin/settings.php:1451
+#@ parabola
+msgid "Show the first image that you inserted in a post as a thumbnail. If there is a Featured Image selected for that post, it will have priority."
+msgstr ""
+
+#: admin/settings.php:1467
+#@ parabola
+msgid "Thumbnail alignment."
+msgstr ""
+
+#: admin/settings.php:1474
+#@ parabola
+msgid "(width)"
+msgstr ""
+
+#: admin/settings.php:1475
+#@ parabola
+msgid "(height)"
+msgstr ""
+
+#: admin/settings.php:1482
+#@ parabola
+msgid "Crop images to exact size."
+msgstr ""
+
+#: admin/settings.php:1485
+#@ parabola
+msgid "The size (in pixels) for your thumbnails. By default imges will be scaled with aspect ratio kept. Choose to crop the images if you want the exact size."
+msgstr ""
+
+#: admin/settings.php:1501
+#@ parabola
+msgid "Show featured images on headers. The header will be replaced with a featured image if you selected it as a Featured Image in the post and if it is bigger or at least equal to the current header size."
+msgstr ""
+
+#: admin/settings.php:1513
+#@ parabola
+msgid "Select your desired Social network from the left dropdown menu and insert your corresponding address in the right input field. (ex: <i>http://www.facebook.com/yourname</i> )"
+msgstr ""
+
+#: admin/settings.php:1514
+#@ parabola
+msgid "You can also choose if you want the link to open in a new window and what title to dispaly while hovering over the icon."
+msgstr ""
+
+#: admin/settings.php:1515
+#@ parabola
+msgid "You can show up to 5 different social icons from over 35 social networks."
+msgstr ""
+
+#: admin/settings.php:1516
+#@ parabola
+msgid "You can leave any number of inputs empty."
+msgstr ""
+
+#: admin/settings.php:1517
+#@ parabola
+msgid "You can change the background for your social colors from the colors settings section."
+msgstr ""
+
+#: admin/settings.php:1535
+#@ parabola
+msgid "Social Network Link"
+msgstr ""
+
+#: admin/settings.php:1540
+#@ parabola
+msgid "Open in new window"
+msgstr ""
+
+#: admin/settings.php:1542
+#@ parabola
+msgid "Social Network Title"
+msgstr ""
+
+#: admin/settings.php:1586
+#@ parabola
+msgid "Header"
+msgstr ""
+
+#: admin/settings.php:1590
+#@ parabola
+msgid "Footer"
+msgstr ""
+
+#: admin/settings.php:1594
+#@ parabola
+msgid "Left side"
+msgstr ""
+
+#: admin/settings.php:1598
+#@ parabola
+msgid "Right side"
+msgstr ""
+
+#: admin/settings.php:1604
+#: includes/theme-setup.php:209
+#: sidebar-left.php:26
+#@ parabola
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/settings.php:1608
+#: includes/theme-setup.php:220
+#: sidebar-right.php:26
+#@ parabola
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/settings.php:1610
+#@ parabola
+msgid "Choose the <b>areas</b> where to display the social icons."
+msgstr ""
+
+#: admin/settings.php:1623
+#@ parabola
+msgid "Insert custom text or HTML code that will appear in you footer. <br /> You can use HTML to insert links, images and special characters like &copy;."
+msgstr ""
+
+#: admin/settings.php:1631
+#@ parabola
+msgid "Insert your custom CSS here. Any CSS declarations made here will overwrite Parabola's (even the custom options specified right here in the Parabola Settings page). <br /> Your custom CSS will be preserved when updating the theme."
+msgstr ""
+
+#: admin/settings.php:1638
+#@ parabola
+msgid "Insert your custom Javascript code here. (Google Analytics and any other forms of Analytic software)."
+msgstr ""
+
+#: admin/settings.php:1651
+#@ parabola
+msgid "Enable extra compatibility tag for older Internet Explorer versions. Turning this option on will trigger W3C validation errors."
+msgstr ""
+
+#: archive.php:26
+#, php-format
+#@ parabola
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:28
+#, php-format
+#@ parabola
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:28
+#@ parabola
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+#@ parabola
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:30
+#@ parabola
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:32
+#@ parabola
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:56
+#: author.php:71
+#: category.php:49
+#: content/content-index.php:35
+#: search.php:38
+#: tag.php:50
+#: templates/template-blog.php:34
+#@ parabola
+msgid "Nothing Found"
+msgstr ""
+
+#: archive.php:60
+#: author.php:75
+#: category.php:53
+#: content/content-index.php:39
+#: tag.php:54
+#: templates/template-blog.php:38
+#@ parabola
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: attachment.php:18
+#, php-format
+#@ parabola
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: attachment.php:32
+#, php-format
+#@ parabola
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:35
+#@ parabola
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:75
+#: content/content-page.php:22
+#: includes/theme-loop.php:201
+#: single.php:49
+#: templates/template-page-with-intro.php:16
+#@ parabola
+msgid "Edit"
+msgstr "עריכה"
+
+#: attachment.php:86
+#@ parabola
+msgid "Continue reading"
+msgstr "המשך קריאה"
+
+#: attachment.php:87
+#: content/content-aside.php:33
+#: content/content-chat.php:32
+#: content/content-gallery.php:53
+#: content/content-image.php:27
+#: content/content-link.php:32
+#: content/content-page.php:21
+#: content/content-quote.php:30
+#: content/content-video.php:27
+#: content/content.php:44
+#: content/content.php:60
+#: single.php:27
+#: templates/template-page-with-intro.php:15
+#@ parabola
+msgid "Pages:"
+msgstr ""
+
+#: author.php:29
+#, php-format
+#@ parabola
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:46
+#: single.php:36
+#, php-format
+#@ parabola
+msgid "About %s"
+msgstr ""
+
+#: category.php:20
+#, php-format
+#@ parabola
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:25
+#@ parabola
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:50
+#@ parabola
+msgid "Comments are closed"
+msgstr ""
+
+#: content/content-aside.php:16
+#: content/content-chat.php:16
+#: content/content-gallery.php:18
+#: content/content-gallery.php:44
+#: content/content-image.php:15
+#: content/content-link.php:16
+#: content/content-quote.php:14
+#: content/content-status.php:15
+#: content/content-video.php:15
+#: content/content.php:21
+#, php-format
+#@ parabola
+msgid "Permalink to %s"
+msgstr ""
+
+#: content/content-aside.php:19
+#@ parabola
+msgid "Aside"
+msgstr ""
+
+#: content/content-aside.php:32
+#: content/content-chat.php:31
+#: content/content-image.php:26
+#: content/content-link.php:31
+#: content/content-quote.php:29
+#: content/content-status.php:35
+#: content/content-video.php:26
+#@ parabola
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "המשך קריאה <span class=\"meta-nav\">&rarr;</span>"
+
+#: content/content-chat.php:19
+#@ parabola
+msgid "Chat"
+msgstr ""
+
+#: content/content-frontpage.php:37
+#@ parabola
+msgid "No Posts to Display"
+msgstr ""
+
+#: content/content-frontpage.php:42
+#, php-format
+#@ parabola
+msgid "You currently have no published posts.<br/>To hide this message either <a href=\"%s\">add some posts</a> or disable displaying posts on the Presentation Page in <a href=\"%s\">theme settings</a>."
+msgstr ""
+
+#: content/content-gallery.php:21
+#@ parabola
+msgid "Gallery"
+msgstr ""
+
+#: content/content-gallery.php:43
+#, php-format
+#@ parabola
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: content/content-quote.php:17
+#@ parabola
+msgid "Quote"
+msgstr ""
+
+#: content/content-status.php:17
+#@ parabola
+msgid "Status"
+msgstr ""
+
+#: content/content-video.php:18
+#@ parabola
+msgid "Video"
+msgstr ""
+
+#: includes/theme-comments.php:26
+#@ parabola
+msgid "Pingback: "
+msgstr ""
+
+#: includes/theme-comments.php:26
+#: includes/theme-comments.php:41
+#@ parabola
+msgid "(Edit)"
+msgstr "(עריכה)"
+
+#. translators: 1: date, 2: time
+#: includes/theme-comments.php:41
+#@ parabola
+msgid "at"
+msgstr ""
+
+#: includes/theme-comments.php:48
+#@ parabola
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/theme-comments.php:89
+#@ parabola
+msgid "No comments"
+msgstr ""
+
+#: includes/theme-comments.php:89
+#@ parabola
+msgid "<b>1</b> <span>Comment</span>"
+msgstr ""
+
+#: includes/theme-comments.php:89
+#@ parabola
+msgid "<b>%</b> <span>Comments</span>"
+msgstr ""
+
+#: includes/theme-comments.php:89
+#@ parablola
+msgid "<b>Comments off</b>"
+msgstr ""
+
+#: includes/theme-comments.php:100
+#, php-format
+#@ parabola
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/theme-comments.php:113
+#@ parabola
+msgid "Older Comments"
+msgstr ""
+
+#: includes/theme-comments.php:114
+#@ parabola
+msgid "Newer Comments"
+msgstr ""
+
+#: includes/theme-comments.php:142
+#@ parabola
+msgid "Comments are closed."
+msgstr ""
+
+#: includes/theme-functions.php:225
+#@ parabola
+msgid "Tag"
+msgstr ""
+
+#: includes/theme-functions.php:309
+#@ parabola
+msgid "Powered by"
+msgstr ""
+
+#: includes/theme-functions.php:311
+#@ parabola
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: includes/theme-loop.php:157
+#@ parabola
+msgid "By "
+msgstr "על ידי: "
+
+#: includes/theme-loop.php:159
+#, php-format
+#@ parabola
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/theme-loop.php:199
+#: includes/theme-loop.php:230
+#@ parabola
+msgid "Tagged"
+msgstr ""
+
+#: includes/theme-loop.php:230
+#@ parabola
+msgid " Bookmark the "
+msgstr ""
+
+#: includes/theme-loop.php:230
+#: includes/theme-loop.php:232
+#: includes/theme-loop.php:234
+#@ parabola
+msgid "Permalink to"
+msgstr ""
+
+#: includes/theme-loop.php:230
+#: includes/theme-loop.php:232
+#: includes/theme-loop.php:234
+#@ parabola
+msgid "permalink"
+msgstr ""
+
+#: includes/theme-loop.php:232
+#: includes/theme-loop.php:234
+#@ parabola
+msgid "Bookmark the "
+msgstr ""
+
+#: includes/theme-loop.php:255
+#@ parabola
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr ""
+
+#: includes/theme-loop.php:256
+#@ parabola
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: includes/theme-meta.php:26
+#, php-format
+#@ parabola
+msgid "Page %s"
+msgstr ""
+
+#: includes/theme-setup.php:87
+#@ parabola
+msgid "Primary Navigation"
+msgstr ""
+
+#: includes/theme-setup.php:88
+#@ parabola
+msgid "Top Navigation"
+msgstr ""
+
+#: includes/theme-setup.php:89
+#@ parabola
+msgid "Footer Navigation"
+msgstr ""
+
+#: includes/theme-setup.php:121
+#@ parabola
+msgid "Parabola Default Header Image"
+msgstr ""
+
+#: includes/theme-setup.php:182
+#@ parabola
+msgid "Skip to content"
+msgstr ""
+
+#: includes/theme-setup.php:211
+#@ parabola
+msgid "Left sidebar"
+msgstr ""
+
+#: includes/theme-setup.php:222
+#@ parabola
+msgid "Right sidebar"
+msgstr ""
+
+#: includes/theme-setup.php:231
+#@ parabola
+msgid "First Footer Area"
+msgstr ""
+
+#: includes/theme-setup.php:233
+#@ parabola
+msgid "First footer area"
+msgstr ""
+
+#: includes/theme-setup.php:242
+#@ parabola
+msgid "Second Footer Area"
+msgstr ""
+
+#: includes/theme-setup.php:244
+#@ parabola
+msgid "Second footer area"
+msgstr ""
+
+#: includes/theme-setup.php:253
+#@ parabola
+msgid "Third Footer Area"
+msgstr ""
+
+#: includes/theme-setup.php:255
+#@ parabola
+msgid "The third footer area"
+msgstr ""
+
+#: includes/theme-setup.php:264
+#@ parabola
+msgid "Fourth Footer Area"
+msgstr ""
+
+#: includes/theme-setup.php:266
+#@ parabola
+msgid "The fourth footer area"
+msgstr ""
+
+#: includes/theme-setup.php:275
+#: includes/theme-setup.php:277
+#@ parabola
+msgid "Above Content Area"
+msgstr ""
+
+#: includes/theme-setup.php:286
+#: includes/theme-setup.php:288
+#@ parabola
+msgid "Below Content Area"
+msgstr ""
+
+#: includes/theme-setup.php:297
+#: includes/theme-setup.php:299
+#@ parabola
+msgid "Header Widgets"
+msgstr ""
+
+#: search.php:18
+#, php-format
+#@ parabola
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:40
+#, php-format
+#@ parabola
+msgid "No search results for: %s."
+msgstr ""
+
+#: searchform.php:1
+#@ parabola
+msgid "SEARCH"
+msgstr ""
+
+#: sidebar-left.php:28
+#, php-format
+#@ parabola
+msgid "You currently have no widgets set in the left sidebar. You can add widgets via the <a href=\"%s\">Dashboard</a>."
+msgstr ""
+
+#: sidebar-left.php:29
+#: sidebar-right.php:29
+#, php-format
+#@ parabola
+msgid "To hide this sidebar, switch to a different Layout via the <a href=\"%s\">Theme Settings</a>."
+msgstr ""
+
+#: sidebar-right.php:28
+#, php-format
+#@ parabola
+msgid "You currently have no widgets set in the right sidebar. You can add widgets via the <a href=\"%s\">Dashboard</a>."
+msgstr ""
+
+#: single.php:40
+#@ parabola
+msgid "View all posts by "
+msgstr ""
+
+#: tag.php:21
+#, php-format
+#@ parabola
+msgid "Tag Archives: %s"
+msgstr ""
+

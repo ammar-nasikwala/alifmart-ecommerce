@@ -1,0 +1,45 @@
+<style>
+.mail-border {
+	border-style: solid; 
+	border-width: medium;
+	border-radius: 10px; 
+	border-color: #eb9316;
+}
+.back-image{
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity : 0.2;
+    z-index: -1;
+}
+.mail-font{
+	color: #444444; 
+	font-family: Helvetica,	Arial, sans-serif; 
+	font-size: 16px; 
+	font-weight: normal; 
+	line-height: 20px; 
+}
+</style>	
+<body class="mail-border mail-font">
+
+<p class="">&nbsp;Dear <b>[memb_fname]</b>,
+
+<br><br>&nbsp;Thank you for your registration on Company-Name.com
+<br>
+<br>&nbsp;Please click here <a href="[act_link]">click here</a> to complete your registration and activate your account.
+<br>
+<br>&nbsp;Your username is <b>[memb_email]</b>
+<br>
+<br>&nbsp;If you did not request for an account with us, then please ignore this e-mail. We are sorry for the inconvinience.
+<br>
+<br>&nbsp;Regards,
+<br>&nbsp;Team Company-Name
+<br>
+<br>
+<br>
+<br>
+<!--
+&nbsp;For the best deals and latest offers, <a href="subscribe.php?email=[memb_email]&name=[memb_fname]">click here<a/> to sbscribe to our newsletter.  
+<br>-->
+</p>

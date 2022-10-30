@@ -1,0 +1,14 @@
+<body style="background-color:#ccddcc;">
+<font face='verdana' size='2px'>
+
+Dear <b>[memb_fname]</b>,
+
+<br>Your login details are as below:
+
+<br><br>Your username is <b>[memb_email]</b>
+<br>Your password is <b>[memb_pwd]</b>
+
+
+
+<br><br>Thanks
+<br>Team Company-Name

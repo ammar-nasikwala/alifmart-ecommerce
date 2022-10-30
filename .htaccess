@@ -1,0 +1,155 @@
+RewriteEngine on
+Options -MultiViews
+Options +FollowSymLinks
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^Company-Name.com [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://www.Company-Name.com/$1 [L,R=301]
+
+# URL remaing of featured products 
+RewriteCond %{THE_REQUEST} prod_list\.php\?prod_frd=1&&page=([^&\s]+) [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ products/featured/%1? [R=302,L,NE]
+RewriteCond %{THE_REQUEST} prod_list\.php\?prod_frd=1 [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ products/featured? [R=302,L,NE]
+
+# URL remaing of best selling products
+RewriteCond %{THE_REQUEST} prod_list\.php\?prod_tpsl=1&&page=([^&\s]+) [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ products/best-seller/%1? [R=302,L,NE]
+RewriteCond %{THE_REQUEST} prod_list\.php\?prod_tpsl=1 [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ products/best-seller? [R=302,L,NE]
+
+# URL remaing of popular products
+RewriteCond %{THE_REQUEST} prod_list\.php\?prod_pspl=1&&page=([^&\s]+) [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ products/popular/%1? [R=302,L,NE]
+RewriteCond %{THE_REQUEST} prod_list\.php\?prod_pspl=1 [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ products/popular? [R=302,L,NE]
+
+#Url renaming of ord_confirmation.php to /thank-you
+RewriteCond %{THE_REQUEST} ord_confirmation\.php$ [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ thank-you? [R=302,L,NE]
+
+#URL remaing of prod_list.php?category=name to category/name 
+RewriteCond %{THE_REQUEST} prod_list\.php\?category=([^&\s]+) [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ category/%1? [R=302,L,NE]
+
+# URL remaing of prod_list.php?brand=name to brand/name
+RewriteCond %{THE_REQUEST} prod_list\.php\?brand=([^&\s]+) [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ brand/%1? [R=302,L,NE]
+
+# URL remaing of prod_details.php?product=prod_name&category=cat_name to cat_name/prod_name
+RewriteCond %{THE_REQUEST} prod_details\.php\?product=([^&\s]+)&category=([^&\s]+) [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ %2/%1? [R=302,L,NE]
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond ${REQUEST_URI} ^.+$
+RewriteCond %{REQUEST_FILENAME} \.(gif|jpe?g|png|js|css|swf|php|ico|txt|pdf|xml)$ [OR]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -l
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^ - [L]
+
+# redirection seo urls back to originals
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^products/featured?$ prod_list.php?prod_frd=1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^products/featured/([^/]+)/?$ prod_list.php?prod_frd=1&page=$1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^products/best-seller?$ prod_list.php?prod_tpsl=1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^products/best-seller/([^/]+)/?$ prod_list.php?prod_tpsl=1&page=$1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^products/popular?$ prod_list.php?prod_pspl=1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^products/popular/([^/]+)/?$ prod_list.php?prod_pspl=1&page=$1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^thank-you?$ ord_confirmation.php [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^category/([^/]+)/?$ prod_list.php?category=$1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^brand/([^/]+)/?$ prod_list.php?brand=$1 [NC,L,QSA]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^([^/]+)/([^/]+)/?$ prod_details.php?product=$2&category=$1 [NC,L,QSA]
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+<Files "scripts/chat.js">
+      ExpiresActive on
+      ExpiresDefault "access plus 1 year"
+</Files>
+<Files "scripts/jquery-1.11.3.min.js">
+      ExpiresActive on
+      ExpiresDefault "access plus 1 year"
+</Files>
+<Files "scripts/bootstrap.min.js">
+      ExpiresActive on
+      ExpiresDefault "access plus 1 year"
+</Files>
+<Files "styles/bootstrap.min.css">
+      ExpiresActive on
+      ExpiresDefault "access plus 1 year"
+</Files>
+</IfModule>
+<FilesMatch "\.(ttf|woff)$">
+  ExpiresActive on 
+  ExpiresDefault "access plus 1 year"
+</FilesMatch>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js|php)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+## EXPIRES CACHING ##
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

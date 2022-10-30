@@ -1,0 +1,122 @@
+<style type="text/css">
+@font-face {
+    font-family: 'Roboto';
+	src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+BODY
+{
+    FONT-FAMILY: 'Roboto', sans-serif !important;	
+    FONT-SIZE: 12px;	
+    BACKGROUND-COLOR: #d4e5f7;
+    link: #ff0000;
+    vlink: #0000ff
+}
+input[type="button"]:hover,[type="submit"]:hover{
+	    background-color: #eb9316 !important; 
+}
+.alif-link{
+	color: #eb9316;
+}
+TABLE
+{
+   BACKGROUND-COLOR: #fff;
+   border-spacing: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+	border-collapse: separate;
+	
+}
+TH
+{
+    COLOR: #ffffff;
+	/*padding-left: 25px;*/
+    BACKGROUND-COLOR: #31708f;
+	text-align: center;
+}
+TD
+{
+    COLOR: #31708f;
+    BACKGROUND-COLOR: #fff
+}
+A
+{
+    COLOR: #31708f;
+	font-size: 14px;
+    TEXT-DECORATION: none
+}
+
+A:hover
+{
+	color: #eb9316;
+    TEXT-DECORATION: none;
+}
+H1, H2, H3
+{
+    COLOR: #ffffff;
+}
+
+H4
+{
+    COLOR: #806640;
+}
+H5
+{
+    COLOR: #006600;
+}
+#login-panel{
+	MARGIN-TOP: 5%;
+}
+.white
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ffffff
+}
+.xclass
+{
+    BACKGROUND-COLOR: #faedb5
+}
+.tdclass1
+{
+    CURSOR: hand;
+    COLOR: #52657b
+}
+.tdclass2
+{
+    FONT-WEIGHT: bolder;
+    CURSOR: hand
+}
+.tdclass3
+{
+    FONT-WEIGHT: bolder;
+    CURSOR: text
+}
+.btnclass
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #cedefa
+}
+.boxname
+{
+    FONT-WEIGHT: bold;
+    COLOR: #676360;
+    TEXT-ALIGN: center
+}
+.row_highlight
+{
+    COLOR: #768986;
+    BACKGROUND-COLOR: #cedefa
+}
+.narrow{
+	width: auto;
+}
+.msg_box{
+background-color:#feda8a;
+border:#fcce9d 0px solid;
+color:#aa3333;
+font-weight:bold;
+text-align:center;
+}
+.shadow-box{
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+</style>

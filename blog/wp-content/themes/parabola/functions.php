@@ -1,0 +1,26 @@
+<?php
+/*
+ * Functions file
+ * Calls all other required files
+ * PLEASE DO NOT EDIT THEME FILES - CREATE A CHILD THEME
+ *
+ * @package parabola
+ */
+
+// theme specifics
+define ( '_CRYOUT_THEME_NAME', 'parabola' );
+define ( '_CRYOUT_THEME_VERSION', '2.1.1' );
+
+require_once( get_template_directory() . "/admin/main.php" ); // Load necessary admin files
+
+//Loading include files
+require_once( get_template_directory() . "/includes/theme-setup.php" );       // Setup and init theme
+require_once( get_template_directory() . "/includes/theme-styles.php" );      // Register and enqeue css styles and scripts
+require_once( get_template_directory() . "/includes/theme-loop.php" );        // Loop functions
+require_once( get_template_directory() . "/includes/theme-meta.php" );        // Meta functions
+require_once( get_template_directory() . "/includes/theme-frontpage.php" );   // Frontpage styling
+require_once( get_template_directory() . "/includes/theme-comments.php" );    // Comment functions
+require_once( get_template_directory() . "/includes/theme-functions.php" );   // Misc functions
+require_once( get_template_directory() . "/includes/theme-hooks.php" );       // Hooks
+require_once( get_template_directory() . "/includes/widgets.php" );           // Theme Widgets
+require_once( get_template_directory() . "/includes/tgm.php" );               // TGM-PA

@@ -1,0 +1,54 @@
+	
+	<table style="border: solid 1px #cccccc;" width="100%"  border="0" align="center" class="list">
+	<tr>
+		<th style="background-color:#eeeeee;height:25px;" colspan="4">Order No. [ord_no]</td>
+
+		<th style="background-color:#eeeeee;height:25px;" colspan="5">Order Date. [ord_date]</td>
+	</tr>
+	<tr>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="20%" align="center" class="table-bg"><p><strong>Image</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="20%" align="center" class="table-bg"><p><strong>HSN Code</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="32%" align="center" class="table-bg"><p><strong>Item Description</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="center" class="table-bg"><p><strong>Price</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="center" class="table-bg"><p><strong>Tax</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="center" class="table-bg"><p><strong>Price after TAX</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="center" class="table-bg"><p><strong>Shipping Charges</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="center" class="table-bg"><p><strong>Qty</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" width="12%" align="center" class="table-bg"><p><strong>Total</strong></p></th>
+	</tr>
+
+	[ord_items]
+	
+	</table>
+
+	<table style="border: solid 1px #cccccc;" width="100%"  border="0" class="list">
+	
+	<tr>
+	<td colspan="2" align="center"><hr color="#96b809" width="100%" size="1px" align="center" />
+	</td>
+	</tr>
+	<tr>
+	<td align="right"><p><span class="green-basket">Sub-Total (exc. Tax):</span></p></td>
+	<td align="right">Rs.[item_total]&nbsp;</td>
+	
+	</tr>	
+	<tr>
+	<td width="65%" align="right"><p><span class="green-basket">Shipping:</span></p></td>
+	<td width="25%" align="right">[shipping_charges1]&nbsp;</td>
+	</tr>
+
+	<tr>
+	<td align="right"><p><span class="green-basket">Total Tax :</span></p></td>
+	<td align="right">Rs.[vat_value]&nbsp;</td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center"><hr color="#96b809" width="100%" size="1px" align="center" />&nbsp;
+	</td>
+	</tr>
+	<tr>
+	<th style="background-color:#eeeeee;height:25px;" align="right"><p><span class="green-basket">Total Price (incl. TAX):</span></p></th>
+	<th style="background-color:#eeeeee;height:25px;" align="right"><strong>Rs.[ord_total]</strong>&nbsp;</th>
+	</tr>
+	
+	</table>
+	<br>

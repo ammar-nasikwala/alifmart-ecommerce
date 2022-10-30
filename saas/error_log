@@ -1,0 +1,33 @@
+[03-Jun-2017 08:36:33 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:36:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:36:33 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:36:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:37:24 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:37:24 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:38:30 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:38:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:38:43 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:38:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:38:47 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:38:47 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:41:31 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[03-Jun-2017 08:41:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/alif/public_html/lib/inc_library.php on line 46
+[04-Nov-2017 10:28:55 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 84
+[04-Nov-2017 10:31:13 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 84
+[04-Nov-2017 10:31:16 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 84
+[04-Nov-2017 10:31:20 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 84
+[04-Nov-2017 10:31:31 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 84
+[04-Nov-2017 10:32:49 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 84
+[04-Nov-2017 10:35:53 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 160
+[04-Nov-2017 10:36:03 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 160
+[04-Nov-2017 10:36:04 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 160
+[04-Nov-2017 10:36:16 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/alif/public_html/saas/edit_users.php on line 160
+[13-Jan-2018 10:45:16 UTC] PHP Notice:  Undefined index: company_id in /home/alif/public_html/saas/mainmenu.php on line 4
+[14-Jan-2018 06:57:48 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[14-Jan-2018 06:57:49 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/alif/public_html/lib/inc_library.php on line 46
+[14-Jan-2018 06:57:59 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[14-Jan-2018 06:57:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/alif/public_html/lib/inc_library.php on line 46
+[14-Jan-2018 07:03:51 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[14-Jan-2018 07:03:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/alif/public_html/lib/inc_library.php on line 46
+[14-Jan-2018 07:04:10 UTC] PHP Warning:  require(/home/alif/public_html/saas/lib/inc_connection.php): failed to open stream: No such file or directory in /home/alif/public_html/lib/inc_library.php on line 46
+[14-Jan-2018 07:04:10 UTC] PHP Fatal error:  require(): Failed opening required '/home/alif/public_html/saas/lib/inc_connection.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/alif/public_html/lib/inc_library.php on line 46

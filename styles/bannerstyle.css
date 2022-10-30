@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+#skiplinks {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+#hometopbanner {
+
+	padding: 0px 0px 2px 0px;
+	width: 966.5px; 	/*813px;*/
+  	height: 350px; /*240px;*/
+	overflow: hidden;
+	margin: 0px 0px;
+}
+#hometopbanner #banners {
+	width: 966.5px;	/*240px;*/
+	height: 350px;
+	position: relative;
+}
+#hometopbanner #banners .banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+#hometopbanner .banner.current {
+	z-index: 2;
+}
+#hometopbanner #controls {
+	position: absolute;
+	top: 200px;
+	left: 5px;
+	z-index: 10;
+	padding: 0px;
+	margin: 0px;
+}
+#hometopbanner #controls li {
+	list-style: none;
+	float: left;
+	font-size: 1em;
+}
+#hometopbanner #controls li a {
+	display: block;
+	margin: 5px;
+	font-weight: bold;
+	font-style:italic;
+	padding: 5px 10px;
+	width: 7px;
+	height: 16px;
+	text-decoration: none;
+	color: #666;
+}
+#hometopbanner #controls li.banneractive a {
+	color: #006699;
+	background-position: bottom;
+}
+#hometopbanner #controls li a:hover {
+	color: #FFF;
+	background-position: center;
+}
+
+.thumbnavigator {position: absolute; bottom: 0px; left: 0px; height:60px; width:966px;}
+.thumbnavigator-child1{filter: alpha(opacity=40); opacity:0; position: absolute; display: block; background-color: #ffffff; top: 0px; left: 0px; width: 100%; height: 100%;}
+.thumbnavigator-prototype{POSITION: absolute; WIDTH: 966px; HEIGHT: 60px; TOP: 0; LEFT: 0;}
+.thumbnavigator-template{POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0; LEFT: 0; color:#000; line-height: 60px; font-size:20px; padding-left:10px;}
+.slider-main{position: relative; width: 966px; height: 350px;}
+.slider-child{cursor: move; position: absolute; left: 0px; top: 0px; width: 966px; height: 350px; overflow: hidden;}

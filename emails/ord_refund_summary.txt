@@ -1,0 +1,52 @@
+	
+		<table style="border: solid 1px #cccccc; font-family:verdana; font-size:12px;" width="100%"  border="0" align="center" class="list">
+		<tr>
+			<th style="background-color:#eeeeee;height:25px;" colspan="4">Order No. [ord_no]</td>
+
+			<th style="background-color:#eeeeee;height:25px;" colspan="6">Order Date. [ord_date]</td>
+		</tr>
+<tr>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="20%" align="left" class="table-bg"><p><strong>Product Image</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="32%" align="left" class="table-bg"><p><strong>Product Name</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="32%" align="left" class="table-bg"><p><strong>Seller</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="left" class="table-bg"><p><strong>Price</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="left" class="table-bg"><p><strong>Tax</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="left" class="table-bg"><p><strong>Price after TAX</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="left" class="table-bg"><p><strong>Shipping Charges</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" xwidth="14%" align="left" class="table-bg"><p><strong>Qty</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" width="6%" align="left" class="table-bg"><p><strong>Total</strong></p></th>
+	<th style="background-color:#eeeeee;height:25px;" width="6%" align="left" class="table-bg"><p><strong>Refund</strong></p></th>
+
+	</tr>
+
+	[ord_refund_item]
+	
+	</table>
+	
+	<table style="border: solid 1px #cccccc; font-family:verdana; font-size:12px;" width="100%"  border="0" class="list">
+	
+	<tr>
+	<td colspan="2" align="center"><hr color="#96b809" width="100%" size="1px" align="center" />
+	</td>
+	</tr>
+	<tr>
+	<td align="right"><p><span class="green-basket">Actual Amount</span></p></td>
+	<td align="right">Rs.[actual_amount]&nbsp;</td>
+	
+	</tr>	
+	<tr>
+	<td width="65%" align="right"><p><span class="green-basket">Coupon deductables</span></p></td>
+	<td width="25%" align="right">[coupon_deductables]&nbsp;</td>
+	</tr>
+	
+	<tr>
+	<td colspan="2" align="center"><hr color="#96b809" width="100%" size="1px" align="center" />&nbsp;
+	</td>
+	</tr>
+	<tr>
+	<th style="background-color:#eeeeee;height:25px;" align="right"><p><span class="green-basket">Total Refund Amount</span></p></th>
+	<th style="background-color:#eeeeee;height:25px;" align="right"><strong>Rs.[total_refund]</strong>&nbsp;</th>
+	</tr>
+	
+	</table>
+	<br>

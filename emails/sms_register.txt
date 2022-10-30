@@ -1,0 +1,1 @@
+Hi [memb_fname],,This is a verification SMS for your mobile number as part of registration on Company-Name.com using email: [memb_email]

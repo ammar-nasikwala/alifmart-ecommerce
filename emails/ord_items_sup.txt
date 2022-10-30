@@ -1,0 +1,11 @@
+<tr>
+<td rowspan="1" > <a href="[prod_url]"><img src="[item_thumb]" width="71" xheight="73" border="0" alt="[item_name]" /></a></td>
+<td rowspan="1" align="center" valign="middle" ><p>[hsn_code]</p></td>
+<td rowspan="1" align="center" valign="middle" ><p>[item_stock_no] - [item_name]</p></td>
+<td rowspan="1" align="center" valign="middle" ><p>Rs.[cart_price]</p></td>
+<td rowspan="1" align="center" valign="middle" ><p>[tax_percent]</p></td>
+<td align="center" valign="middle" ><p>Rs.[cart_price_tax]</p></td>	
+<td valign="middle" align="center" ><p>[shipping_charges]</p></td>
+<td valign="middle" align="center" ><p>[cart_qty]</p></td>
+<td valign="middle" align="center" ><strong>Rs.[total_amount]</strong>&nbsp;</td>
+</tr>

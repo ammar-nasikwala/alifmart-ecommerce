@@ -1,0 +1,31 @@
+<body style="background-color:#ccddcc;">
+
+<font face='verdana' size='2px'>
+
+ 
+
+Dear <b>[memb_fname]</b>,
+
+ 
+
+Thank you for your registration on http://www.Company-Name.com <http://www.Company-Name.com> .
+
+ 
+
+Please <a href="[act_link]">click here</a> to complete your registration and to activate your account.
+
+ 
+
+Your username is <b>[memb_email]</b>
+
+Your password is <b>[memb_pwd]</b>
+
+ 
+
+ If you did not request an account, please ignore this e-mail.
+
+ 
+
+Regards
+
+- Webmaster

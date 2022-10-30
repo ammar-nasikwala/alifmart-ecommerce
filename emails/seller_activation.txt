@@ -1,0 +1,42 @@
+<style>
+.mail-border {
+	border-style: solid; 
+	border-width: medium;
+	border-radius: 10px; 
+	border-color: #eb9316;
+}
+.back-image{
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity : 0.2;
+    z-index: -1;
+}
+.mail-font{
+	color: #444444; 
+	font-family: Helvetica,	Arial, sans-serif; 
+	font-size: 16px; 
+	font-weight: normal; 
+	line-height: 20px; 
+}
+</style>	
+<body class="mail-border mail-font">
+Dear <b>[sup_contact_name]</b>,
+<br>
+<br>Thank you for your registration on Company-Name.com. Please <a href="[act_link]">click here</a> to verify your email and get started using your website account.
+<br>
+<br>Your username is <b>[sup_email]</b>
+<br>
+<br>After activation, you can further update your Establishment details by visiting your profile page. You will need following documents to be uploaded for your seller account verification:
+<br>
+<ul>
+<li>Your Establishment Certificate (Government or Local body issued Document, example Shop Act License, etc.)</li>
+<li>Your Bank Details (Scanned copy of a cancelled cheque of your bank account where you want your funds to be credited.)</li>
+<li>Your GST / Provisional GST (Scanned copy of Government issued document)</li>
+<li>Your Establishment PAN ID (PAN ID issued to your Establishment)</li>
+</ul>
+<br> Once you upload these documents, we will verify & send a Seller Token, which will be your code to get your private Dashboard, which will mark your successful enrollment to our system. We look forward to get you onboard!!
+<br><br>
+<br>Regards,
+<br>Team Company-Name

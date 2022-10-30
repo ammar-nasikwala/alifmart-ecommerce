@@ -1,0 +1,9 @@
+<body style="background-color:#ccddcc;">
+<font face='verdana' size='2px'>
+
+Dear <b>[memb_fname]</b>,
+
+<br>Your profile details have been updated successfully.
+
+<br>Thanks
+<br>Team Company-Name

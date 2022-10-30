@@ -1,0 +1,42 @@
+<style>
+.mail-border {
+	border-style: solid; 
+	border-width: medium;
+	border-radius: 10px; 
+	border-color: #eb9316;
+}
+.back-image{
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity : 0.2;
+    z-index: -1;
+}
+.mail-font{
+	color: #444444; 
+	font-family: Helvetica,	Arial, sans-serif; 
+	font-size: 16px; 
+	font-weight: normal; 
+	line-height: 20px; 
+}
+</style>	
+<body class="mail-border mail-font">
+
+<p class="">&nbsp;Dear Customer,
+
+<br><br>&nbsp;Your order with order number [ord_no] has been delivered successfully. We hope that you are satisfied with our service and we look forward to serve you again.
+<br>
+<br>&nbsp;In order to help us improve our services further, please provide your feedback about your shopping experience at https://www.Company-Name.com/feedback.php
+<br>
+<br>&nbsp;Thanks and Regards,
+<br>&nbsp;Team Company-Name
+<br>
+<br>&nbsp;Follow us on:
+<br>
+<br>&nbsp;Facebook: http://www.facebook.com/Company-Name.2015
+<br>
+<br>&nbsp;LinkedIn: https://www.linkedin.com/company/Company-Name-online-services-llp
+<br>
+<br>&nbsp;Twitter: http://www.twitter.com/Company-Namedotcom
+</p>

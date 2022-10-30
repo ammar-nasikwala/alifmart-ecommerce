@@ -1,0 +1,376 @@
+/* =Responsive Structure
+----------------------------------------------- */
+body.mobile {-webkit-text-size-adjust: 100%;} /* Iphone browser fix*/
+body.mobile .main {min-height:0;}
+
+@media (max-width: 800px) {
+	body {
+		font-size: .95em;
+	}
+
+	#header,
+	#access,
+	#branding,
+	#bg_image,
+	.topmenu {
+		width: 100%;
+	}
+
+	#header-full,
+	#footer {
+		min-width: 100%;
+	}
+
+	#branding,
+	#bg_image {
+		min-height: 100px;
+	}
+
+	#wrapper,
+	#colophon,
+	#main,
+	article.post,
+	#container,
+	 #linky {
+		 width: auto;
+	 }
+
+
+	#access .menu-header,
+	div.menu {
+		margin: 0 5px;
+	}
+
+	#header-container > div:first-child {
+		height: 100%;
+	}
+
+	#header a#logo {
+		height: 100%;
+		display: block;
+	}
+
+	a#logo img {
+		width: auto;
+		max-width: 90%;
+		height: 80%;
+	}
+
+	.safari a#logo img {
+		max-height: 80px;
+		height: auto;
+	}
+
+	#site-title,
+	#site-description {
+		margin-left: 5px;
+	}
+
+	#header-widget-area {
+		left: 0;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+
+	#header-widget-area .yoyo > li {
+		margin-bottom: 2px;
+	}
+
+	#slefts,
+	#srights {
+		display: none;
+	}
+
+	#container[class*='column'] #primary,
+	#container[class*='column'] #secondary,
+	#container[class*='column'] #content {
+		width: 100%;
+		float: none;
+		margin: 0;
+		clear: both;
+	}
+
+	#container[class*='column'] #content {
+		margin-bottom: 20px;
+	}
+
+	article.post,
+	article.page {
+		padding: 1.5em;
+	}
+
+	.footertwo .widget-area,
+	.footerthree .widget-area,
+	.footerfour .widget-area {
+		width: 98%;
+		margin-left: 1%;
+	}
+
+	#content h1, #frontpage h1 { font-size: 26px; }
+	#content h2, #frontpage h2 { font-size: 24px; }
+	#content h3, #frontpage h3 { font-size: 22px; }
+	#content h4, #frontpage h4 { font-size: 20px; }
+	#content h5, #frontpage h5 { font-size: 18px; }
+	#content h6, #frontpage h6 { font-size: 16px; }
+
+	/* Presentation Page */
+	#slider {
+		width: auto;
+		height: auto;
+	}
+
+	.nivo-caption {
+		padding: 1em;
+		line-height: 1.3;
+	}
+
+	.nivo-caption h3 {
+		margin-bottom: 0;
+	}
+
+	#front-columns > div {
+		width: 49%;
+	}
+	#front-columns > div.ppcolumn:nth-child(3n),
+	#front-columns > div.ppcolumn:nth-child(4n) {
+		margin-right: 2%;
+	}
+
+	#front-columns > div.ppcolumn:nth-child(2n+2) {
+		margin-right: 0;
+		clear: right;
+	}
+
+	.column-image img {
+		height: auto;
+		max-width: none;
+	}
+
+	#column3 {
+		clear: left;
+	}
+}
+
+@media (max-width: 650px) {
+
+	#branding {
+		height:auto;
+	}
+
+	a#logo img {
+		max-height: 75%;
+		max-width: 90%;
+		width: auto;
+		height: auto;
+	}
+
+	#header-container > div:first-child {
+		margin-top: 10px;
+	}
+
+	.topmenu ul li a {
+		font-size: 0.9em;
+	}
+
+	.entry-meta a ,
+	.entry-meta,
+	.comments-link{
+		font-size: 12px;
+	}
+
+	#header .socials a img {
+		width: 20px;
+		height: 20px;
+	}
+
+	div.post,
+	div.page,
+	div.hentry,
+	.yoyo > li,
+	#comments {
+		padding: 1.5em;
+	}
+
+	#nav-below .nav-previous a {
+		padding-left: 1.5em;
+	}
+
+	#nav-below .nav-next a {
+		padding-right: 1.5em;
+	}
+
+	#main {
+		margin-top: 0;
+	}
+
+	#nav-toggle {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		cursor:pointer;
+		width: 100%;
+		padding: 2px 4%;
+	}
+
+	#nav-toggle span:before {
+		content: "\e820";
+		font-family: "elusive";
+		font-size: 16px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#access {
+		display: none;
+		margin-top: 0;
+		padding-bottom: 5px;
+	}
+
+	#access .menu ul, #access .menu ul li {
+		width: 100%;
+		margin:0;
+	}
+
+	#access > .menu li ul {
+		position: inherit;
+		margin-top: 0;
+	}
+
+	#access > .menu ul ul {
+		width: 95%;
+		left: 5%;
+	}
+
+	#access > .menu > ul > li > a > span {
+		border-width: 0 0 1px 0;
+		border-style: solid;
+		border-color: rgba(128,128,128,0.3);
+	}
+
+	.parabola-menu-center #access > .menu > ul > li > a > span {
+		text-align: left;
+	}
+
+	#access > .menu ul li > a:not(:only-child) span:after {
+		font-family:"Elusive";
+		content: '\e80a';
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		z-index: 251;
+		-webkit-transition:all .2s ease-in-out;
+		transition:all .2s ease-in-out;
+	}
+
+	#access > .menu ul li:hover > a:not(:only-child) span:after {
+		top: 20px;
+		opacity: 0;
+	}
+	
+	#access > .menu > ul ul > li a:not(:only-child) span:after {
+		-webkit-transform: rotate(0);
+		-ms-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	#access > .menu ul li > a:not(:only-child) span {
+		padding-right: 18px;
+	}
+
+	/* Presentation Page */
+	.slider-wrapper {
+		margin: 15px auto;
+	}
+
+	#front-text1 h1,
+	#front-text2 h1 {
+		font-size: 2em;
+		line-height: 1.3em;
+	}
+
+	#front-text1 h1 {
+		margin-top: 20px;
+	}
+
+	#front-text2 h1 {
+		margin-bottom: 0;
+	}
+
+
+	#front-columns > div {
+		margin-bottom: 10px;
+	}
+
+	.slider-bullets .nivo-controlNav a {
+		width: 10px;
+		height: 10px;
+	}
+
+	.nivo-directionNav {
+		display: none;
+	}
+
+	.nivo-caption {
+		position: relative;
+		background: transparent;
+		color: inherit;
+		padding: 1.5em;
+	}
+
+	.nivo-caption a {
+		color: inherit;
+	}
+
+}
+
+
+@media (max-width: 480px) {
+	body {
+		font-size: .9em;
+	 }
+
+	.topmenu ul {
+		display: table;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.footermenu ul li {
+		display: table;
+		float: none;
+		clear: both;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#front-columns > div {
+		 width: 100%;
+		 margin-bottom: 1em;
+	 }
+
+	.magazine-layout #content article.post,
+	.magazine-layout .search #content article {
+		 margin: 5px 0;
+		 width: 100%;
+	 }
+
+	#toTop {
+		bottom: 5px;
+		right: 5px;
+	}
+
+	.theme-default .nivoSlider {
+		background-image: none;
+	}
+
+	.theme-default .nivo-directionNav a {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+
+}
+
+/* FIN */

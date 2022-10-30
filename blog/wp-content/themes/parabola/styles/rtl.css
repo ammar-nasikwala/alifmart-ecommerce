@@ -1,0 +1,664 @@
+/*
+Theme Name: Parabola
+*/
+
+
+/*
+RTL Basics
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* =Layout
+-------------------------------------------------------------- */
+
+.sidey {
+	float: right;
+}
+
+/* =Structure
+-------------------------------------------------------------- */
+
+.footerfour .widget-area {
+	float: right;
+	margin-right: 0;
+	margin-left: 2%;
+}
+.footerthree .widget-area {
+	float: right;
+	margin-right: 0;
+	margin-left: 2%;
+}
+
+.footertwo .widget-area {
+	float: right;
+	margin-left: 0;
+	margin-right: 2%;
+}
+
+.footerone .widget-area {
+	float: right;
+}
+
+.footertwo .widget-area:nth-child(2n),
+.footerthree .widget-area:nth-child(3n),
+.footerfour .widget-area:nth-child(4n) {
+	margin-right: intial;
+	margin-left: 0;
+}
+
+#footer-widget-area #fourth {
+	margin-right: auto;
+	margin-left: 0;
+}
+
+#site-generator {
+	float: left;
+}
+
+
+/* =Global Elements
+-------------------------------------------------------------- */
+
+/* Text elements */
+
+.entry-content ul {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+.entry-content  li li {
+	margin-left: 0;
+	margin-right: 1em;
+}
+
+ol {
+	margin-left: 0;
+	margin-right: 1.5em;
+
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	position: absolute;
+	left: auto;
+	right: -9000px;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+#site-title {
+	float: right;
+}
+
+#site-description {
+	float: right;
+}
+
+/* Header widget area
+-------------------------------------------------------------- */
+
+#header-widget-area {
+	right: auto;
+    left: 0;
+}
+
+/* =Menu -PRIMARY
+-------------------------------------------------------------- */
+
+#access {
+	float: right;
+}
+
+#access ul li {
+	float: right;
+	margin-right: 0;
+	margin-left: 8px;
+
+}
+
+#access > .menu > ul > li > a:after,
+#access > .menu > ul ul:after {
+	right: auto;
+	left: 0;
+	border-left: 0;
+	border-right: 12px solid transparent;
+}
+
+#access ul ul {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#access ul ul li { /* level 2 */
+	float: right;
+}
+
+#access ul ul ul {
+	left: auto;
+	right: 100%;
+}
+
+#access > .menu > ul > li a:not(:only-child) span:after {
+	margin-right: 5px;
+	margin-left: 0; 
+}
+#access > .menu > ul ul > li a span {
+	margin-right: 0;
+	margin-left: 10px; 
+}
+#access > .menu > ul ul > li a:not(:only-child) span:after {
+	right: auto;
+	left: 10px;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.parabola-menu-right #access > .menu { float: left; }
+.parabola-menu-right #nav-toggle { text-align: left; }
+.parabola-menu-right #access > .menu > ul > li > ul.sub-menu { right: auto; left: 0; }
+
+.parabola-menu-rightmulti #access ul li { float: left; }
+.parabola-menu-rightmulti #nav-toggle { text-align: left; }
+.parabola-menu-rightmulti #access > .menu > ul > li > ul.sub-menu { right: auto; left: 0; }
+
+.parabola-menu-left #nav-toggle { text-align: right; }
+
+/* =Menu -SECONDARY
+-------------------------------------------------------------- */
+
+.topmenu ul{
+	float: left;
+}
+
+.topmenu ul li{
+	float: right;
+}
+
+.topmenu ul li a:before {
+	left: auto;
+	right: 100%;
+	border-left: 0;
+	border-right: 6px solid transparent;
+}
+
+
+.footermenu ul li{
+	float: right;
+}
+
+.footermenu ul li a:after {
+	right: 101%;
+	border-left: 0;
+	border-right: 6px solid transparent;
+}
+
+
+/* =Content
+-------------------------------------------------------------- */
+
+#content table {
+	text-align: right;
+}
+
+.entry-meta span,
+.entry-utility span {
+	float: right;
+	margin-right: 0;
+	margin-left: -1px;
+}
+
+.entry-meta span a,
+.entry-utility span {
+	display: inline-block;
+}
+
+.comments-link {
+	right: auto;
+	left: 0;
+	padding: 0 5px 0 15px;
+}
+
+.comments-link:before {
+	left: auto;
+	right: -30px;
+	border-left: 0;
+	border-right: 30px solid transparent;
+}
+
+#content h3.entry-format {
+	float: right;
+}
+
+
+.entry-content blockquote.left {
+	float: left;
+	margin-left: 24px;
+	margin-right: 0;
+	text-align: left;
+}
+
+.entry-content blockquote.right {
+	float: left;
+	margin-left: 0;
+	margin-right: 24px;
+	text-align: right;
+}
+
+.tag-links {
+	margin-left: 0;
+	margin-right: 30px;
+}
+
+span.edit-link {
+	float: left !important;
+}
+
+#author-info #author-avatar {
+	float: left;
+	margin: 0 0 0 -104px;
+}
+
+#author-info #author-description {
+	float: right;
+	margin: 0 94px 0 0;
+}
+
+#entry-author-info #author-avatar {
+	float: right;
+	margin: 0 0 0 -104px;
+}
+
+#entry-author-info #author-description {
+	float: right;
+	margin: 0 94px 0 0;
+}
+
+
+/**
+ * 5.4 Galleries
+ * ----------------------------------------------------------------------------
+ */
+
+.gallery {
+	margin-left: 0;
+	margin-right: -4px;
+}
+
+.gallery-item {
+	float: right;
+	margin: 0 0 4px 4px;
+}
+
+.gallery-columns-1 .gallery-item:nth-of-type(1n),
+.gallery-columns-2 .gallery-item:nth-of-type(2n),
+.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.gallery-columns-4 .gallery-item:nth-of-type(4n),
+.gallery-columns-5 .gallery-item:nth-of-type(5n),
+.gallery-columns-6 .gallery-item:nth-of-type(6n),
+.gallery-columns-7 .gallery-item:nth-of-type(7n),
+.gallery-columns-8 .gallery-item:nth-of-type(8n),
+.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-left: 0;
+}
+
+.gallery-caption {
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+
+.format-status .avatar {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+#content .alignleft,
+#content img.alignleft {
+	float: right;
+	margin-right: auto;
+	margin-left: 24px;
+}
+
+#content .alignright,
+#content img.alignright {
+	float: left;
+	margin-left: auto;
+	margin-right: 24px;
+}
+
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+#nav-below .nav-previous a {
+	float: right;
+	border-right: 0;
+	padding: 1em 3em 1em 1em;
+	border-left: 1px solid rgba(0, 0, 0, .08);
+}
+
+#nav-below .nav-next a {
+	float: left;
+	text-align: left;
+	padding: 1em 1em 1em 3em;
+}
+
+.single #nav-above {
+	display: block;
+}
+
+/* =Comments
+-------------------------------------------------------------- */
+
+
+.commentlist .avatar {
+	float: right;
+}
+
+
+.comment-details {
+	float: right;
+}
+
+.comment-details:after {
+	right: auto;
+	left: -20px;
+	border-left: 0;
+	border-right: 20px solid transparent;
+}
+
+.comment-await {
+	margin-left: auto;
+	margin-right: 25px;
+}
+
+.reply a {
+	right: auto;
+	left: -1px;
+}
+
+.commentlist .children {
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+/* Comments form */
+
+#respond .form-submit {
+	text-align: left;
+}
+
+/* =Widget Areas
+-------------------------------------------------------------- */
+
+.widget-title {
+	text-align: right;
+}
+
+.widget-title:after {
+	right: auto;
+	left: 0;
+	border-left: 0;
+	border-right: 12px solid transparent;
+}
+
+.searchform input[type="search"]  {/* This keeps the search inputs in line This is the Sidebar Search*/
+	float: right;
+}
+
+.contentsearch .searchform input[type="search"] {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+input[type="submit"].searchsubmit {
+	float: left;
+	margin-left: 12px;
+	margin-right: -35px;
+}
+
+.contentsearch .searchsubmit {
+	margin-left: auto;
+	margin-right: -30px;
+}
+
+#wp-calendar caption {
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+#wp-calendar tfoot #next {
+	text-align: left;
+}
+
+
+/* Main sidebars */
+#main .widget-area ul {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#main .widget-area ul ul {
+	margin-left: auto;
+	margin-right: 3px;
+}
+
+/* SOCIALS */
+
+.socials {
+	float: left;
+	margin-right: auto;
+	margin-left: 10px;
+}
+
+.socials a {
+	float: right;
+	margin-right: auto;
+	margin-left: 5px;
+}
+
+/* The animated square */
+.socials-hover {
+	left: auto;
+	right: 0;
+}
+
+#header-container > div#sheader {
+	right: auto;
+	left: 5px;
+}
+
+#sfooter a {
+	margin-left: auto;
+	margin-right: 5px;
+}
+
+#srights,
+#slefts {
+	right: auto;
+	left: 0;
+}
+
+
+#srights {
+	border-right: initial;
+	border-left: 0;
+}
+
+#slefts {
+	border-left: initial;
+	border-right: 0;
+	left: auto;
+	right: 0;
+}
+
+#toTop {
+	right: auto;
+	left: 20px;
+}
+
+.meta-clear .entry-meta span:first-child {
+	padding-left: initial;
+	padding-right: 0;
+}
+
+/* BREADCRUMBS */
+
+.breadcrumbs {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.breadcrumbs:before {
+	left: auto;
+	right: 9px;
+}
+
+/* PAGINATION */
+
+.pagination span,
+.pagination a {
+	float: left;
+	margin-right: auto;
+	margin-left: 1px;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	left: auto;
+	right: 0;
+}
+
+/* Caption styles */
+.nivo-caption {
+	left: auto;
+	right: 0;
+}
+
+.nivo-prevNav {
+	left: auto;
+	right: 0;
+}
+
+.nivo-nextNav {
+	right: auto;
+	left: 0;
+}
+
+.theme-default .nivo-controlNav:before {
+	left: auto;
+	right: -46px;
+	border-left: 0;
+	border-right: 46px solid transparent;
+}
+
+.theme-default .nivo-controlNav:after {
+	right: auto;
+	left: -46px;
+	border-right: 0;
+	border-left: 46px solid transparent;
+}
+
+
+.slider-bullets .nivo-controlNav a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.page-title span {
+	display: inline-block;
+}
+
+.theme-default a.nivo-nextNav {
+	background-position: 0 0;
+	right: auto;
+	left: 5em;
+}
+
+.theme-default a.nivo-prevNav {
+	background-position: -30px 0;
+	left: auto;
+	right: 5em;
+}
+
+.slider-navhover:hover .nivo-directionNav a {
+	right: auto;
+	left: 3em;
+}
+
+.slider-navhover:hover .nivo-directionNav a.nivo-prevNav {
+	left: auto;
+	right: 3em;
+}
+
+
+#front-columns > div {
+	float: right;
+	margin-right: 0;
+	margin-left: 2%;
+}
+
+.column-image h3 {
+	left: auto;
+	right: -100%;
+	padding: .75em 1em .75em .5em;
+}
+
+.ppcolumn > a:hover .column-image h3 {
+	left: auto;
+	right: 0;
+}
+
+.columnmore  {
+	right: auto;
+	left: 0;
+	text-align: left;
+	padding-right: 5px;
+	padding-left: 10px;
+}
+
+.columnmore:before {
+	left: auto;
+    right: -30px;
+	border-left: 0;
+	border-right: 30px solid transparent;
+}
+
+
+/* Magazine layout */
+
+
+/* mobile menu sub-sub items fix */
+@media screen and (max-width: 640px) {
+    .rtl #access > .menu ul ul {
+		width: 95%;
+		left: 0;
+		right: 5%;
+	}
+	.rtl #access > .menu ul li > a:not(:only-child) span {
+		padding-right: 13px;
+		padding-left: 18px;
+	}
+	.rtl #access > .menu ul li > a:not(:only-child) span::after {
+		right: inherit;
+		left: 5px;
+		display: block;
+	}
+	.rtl #access > .menu ul ul ul {
+		right: 0;
+		left: initial;
+	}
+}
+
+/* NIF */

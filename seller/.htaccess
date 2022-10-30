@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^sellerzone\.Company-Name\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sellerzone\.Company-Name\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.Company-Name\.com\/seller\/$
+RewriteRule ^/?$ "https\:\/\/www\.Company-Name\.com\/seller\/" [R=301,L]
+

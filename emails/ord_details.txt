@@ -1,0 +1,165 @@
+<html>
+<head>
+<style>
+.mail-border {
+	border-style: solid; 
+	border-width: medium;
+	border-radius: 10px; 
+	border-color: #eb9316;
+}
+.back-image{
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity : 0.2;
+    z-index: -1;
+}
+.mail-font{
+	color: #444444; 
+	font-family: Helvetica,	Arial, sans-serif; 
+	font-size: 14px; 
+	font-weight: normal; 
+	line-height: 20px; 
+}
+</style>	
+</head>
+<body class="mail-border mail-font">
+
+	<table width="70%"  border="0" align="center" xclass="checkout" >
+		<br>
+		<tr>
+			<td align="left" colspan="10">Congratulations! Your order has been generated with the below details</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	
+	<table style="border: solid 1px #cccccc;" width="100%"  border="0" align="center" class="checkout" >
+
+	
+	<tr>
+	<td align="right"></td>
+	<td align="right"></td>
+	<td align="left" class="table-bg2"><p><b>Your Billing Details</p></td>
+	<td align="left" class="table-bg2"><p><b>Your Shipping Details</p></td>
+	</tr>
+	<tr>
+	<td align="left" class="table-bg2"></td>
+	
+	<td align="left" class="table-bg2">
+
+	</td>
+	
+	<td align="left" valign="middle" class="table-bg2">
+
+	</td>
+	</tr>
+
+	<tr>
+	<td align="left" class="table-bg2"><label for="Name"></label>
+	<p style="margin-left: 20px;">Name </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_name]</td>
+	<td align="left" class="table-bg2">[ship_name]</td>
+	</tr>
+		
+	<tr>
+	<td align="left" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">Email </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_email]</td>
+	<td align="left" class="table-bg2">[ship_email]</td>	
+	</tr>
+
+
+	<tr>
+	<td align="left" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">Address 1 </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_add1]</td>
+	<td align="left" class="table-bg2">[ship_add1]</td>	
+	</tr>
+
+	<tr>
+	<td align="left" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">Address 2 </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_add2]</td>
+	<td align="left" class="table-bg2">[ship_add2]</td>	
+	</tr>
+
+	<tr>
+	<td align="left" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">Town / City </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_city]</td>
+	<td align="left" class="table-bg2">[ship_city]</td>	
+	</tr>
+
+	<tr>
+	<td align="left" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">Post code </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_postcode]</td>
+	<td align="left" class="table-bg2">[ship_postcode]</td>	
+	</tr>
+	
+	<tr>
+	<td align="left" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">State </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_state]</td>
+	<td align="left" class="table-bg2">[ship_state]</td>	
+	</tr>
+	
+	<tr>
+	<td align="left" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">Country </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_country]</td>
+	<td align="left" class="table-bg2">[ship_country]</td>	
+	</tr>
+
+	<tr>
+	<td align="left" style="width: 15%;" class="table-bg2"><label for="Email"></label>
+	<p style="margin-left: 20px;">Contact No. </p></td>
+	<td align="left" class="table-bg2" style="width: 2%;">:</td>
+	<td align="left" class="table-bg2">[bill_tel]</td>
+	<td align="left" class="table-bg2">[ship_tel]</td>	
+	</tr>
+	
+	<tr><td>&nbsp;</td></tr>
+	</table>
+	
+	<table style="border: solid 1px #cccccc;" width="100%"  border="0" align="center" class="checkout" >
+	<tr>
+	<td width="175" align="left" class="table-bg2"><p>Additional Instructions</p></td>
+	<td align="left"  class="table-bg2">[ord_instruct]
+	</td>
+	</tr>
+	<tr><td>&nbsp;</td></tr>	
+
+	<tr>
+	<th style="background-color:#eeeeee;height:25px;" align="left" class="table-bg3" colspan="10"><p>Mode of Payment</p></th>
+
+	<th align="left" class="table-bg2" style="background-color:#eeeeee;height:25px;"><p>
+	[pay_method_name]</p></th>
+	</tr>
+	
+	</table>
+	
+	<h3>Cart</h3>
+
+	[ord_summary]
+
+	<table width="100%"  border="0" class="list" >
+	<tr>
+		<td align="right" class="table-bg"><p><span class="green-basket">Total Amount Payable:</span></p></td>
+		<td align="right" width="100px" class="table-bg"><strong>Rs.[ord_pay_total]</strong>&nbsp;</td>
+	</tr>
+	</table>
+	<p>Disclaimer: The delivery dates may change based on the availability of the product with the seller and it will be intimated to you accordingly.</p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+#Rule 1:
+User-agent: *
+Disallow: /admin/
+Disallow: /extras/
+Disallow: /mobile_app/
+Disallow: /emails/
+
+sitemap: http://www.Company-Name.com/sitemap.xml

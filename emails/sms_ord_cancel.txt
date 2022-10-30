@@ -1,0 +1,1 @@
+Hi [memb_fname],,Order on Company-Name with Ref No.[ord_no] has been Cancelled.

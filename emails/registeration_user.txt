@@ -1,0 +1,13 @@
+<body style="background-color:#ccddcc;">
+<font face='verdana' size='2px'>
+
+Dear <b>[user_name]</b>,
+<br>
+<br>You have been registered as [user_type] in the Admin Panel.
+<br>
+<br>Please use the following credentials to Login and Manage your Task.
+<br>Your username : <b>[user_email]</b>
+<br>Your password : <b>[user_pwd]</b>
+<br>
+<br><br>Regards,
+<br>Team Company-Name

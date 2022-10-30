@@ -1,0 +1,2 @@
+Hi [memb_fname],,Your order on Company-Name with Ref No.[ord_no] has been cancelled successfully.
+The amount [refund_amt]rs will be refunded to you.

@@ -1,0 +1,19 @@
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 145px;
+border: 1px solid black;
+padding: 5px;
+background-color: #FAFAFA;
+visibility: hidden;
+z-index: 100;
+font-size:1.1em;
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+
+}

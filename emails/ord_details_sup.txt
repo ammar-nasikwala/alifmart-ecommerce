@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+.mail-border {
+	border-style: solid; 
+	border-width: medium;
+	border-radius: 10px; 
+	border-color: #eb9316;
+}
+.back-image{
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity : 0.2;
+    z-index: -1;
+}
+.mail-font{
+	color: #444444; 
+	font-family: Helvetica,	Arial, sans-serif; 
+	font-size: 14px; 
+	font-weight: normal; 
+	line-height: 20px; 
+}
+</style>	
+</head>
+<body class="mail-border mail-font">
+
+	<table width="70%"  border="0" align="center" xclass="checkout" >
+		<tr>
+			<td align="center" colspan="10">Congratulations! You have got an order with the following details</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	
+	<table style="border: solid 1px #cccccc;" width="100%"  border="0" align="center" class="checkout" >
+	
+	<h3>Shipping Details</h3>
+	<tr>
+	<td  class="table-bg2"><label for="Name"></label>
+	<p><b>Contact Person :</b><span class="table-bg2">[ship_name]</span> | <span class="table-bg2">[ship_email]</span> | <span class="table-bg2">[ship_tel]</span></p></td>
+	</tr>
+		
+	<tr>
+	<td class="table-bg2"><label for="Email"></label>
+	<p><b>Address: </b><span class="table-bg2">[ship_add1]</span> , <span class="table-bg2">[ship_state]</span> , <span class="table-bg2">[ship_country]</span></p></td>
+	</tr>
+
+	<table style="border: solid 1px #cccccc; font-family:verdana; font-size:12px;" width="100%"  border="0" align="center" class="checkout" >
+	<tr>
+	<td width="175" align="left" class="table-bg2"><b>Additional Instructions:</b></td>
+	<td align="left"  class="table-bg2">[ord_instruct]
+	</td>
+	</tr>
+	<tr><td>&nbsp;</td></tr>	
+
+	<tr>
+	<td width="175" style="height:25px;" align="left" class="table-bg3"><b>Mode of Payment:</b></td>
+	<td align="left" class="table-bg2"><p>
+	[pay_method_name]</p></td>
+	</tr>
+	
+	</table>
+	
+	<h3>Product Details</h3>
+
+	[ord_summary_sup]
+
+	<table width="100%"  border="0" class="list" >
+	<tr>
+		<td align="right" class="table-bg"><p><span class="green-basket">Total Amount Payable:</span></p></td>
+		<td align="right" width="100px" class="table-bg"><strong>Rs.[ord_pay_total]</strong>&nbsp;</td>
+	</tr>
+	</table>
+
+</body>
+</html>

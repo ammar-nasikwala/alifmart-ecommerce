@@ -1,0 +1,67 @@
+<wpml-config> 
+    <admin-texts>
+        <key name="parabola_settings">
+			<key name="parabola_logoupload" />
+			<key name="parabola_favicon" />
+		
+            <key name="parabola_sliderimg1" />
+            <key name="parabola_slidertitle1" />
+     	    <key name="parabola_slidertext1" />
+           	<key name="parabola_sliderlink1" />
+            <key name="parabola_sliderimg2" />
+            <key name="parabola_slidertitle2" />
+            <key name="parabola_slidertext2" />
+            <key name="parabola_sliderlink2" />
+            <key name="parabola_sliderimg3" />
+            <key name="parabola_slidertitle3" />
+            <key name="parabola_slidertext3" />
+            <key name="parabola_sliderlink3" />
+            <key name="parabola_sliderimg4" />
+            <key name="parabola_slidertitle4" />
+            <key name="parabola_slidertext4" />
+            <key name="parabola_sliderlink4" />
+            <key name="parabola_sliderimg5" />
+            <key name="parabola_slidertitle5" />
+            <key name="parabola_slidertext5" />
+            <key name="parabola_sliderlink5" />
+			
+			<key name="parabola_columnimg1" />
+			<key name="parabola_columntitle1" />
+			<key name="parabola_columntext1" />
+			<key name="parabola_columnlink1" />
+			<key name="parabola_columnimg2" />
+			<key name="parabola_columntitle2" />
+			<key name="parabola_columntext2" />
+			<key name="parabola_columnlink2" />
+			<key name="parabola_columnimg3" />
+			<key name="parabola_columntitle3" />
+			<key name="parabola_columntext3" />
+			<key name="parabola_columnlink3" />
+			<key name="parabola_columnimg4" />
+			<key name="parabola_columntitle4" />
+			<key name="parabola_columntext4" />
+			<key name="parabola_columnlink4" />
+			
+            <key name="parabola_fronttext1" />
+            <key name="parabola_fronttext3" />
+            <key name="parabola_fronttext2" />
+            <key name="parabola_fronttext4" />
+			
+            <key name="parabola_excerptcont" />
+			
+            <key name="parabola_social2" />
+            <key name="parabola_social_title1" />
+            <key name="parabola_social4" />
+            <key name="parabola_social_title3" />
+            <key name="parabola_social6" />
+            <key name="parabola_social_title5" />
+            <key name="parabola_social8" />
+            <key name="parabola_social_title7" />
+            <key name="parabola_social10" />
+            <key name="parabola_social_title9" />
+
+            <key name="parabola_copyright" />			
+			
+        </key>
+    </admin-texts>  
+</wpml-config>

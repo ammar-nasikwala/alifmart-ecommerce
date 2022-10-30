@@ -1,0 +1,28 @@
+/**** Seller.php CSS ***/
+
+div.solidTab {
+  width: auto;
+  color: #000000;
+  /*background-color: #f1f1f1;*/
+  /*padding: 15px;*/
+  font-size: 1.5em !important;
+  line-height: 1.15em;
+  word-wrap: break-word;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* HIGHLIGHT BOX - CREAM */
+.highlight_box_cream {
+	/* distance from borders to content*/
+	padding: 0 1em 0 1em; 
+	/* spacing outside of box*/
+	margin: 0 0 0 0;
+	/* background color */
+	background: #D0DEE3;
+	/* border size style color */
+	border: 2px solid #6190A1;
+	/* rounded border */
+	border-radius: 10px ;
+}
